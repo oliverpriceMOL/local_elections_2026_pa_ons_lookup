@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:53:26+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="15" name="Carrick, Cumnock &amp; Doon Valley" electorate="59924" turnout="31881" percentageTurnout="53.20" percentageChangeTurnout="-6.24" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="1331" percentageMajority="4.17" percentageChangeMajority="-8.00" swing="8.17" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299649" firstName="Sunita" surname="Barnes Test" ballotName="Barnes Test, Sunita Monika">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="11679" percentageShare="36.63" percentageShareChange="+6.03" />
+      </Candidate>
+      <Candidate paId="299652" firstName="Phil" surname="Davies Test" ballotName="Davies Test, Philip">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10348" percentageShare="32.46" percentageShareChange="-10.32" />
+      </Candidate>
+      <Candidate paId="299650" firstName="Katie" surname="Davies Test" ballotName="Davies Test, Katherine Dorothy">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="9108" percentageShare="28.57" percentageShareChange="+4.42" />
+      </Candidate>
+      <Candidate paId="299651" firstName="Steve" surname="Waller Test" ballotName="Waller Test, Steven Gregory">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="746" percentageShare="2.34" percentageShareChange="-0.12" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="14" name="Carrick, Cumnock &amp; Doon Valley" turnout="35622" percentageTurnout="59.45" winningParty="SNP" majority="4337" percentageMajority="12.18">
+      <Candidate paId="251877" firstName="Elena" surname="Whitham" ballotName="Whitham, Elena" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="15240" percentageShare="42.78" />
+      </Candidate>
+      <Candidate paId="253184" firstName="Sharon" surname="Dowey" ballotName="Dowey, Sharon" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="10903" percentageShare="30.61" />
+      </Candidate>
+      <Candidate paId="253186" firstName="Carol" surname="Mochan" ballotName="Mochan, Carol Ann" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="8604" percentageShare="24.15" />
+      </Candidate>
+      <Candidate paId="253185" firstName="Kirsten" surname="Herbst-Gray" ballotName="Herbst-Gray, Kirsten" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="875" percentageShare="2.46" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

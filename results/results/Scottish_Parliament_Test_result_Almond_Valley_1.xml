@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:00:01+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="7" name="Almond Valley" electorate="68634" turnout="47481" percentageTurnout="69.18" percentageChangeTurnout="+8.32" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="5280" percentageMajority="11.12" percentageChangeMajority="-17.92" swing="8.96" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299615" firstName="Nicola" surname="Dodd Test" ballotName="Dodd Test, Nicola Daphne">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="21433" percentageShare="45.14" percentageShareChange="-9.14" />
+      </Candidate>
+      <Candidate paId="299613" firstName="Lisa" surname="Charlesworth Test" ballotName="Charlesworth Test, Lisa Doris">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="16153" percentageShare="34.02" percentageShareChange="+8.78" />
+      </Candidate>
+      <Candidate paId="299612" firstName="Flora" surname="Smith Test" ballotName="Smith Test, Flora Helen">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="7776" percentageShare="16.38" percentageShareChange="-0.27" />
+      </Candidate>
+      <Candidate paId="299614" firstName="John" surname="Hayward Test" ballotName="Hayward Test, John Steven">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2119" percentageShare="4.46" percentageShareChange="+0.63" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="7" name="Almond Valley" turnout="41773" percentageTurnout="60.86" winningParty="SNP" majority="12130" percentageMajority="29.04">
+      <Candidate paId="251747" firstName="Angela" surname="Constance" ballotName="Constance, Angela" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="22675" percentageShare="54.28" />
+      </Candidate>
+      <Candidate paId="252299" firstName="Craig" surname="Smith" ballotName="Smith, Craig" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10545" percentageShare="25.24" />
+      </Candidate>
+      <Candidate paId="252297" firstName="Damian" surname="Doran-Timson" ballotName="Doran-Timson, Damian" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="6952" percentageShare="16.64" />
+      </Candidate>
+      <Candidate paId="252298" firstName="Caron" surname="Lindsay" ballotName="Lindsay, Caron" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1601" percentageShare="3.83" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

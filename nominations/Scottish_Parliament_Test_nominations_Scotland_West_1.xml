@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="108" name="Scotland West" electorate="564844">
+      <Candidate paId="300821" previousSittingMember="+" firstName="Vera" surname="Holden Test" ballotName="Holden Test, Vera Susan" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300822" firstName="Dawn" surname="Bradley Test" ballotName="Bradley Test, Dawn Magdalena" partyListRank="2">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300823" previousSittingMember="*" firstName="David" surname="Baxter Test" ballotName="Baxter Test, David Michael" partyListRank="3">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300824" firstName="Kevin" surname="Davies Test" ballotName="Davies Test, Kevin" partyListRank="4">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300825" firstName="Barry" surname="Love Test" ballotName="Love Test, Barry Alexander" partyListRank="5">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300826" firstName="Anita" surname="Lees Test" ballotName="Lees Test, Anita Daisy" partyListRank="6">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300827" firstName="Gill" surname="Davey Test" ballotName="Davey Test, Gillian" partyListRank="7">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300828" firstName="Paul" surname="Wilson Test" ballotName="Wilson Test, Paul Anthony" partyListRank="8">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300829" firstName="Phil" surname="Pearson Test" ballotName="Pearson Test, Philip Ernest" partyListRank="9">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300830" firstName="Steve" surname="Reed Test" ballotName="Reed Test, Steven Bernard" partyListRank="10">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="300831" previousSittingMember="+" firstName="Joan" surname="Kelly Test" ballotName="Kelly Test, Joan Ivy" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300832" previousSittingMember="*" firstName="Richard" surname="O'Brien Test" ballotName="O'Brien Test, Richard Russell" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300833" previousSittingMember="*" firstName="Stewart" surname="Roberts Test" ballotName="Roberts Test, Stewart Matthew" partyListRank="3">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300834" firstName="Dave" surname="Bailey Test" ballotName="Bailey Test, David Christopher" partyListRank="4">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300835" firstName="Hannah" surname="Owen Test" ballotName="Owen Test, Hannah Sian" partyListRank="5">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300836" firstName="Lily" surname="Edwards Test" ballotName="Edwards Test, Lily" partyListRank="6">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300837" firstName="Dave" surname="Reynolds Test" ballotName="Reynolds Test, David Nicholas" partyListRank="7">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300838" firstName="Marcus" surname="Moore Test" ballotName="Moore Test, Marcus Richard" partyListRank="8">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300839" firstName="John" surname="Docherty Test" ballotName="Docherty Test, John Raj" partyListRank="9">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300840" firstName="Jeff" surname="Yates Test" ballotName="Yates Test, Jeff" partyListRank="10">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300841" firstName="Christine" surname="Boyd Test" ballotName="Boyd Test, Christine Agnes" partyListRank="11">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300842" firstName="Dick" surname="Brooks Test" ballotName="Brooks Test, Richard James" partyListRank="12">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="300843" firstName="Tomasz" surname="Townsend Test" ballotName="Townsend Test, Tomasz" partyListRank="1">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300844" firstName="Gillian" surname="Clarke Test" ballotName="Clarke Test, Gillian Janet" partyListRank="2">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300845" firstName="John" surname="Davies Test" ballotName="Davies Test, John" partyListRank="3">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300846" firstName="Keith" surname="Roberts Test" ballotName="Roberts Test, Keith John" partyListRank="4">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300847" firstName="Nisha" surname="Weston Test" ballotName="Weston Test, Nisha" partyListRank="5">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300848" firstName="Fiona" surname="West Test" ballotName="West Test, Fiona Mabel" partyListRank="6">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300849" firstName="Amina" surname="Robinson Test" ballotName="Robinson Test, Amina Priya" partyListRank="7">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="300850" firstName="Aoife" surname="Jackson Test" ballotName="Jackson Test, Aoife Molly" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300851" previousSittingMember="+" firstName="Tony" surname="King Test" ballotName="King Test, Anthony John" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300852" previousSittingMember="+" firstName="Barbara" surname="Johnson Test" ballotName="Johnson Test, Barbara Jane" partyListRank="3">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300853" previousSittingMember="+" firstName="Sian" surname="Jones Test" ballotName="Jones Test, Sian Natasha" partyListRank="4">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300854" firstName="Sienna" surname="Williams Test" ballotName="Williams Test, Sienna Maisie" partyListRank="5">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300855" firstName="Stephanie" surname="Elliott Test" ballotName="Elliott Test, Stephanie Patricia" partyListRank="6">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300856" firstName="Steph" surname="Webster Test" ballotName="Webster Test, Stephanie Freya" partyListRank="7">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300857" firstName="Margaret" surname="Moore Test" ballotName="Moore Test, Margaret Bethan" partyListRank="8">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300858" firstName="Andrew" surname="Moore Test" ballotName="Moore Test, Andrew Steven" partyListRank="9">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300859" firstName="John" surname="Daly Test" ballotName="Daly Test, John Peter" partyListRank="10">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300860" firstName="Sunita" surname="James Test" ballotName="James Test, Sunita Florence" partyListRank="11">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate paId="300861" previousSittingMember="*" firstName="Dick" surname="Brown Test" ballotName="Brown Test, Richard Edward" partyListRank="1">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300862" firstName="Constance" surname="King Test" ballotName="King Test, Constance Saoirse" partyListRank="2">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300863" firstName="Olly" surname="Parker Test" ballotName="Parker Test, Oliver Andrew" partyListRank="3">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300864" firstName="Dick" surname="Carter Test" ballotName="Carter Test, Richard Jack" partyListRank="4">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300865" firstName="Elizabeth" surname="Brady Test" ballotName="Brady Test, Elizabeth Tina" partyListRank="5">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300866" firstName="Nigel" surname="Lloyd Test" ballotName="Lloyd Test, Nigel" partyListRank="6">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300867" firstName="Nicola" surname="Davies Test" ballotName="Davies Test, Nicola Alison" partyListRank="7">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300877" firstName="Ava" surname="Yates Test" ballotName="Yates Test, Ava Barbara" partyListRank="1">
+        <Party paId="13810" abbreviation="Alba" name="Alba Party" />
+      </Candidate>
+      <Candidate paId="300878" firstName="John" surname="Rose Test" ballotName="Rose Test, John Michael" partyListRank="2">
+        <Party paId="13810" abbreviation="Alba" name="Alba Party" />
+      </Candidate>
+      <Candidate paId="300879" firstName="Michael" surname="Baxter Test" ballotName="Baxter Test, Michael Declan" partyListRank="3">
+        <Party paId="13810" abbreviation="Alba" name="Alba Party" />
+      </Candidate>
+      <Candidate paId="300880" firstName="Rob" surname="Hunt Test" ballotName="Hunt Test, Robert Timothy" partyListRank="4">
+        <Party paId="13810" abbreviation="Alba" name="Alba Party" />
+      </Candidate>
+      <Candidate paId="300881" firstName="Dick" surname="Morton Test" ballotName="Morton Test, Richard Richard" partyListRank="1">
+        <Party paId="13813" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300882" firstName="Ryan" surname="Wood Test" ballotName="Wood Test, Ryan David" partyListRank="2">
+        <Party paId="13813" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300883" firstName="Jim" surname="Wood Test" ballotName="Wood Test, James Paul" partyListRank="3">
+        <Party paId="13813" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300884" firstName="Graham" surname="Jones Test" ballotName="Jones Test, Graham" partyListRank="4">
+        <Party paId="13813" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300895" firstName="Mike" surname="Wood Test" ballotName="Wood Test, Michael" partyListRank="1">
+        <Party paId="13828" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" />
+      </Candidate>
+      <Candidate paId="300891" firstName="Phoebe" surname="Robinson Test" ballotName="Robinson Test, Phoebe Grace" partyListRank="1">
+        <Party paId="13826" abbreviation="FA" name="Freedom Alliance" />
+      </Candidate>
+      <Candidate paId="300892" firstName="Leonard" surname="Rose Test" ballotName="Rose Test, Leonard David" partyListRank="2">
+        <Party paId="13826" abbreviation="FA" name="Freedom Alliance" />
+      </Candidate>
+      <Candidate paId="300893" firstName="Jane" surname="Cooke Test" ballotName="Cooke Test, Jane Neha" partyListRank="3">
+        <Party paId="13826" abbreviation="FA" name="Freedom Alliance" />
+      </Candidate>
+      <Candidate paId="300894" firstName="Peggy" surname="Cotton Test" ballotName="Cotton Test, Margaret Ngozi" partyListRank="4">
+        <Party paId="13826" abbreviation="FA" name="Freedom Alliance" />
+      </Candidate>
+      <Candidate paId="300903" firstName="Lesley" surname="Brady Test" ballotName="Brady Test, Lesley Poppy" partyListRank="1">
+        <Party paId="13930" abbreviation="IGV" name="Independent Green Voice" />
+      </Candidate>
+      <Candidate paId="300906" firstName="Evie" surname="Roberts Test" ballotName="Roberts Test, Evelyn" partyListRank="1">
+        <Party paId="13886" abbreviation="Ind" name="Independent" />
+      </Candidate>
+      <Candidate paId="300905" firstName="Hannah" surname="Stanley Test" ballotName="Stanley Test, Hannah" partyListRank="1">
+        <Party paId="13886" abbreviation="Ind" name="Independent" />
+      </Candidate>
+      <Candidate paId="300904" firstName="Andy" surname="Williams Test" ballotName="Williams Test, Andrew" partyListRank="1">
+        <Party paId="13834" abbreviation="Renew" name="Renew" />
+      </Candidate>
+      <Candidate paId="300885" firstName="Rhian" surname="Clarke Test" ballotName="Clarke Test, Rhian Emma" partyListRank="1">
+        <Party paId="13822" abbreviation="ScF" name="Scotia Future" />
+      </Candidate>
+      <Candidate paId="300886" firstName="Liz" surname="Cooke Test" ballotName="Cooke Test, Elizabeth Paige" partyListRank="1">
+        <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" />
+      </Candidate>
+      <Candidate paId="300887" firstName="Freya" surname="Johnson Test" ballotName="Johnson Test, Freya Daisy" partyListRank="2">
+        <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" />
+      </Candidate>
+      <Candidate paId="300888" firstName="Olivia" surname="Harrison Test" ballotName="Harrison Test, Olivia" partyListRank="3">
+        <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" />
+      </Candidate>
+      <Candidate paId="300889" firstName="Andrew" surname="Smith Test" ballotName="Smith Test, Andrew" partyListRank="4">
+        <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" />
+      </Candidate>
+      <Candidate paId="300890" firstName="Frank" surname="Ford Test" ballotName="Ford Test, Francis" partyListRank="5">
+        <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" />
+      </Candidate>
+      <Candidate paId="300868" firstName="Anita" surname="Scott Test" ballotName="Scott Test, Anita Penelope" partyListRank="1">
+        <Party paId="13856" abbreviation="SLP" name="Scottish Libertarian Party" />
+      </Candidate>
+      <Candidate paId="300869" firstName="Peggy" surname="Burton Test" ballotName="Burton Test, Margaret Helen" partyListRank="1">
+        <Party paId="13878" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="300870" firstName="Paul" surname="Patterson Test" ballotName="Patterson Test, Paul Alan" partyListRank="2">
+        <Party paId="13878" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="300871" firstName="Tomasz" surname="Patel Test" ballotName="Patel Test, Tomasz" partyListRank="3">
+        <Party paId="13878" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="300872" firstName="Constance" surname="King Test" ballotName="King Test, Constance Sandra" partyListRank="1">
+        <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300873" firstName="Christine" surname="Thornton Test" ballotName="Thornton Test, Christine Amy" partyListRank="2">
+        <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300874" firstName="David" surname="Hall Test" ballotName="Hall Test, David" partyListRank="3">
+        <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300875" firstName="Peter" surname="Holmes Test" ballotName="Holmes Test, Peter Robert" partyListRank="4">
+        <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300876" firstName="Nick" surname="Chapman Test" ballotName="Chapman Test, Nicholas Roy" partyListRank="5">
+        <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300896" firstName="Noah" surname="Evans Test" ballotName="Evans Test, Noah Marcus" partyListRank="1">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300897" firstName="Abena" surname="Hancock Test" ballotName="Hancock Test, Abena Deepika" partyListRank="2">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300898" firstName="Evelyn" surname="Thompson Test" ballotName="Thompson Test, Evelyn Siobhan" partyListRank="3">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300899" firstName="Constance" surname="Watson Test" ballotName="Watson Test, Constance Aoife" partyListRank="4">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300900" firstName="Jayden" surname="Johnson Test" ballotName="Johnson Test, Jayden Timothy" partyListRank="5">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300901" firstName="John" surname="Burns Test" ballotName="Burns Test, John David" partyListRank="6">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+      <Candidate paId="300902" firstName="Amelia" surname="Harrison Test" ballotName="Harrison Test, Amelia Karolina" partyListRank="7">
+        <Party paId="13830" abbreviation="Unity" name="All For Unity" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="108" name="Scotland West" turnout="377687" percentageTurnout="66.87" winningParty="SNP" majority="68889" percentageMajority="18.24">
+      <Candidate elected="*" paId="253312" firstName="Neil" surname="Bibby" ballotName="Bibby, Neil" sex="M">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="253201" firstName="Katy" surname="Clark" ballotName="Clark, Katy" sex="F">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="253313" firstName="Russell" surname="Findlay" ballotName="Findlay, Russell" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253190" firstName="Pam" surname="Gosal" ballotName="Gosal, Pam" sex="F">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253202" firstName="Jamie" surname="Greene" ballotName="Greene, Jamie" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="252842" firstName="Ross" surname="Greer" ballotName="Greer, Ross" sex="M">
+        <Party paId="10350" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate elected="*" paId="253316" firstName="Paul" surname="O'Kane" ballotName="O'Kane, Paul" sex="M">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Party paId="10349" abbreviation="SNP" name="Scottish National Party" votes="152671" percentageShare="40.42" />
+      <Party paId="10346" abbreviation="Lab" name="Labour" votes="83782" percentageShare="22.18" candidatesElected="3" />
+      <Party paId="10345" abbreviation="C" name="Conservative" votes="82640" percentageShare="21.88" candidatesElected="3" />
+      <Party paId="10350" abbreviation="Green" name="Green" votes="26632" percentageShare="7.05" candidatesElected="1" />
+      <Party paId="10348" abbreviation="LD" name="Liberal Democrat" votes="13570" percentageShare="3.59" />
+      <Party paId="10624" abbreviation="Alba" name="Alba Party" votes="6133" percentageShare="1.62" />
+      <Party paId="10637" abbreviation="Unity" name="All For Unity" votes="3372" percentageShare="0.89" />
+      <Party paId="10634" abbreviation="SFP" name="Scottish Family Party" votes="2345" percentageShare="0.62" />
+      <Party paId="10638" abbreviation="IGV" name="Independent Green Voice" votes="1983" percentageShare="0.53" />
+      <Party paId="10636" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" votes="916" percentageShare="0.24" />
+      <Party paId="10635" abbreviation="FA" name="Freedom Alliance" votes="766" percentageShare="0.20" />
+      <Party paId="10626" abbreviation="Reform UK" name="Reform UK" votes="600" percentageShare="0.16" />
+      <Party paId="10397" abbreviation="SLP" name="Scottish Libertarian Party" votes="499" percentageShare="0.13" />
+      <Party paId="10408" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" votes="479" percentageShare="0.13" />
+      <Party paId="10409" abbreviation="UKIP" name="UK Independence Party" votes="463" percentageShare="0.12" />
+      <Party paId="10633" abbreviation="ScF" name="Scotia Future" votes="257" percentageShare="0.07" />
+      <Party paId="10659" abbreviation="Ind" name="Independent James Morrison" votes="248" percentageShare="0.07" />
+      <Party paId="10660" abbreviation="Ind" name="Independent Maurice Campbell" votes="234" percentageShare="0.06" />
+      <Party paId="10639" abbreviation="Renew" name="Renew" votes="97" percentageShare="0.03" />
+    </Constituency>
+  </PreviousElection>
+</TopUpNominations>

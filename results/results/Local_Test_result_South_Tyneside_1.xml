@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='South Tyneside' paId='4754' type='Metro' proportion='all' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <Changes>
+        <Party name='Ind' paId='661' change='+7'/>
+        <Party name='Lab' paId='662' change='-6'/>
+        <Party name='Green' paId='660' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Ind' paId='661' seats='25'/>
+        <Party name='Lab' paId='662' seats='21'/>
+        <Party name='Green' paId='660' seats='8'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

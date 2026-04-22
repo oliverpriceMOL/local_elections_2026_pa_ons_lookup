@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="48" name="Glasgow Easterhouse &amp; Springburn" electorate="60517" percentageBoundaryChange="40.10" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party win Glasgow Easterhouse &amp; Springburn - notional Scottish National Party hold">
+      <Candidate paId="299814" firstName="George" surname="Riley Test" ballotName="Riley Test, George Anthony">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299815" firstName="John" surname="Davies Test" ballotName="Davies Test, John Alistair">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299816" firstName="Kofi" surname="Coleman Test" ballotName="Coleman Test, Kofi Steven">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299817" firstName="Bob" surname="Haynes Test" ballotName="Haynes Test, Robert">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

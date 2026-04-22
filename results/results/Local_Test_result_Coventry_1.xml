@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Coventry' paId='4738' type='Metro' proportion='all' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+13'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Lab' paId='662' change='-13'/>
+        <Party name='C' paId='659' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='26'/>
+        <Party name='Reform' paId='664' seats='15'/>
+        <Party name='C' paId='659' seats='9'/>
+        <Party name='Green' paId='660' seats='3'/>
+        <Party name='Your' paId='671' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

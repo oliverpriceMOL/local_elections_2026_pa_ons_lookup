@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:48:57+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="28" name="Dunfermline" electorate="62330" turnout="35953" percentageTurnout="57.68" percentageChangeTurnout="-8.00" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="3103" percentageMajority="8.63" percentageChangeMajority="-12.53" swing="6.27" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299714" firstName="William" surname="Khan Test" ballotName="Khan Test, William Paul">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="14429" percentageShare="40.13" percentageShareChange="-8.83" />
+      </Candidate>
+      <Candidate paId="299712" firstName="Mabel" surname="Edwards Test" ballotName="Edwards Test, Mabel Eilidh">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="11326" percentageShare="31.50" percentageShareChange="+3.70" />
+      </Candidate>
+      <Candidate paId="299711" firstName="Jane" surname="Webb Test" ballotName="Webb Test, Jane Ella">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="7364" percentageShare="20.48" percentageShareChange="+5.06" />
+      </Candidate>
+      <Candidate paId="299713" firstName="Doug" surname="Watts Test" ballotName="Watts Test, Douglas Henry">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2834" percentageShare="7.88" percentageShareChange="+0.08" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="27" name="Dunfermline" turnout="40942" percentageTurnout="65.69" winningParty="SNP" majority="8664" percentageMajority="21.16">
+      <Candidate paId="251767" firstName="Shirley-Anne" surname="Somerville" ballotName="Somerville, Shirley-Anne" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="20048" percentageShare="48.97" />
+      </Candidate>
+      <Candidate paId="253221" firstName="Julie" surname="MacDougall" ballotName="MacDougall, Julie" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="11384" percentageShare="27.81" />
+      </Candidate>
+      <Candidate paId="253222" firstName="Roz" surname="McCall" ballotName="McCall, Roz" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="6314" percentageShare="15.42" />
+      </Candidate>
+      <Candidate paId="253220" firstName="Aude" surname="Boubaker-Calder" ballotName="Boubaker-Calder, Aude" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="3196" percentageShare="7.81" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

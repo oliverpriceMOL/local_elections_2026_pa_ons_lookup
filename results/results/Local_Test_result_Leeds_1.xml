@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Leeds' paId='4743' type='Metro' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='12'/>
+        <Party name='C' paId='659' seats='8'/>
+        <Party name='LD' paId='667' seats='4'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='Reform' paId='664' seats='4'/>
+        <Party name='Green' paId='660' seats='2'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+4'/>
+        <Party name='C' paId='659' change='+2'/>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='Lab' paId='662' change='-7'/>
+        <Party name='Ind' paId='661' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='51'/>
+        <Party name='C' paId='659' seats='16'/>
+        <Party name='Ind' paId='661' seats='12'/>
+        <Party name='LD' paId='667' seats='8'/>
+        <Party name='Reform' paId='664' seats='6'/>
+        <Party name='Green' paId='660' seats='6'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

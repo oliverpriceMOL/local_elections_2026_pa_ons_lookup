@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Oxford' paId='4795' type='Non-Met' proportion='half' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='9'/>
+        <Party name='LD' paId='667' seats='8'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='Green' paId='660' seats='3'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='LD' paId='667' change='+4'/>
+        <Party name='Lab' paId='662' change='-2'/>
+        <Party name='Green' paId='660' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='19'/>
+        <Party name='LD' paId='667' seats='13'/>
+        <Party name='Ind' paId='661' seats='9'/>
+        <Party name='Green' paId='660' seats='7'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

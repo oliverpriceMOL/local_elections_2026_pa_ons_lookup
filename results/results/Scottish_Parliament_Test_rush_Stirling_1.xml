@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="71" name="Stirling" electorate="59285" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Stirling">
+      <Candidate previousSittingMember="+" paId="299930" firstName="Ava" surname="Bell Test" ballotName="Bell Test, Ava Margaret">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299931" firstName="Stephen" surname="Flynn Test" ballotName="Flynn Test, Stephen Derek">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299932" firstName="Rob" surname="Miller Test" ballotName="Miller Test, Robert Nathan">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" paId="299933" firstName="Steven" surname="Clarke Test" ballotName="Clarke Test, Steven Oluwaseun">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

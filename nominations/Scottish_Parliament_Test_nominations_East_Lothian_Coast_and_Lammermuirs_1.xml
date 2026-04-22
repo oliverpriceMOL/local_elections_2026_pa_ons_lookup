@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="30" name="East Lothian Coast &amp; Lammermuirs" electorate="66473">
+      <Candidate paId="299719" firstName="Becca" surname="Cooper Test" ballotName="Cooper Test, Rebecca Ruth">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299720" firstName="Margaret" surname="Walsh Test" ballotName="Walsh Test, Margaret Victoria">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299721" firstName="Ian" surname="Harrison Test" ballotName="Harrison Test, Ian David">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299722" firstName="Sarah" surname="Cooper Test" ballotName="Cooper Test, Sarah Amber">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="29" name="East Lothian" turnout="45783" percentageTurnout="68.87" winningParty="SNP" majority="1179" percentageMajority="2.58">
+      <Candidate paId="252076" firstName="Paul" surname="McLennan" ballotName="McLennan, Paul Stewart" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="17968" percentageShare="39.25" />
+      </Candidate>
+      <Candidate paId="253228" firstName="Martin" surname="Whitfield" ballotName="Whitfield, Martin David" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="16789" percentageShare="36.67" />
+      </Candidate>
+      <Candidate paId="253227" firstName="Craig" surname="Hoy" ballotName="Hoy, Craig" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="9470" percentageShare="20.68" />
+      </Candidate>
+      <Candidate paId="253226" firstName="Euan" surname="Davidson" ballotName="Davidson, Euan Robert" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1556" percentageShare="3.40" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

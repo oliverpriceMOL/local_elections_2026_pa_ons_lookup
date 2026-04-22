@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Croydon' paId='4824' type='London' proportion='all' winningParty='C' gainOrHold='gain' sittingParty='NOC'>
+      <Changes>
+        <Party name='C' paId='659' change='+4'/>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='Green' paId='660' change='+2'/>
+        <Party name='Lab' paId='662' change='-8'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='37'/>
+        <Party name='Lab' paId='662' seats='26'/>
+        <Party name='Green' paId='660' seats='4'/>
+        <Party name='LD' paId='667' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

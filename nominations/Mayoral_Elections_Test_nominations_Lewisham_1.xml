@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="3" name="Lewisham" electorate="202517">
+      <Candidate paId="300921" firstName="Ruth" surname="Rose Test" ballotName="Rose Test, Ruth">
+        <Party paId="13899" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="300922" firstName="Michael" surname="Daniels Test" ballotName="Daniels Test, Michael Richard">
+        <Party paId="13900" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="300923" firstName="Chris" surname="Watts Test" ballotName="Watts Test, Christopher Richard">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="300924" firstName="Mike" surname="Roberts Test" ballotName="Roberts Test, Michael Peter">
+        <Party paId="13895" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="300925" firstName="Michael" surname="Lloyd Test" ballotName="Lloyd Test, Michael Robert">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="300927" firstName="Jeremy" surname="Riley Test" ballotName="Riley Test, Jeremy Robert">
+        <Party paId="13938" name="Independent Jeremy Riley Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="300926" firstName="Martin" surname="Sullivan Test" ballotName="Sullivan Test, Martin Iain">
+        <Party paId="13937" name="Independent Martin Sullivan Test" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostNominations>

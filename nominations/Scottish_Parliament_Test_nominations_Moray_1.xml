@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="59" name="Moray" electorate="63282">
+      <Candidate paId="299871" firstName="Bethany" surname="Hyde Test" ballotName="Hyde Test, Bethany Elizabeth">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299872" firstName="Xander" surname="Smith Test" ballotName="Smith Test, Alexander">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299873" firstName="Matt" surname="Chapman Test" ballotName="Chapman Test, Matthew Martin">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299874" previousSittingMember="*" firstName="Katie" surname="White Test" ballotName="White Test, Katherine Margaret">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299875" firstName="William" surname="Pope Test" ballotName="Pope Test, William Donald">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="59" name="Moray" turnout="40595" percentageTurnout="64.15" winningParty="SNP" majority="3704" percentageMajority="9.12">
+      <Candidate paId="251895" firstName="Richard" surname="Lochhead" ballotName="Lochhead, Richard" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19987" percentageShare="49.24" />
+      </Candidate>
+      <Candidate paId="253298" firstName="Tim" surname="Eagle" ballotName="Eagle, Tim" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="16283" percentageShare="40.11" />
+      </Candidate>
+      <Candidate paId="252011" firstName="Jo" surname="Kirby" ballotName="Kirby, Jo" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2972" percentageShare="7.32" />
+      </Candidate>
+      <Candidate paId="253299" firstName="Sheila" surname="Ritchie" ballotName="Ritchie, Sheila Ewan" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1165" percentageShare="2.87" />
+      </Candidate>
+      <Candidate paId="253300" firstName="Robert" surname="Stephenson" ballotName="Stephenson, Robert" sex="M">
+        <Party paId="10409" name="UK Independence Party" abbreviation="UKIP" votes="188" percentageShare="0.46" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

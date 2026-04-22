@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of results messages for referendums
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+The Answer element is the smallest unit in a referendum result.  It contains the answer text (short and long forms) and the number and percentage of voters who chose this answer.
+  -->
+  <xs:complexType name="Answer">
+    <xs:attribute name="winning" type="xs:boolean" use="required"/>
+    <xs:attribute name="text" type="xs:string" use="required"/>
+    <xs:attribute name="shortText" type="xs:string" use="required"/>
+    <xs:attribute name="votes" type="xs:int" use="required"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="required"/>
+  </xs:complexType>
+  <!--
+A Proposition element contains the turnout, majority and so on, and
+contains one or more Answer elements inside.
+  -->
+  <xs:complexType name="Proposition">
+    <xs:sequence>
+      <xs:element name="Answer" type="Answer" minOccurs="1" maxOccurs="10"/>
+    </xs:sequence>
+    <xs:attribute name="text" type="xs:string" use="optional"/>
+    <xs:attribute name="turnout" type="xs:int" use="optional"/>
+    <xs:attribute name="percentageTurnout" type="Percentage" use="optional"/>
+    <xs:attribute name="winningAnswerText" type="xs:string" use="optional"/>
+    <xs:attribute name="majority" type="xs:int" use="optional"/>
+    <xs:attribute name="percentageMajority" type="Percentage" use="optional"/>
+  </xs:complexType>
+  <!--
+A VotingArea element only has a number, name and electorate.  It does
+not contain turnout, as this is done separately for each proposition.
+(In a multi-proposition referendum, not all voters will answer both
+propositions, so there is effectively a different turnout for each
+proposition.)
+  -->
+  <xs:complexType name="VotingArea">
+    <xs:sequence>
+      <xs:element name="Proposition" type="Proposition" minOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:int" use="required"/>
+  </xs:complexType>
+  <!--
+The Referendum element contains a single VotingArea.
+  -->
+  <xs:complexType name="Referendum">
+    <xs:sequence>
+      <xs:element name="VotingArea" type="VotingArea"
+                  minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="date" type="xs:date"/>
+  </xs:complexType>
+  <!--
+This is the root element.  It contains a Referendum element, with the
+results for the voting area in this referendum.
+  -->
+  <xs:element name="ReferendumResult">
+    <xs:annotation>
+      <xs:documentation>Single result in a referendum</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Referendum" type="Referendum"
+                    minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+      <xs:attribute name="declarationTime" type="xs:dateTime" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

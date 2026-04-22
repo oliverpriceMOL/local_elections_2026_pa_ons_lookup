@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="64" totalNumberOfConstituencies="73" totalVotes="2368324">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="26" losses="28" totalVotes="780022" percentageShare="32.94" percentageChange="-11.39" />
+    <Party paId="13786" name="Conservative" abbreviation="C" totalSeats="18" gains="13" totalVotes="670632" percentageShare="28.32" percentageChange="+4.97" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalSeats="9" gains="8" totalVotes="571925" percentageShare="24.15" percentageChange="+4.71" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalSeats="6" gains="2" totalVotes="180588" percentageShare="7.63" percentageChange="+1.25" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalSeats="2" gains="2" totalVotes="90913" percentageShare="3.84" percentageChange="-0.35" />
+    <Party paId="13813" name="Reform UK" abbreviation="Reform" totalSeats="3" gains="3" totalVotes="53707" percentageShare="2.27" />
+    <Party paId="13886" name="Independent" abbreviation="Ind" totalVotes="3078" percentageShare="0.13" percentageChange="+0.06" />
+    <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" totalVotes="2383" percentageShare="0.10" percentageChange="+0.08" />
+    <Party paId="13825" name="No Description" abbreviation="ND" totalVotes="2114" percentageShare="0.09" percentageChange="+0.05" />
+    <Party paId="13814" name="Liberal" abbreviation="Lib" totalVotes="610" percentageShare="0.03" />
+    <Party paId="13804" name="Communist Party of Britain" abbreviation="Comm Brit" totalVotes="10" percentageShare="0.00" percentageChange="-0.01" />
+    <Party paId="-9999" name="Others" abbreviation="Others" totalVotes="12342" percentageShare="0.52" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" />
+    <Constituency number="3" name="Aberdeen Donside" />
+    <Constituency number="4" name="Aberdeenshire East" />
+    <Constituency number="5" name="Aberdeenshire West" />
+    <Constituency number="6" name="Airdrie" />
+    <Constituency number="7" name="Almond Valley" />
+    <Constituency number="9" name="Angus South" />
+    <Constituency number="10" name="Argyll &amp; Bute" />
+    <Constituency number="11" name="Ayr" />
+    <Constituency number="12" name="Banffshire &amp; Buchan Coast" />
+    <Constituency number="13" name="Bathgate" />
+    <Constituency number="14" name="Caithness, Sutherland &amp; Ross" />
+    <Constituency number="15" name="Carrick, Cumnock &amp; Doon Valley" />
+    <Constituency number="16" name="Clackmannanshire &amp; Dunblane" />
+    <Constituency number="17" name="Clydebank &amp; Milngavie" />
+    <Constituency number="18" name="Clydesdale" />
+    <Constituency number="19" name="Coatbridge &amp; Chryston" />
+    <Constituency number="20" name="Cowdenbeath" />
+    <Constituency number="21" name="Cumbernauld &amp; Kilsyth" />
+    <Constituency number="22" name="Cunninghame North" />
+    <Constituency number="23" name="Cunninghame South" />
+    <Constituency number="24" name="Dumbarton" />
+    <Constituency number="25" name="Dumfriesshire" />
+    <Constituency number="26" name="Dundee City East" />
+    <Constituency number="27" name="Dundee City West" />
+    <Constituency number="28" name="Dunfermline" />
+    <Constituency number="29" name="East Kilbride" />
+    <Constituency number="30" name="East Lothian Coast &amp; Lammermuirs" />
+    <Constituency number="31" name="Eastwood" />
+    <Constituency number="32" name="Edinburgh Central" />
+    <Constituency number="33" name="Edinburgh Eastern, Musselburgh &amp; Tranent" />
+    <Constituency number="34" name="Edinburgh North Eastern &amp; Leith" />
+    <Constituency number="35" name="Edinburgh North Western" />
+    <Constituency number="36" name="Edinburgh Northern" />
+    <Constituency number="37" name="Edinburgh South Western" />
+    <Constituency number="39" name="Ettrick, Roxburgh &amp; Berwickshire" />
+    <Constituency number="40" name="Falkirk East &amp; Linlithgow" />
+    <Constituency number="41" name="Falkirk West" />
+    <Constituency number="42" name="Fife North East" />
+    <Constituency number="43" name="Galloway &amp; Dumfries West" />
+    <Constituency number="44" name="Glasgow Anniesland" />
+    <Constituency number="46" name="Glasgow Cathcart &amp; Pollok" />
+    <Constituency number="47" name="Glasgow Central" />
+    <Constituency number="48" name="Glasgow Easterhouse &amp; Springburn" />
+    <Constituency number="50" name="Glasgow Southside" />
+    <Constituency number="51" name="Hamilton, Larkhall &amp; Stonehouse" />
+    <Constituency number="52" name="Inverclyde" />
+    <Constituency number="53" name="Inverness &amp; Nairn" />
+    <Constituency number="54" name="Kilmarnock &amp; Irvine Valley" />
+    <Constituency number="55" name="Kirkcaldy" />
+    <Constituency number="57" name="Midlothian North" />
+    <Constituency number="58" name="Midlothian South, Tweeddale &amp; Lauderdale" />
+    <Constituency number="59" name="Moray" />
+    <Constituency number="60" name="Motherwell &amp; Wishaw" />
+    <Constituency number="61" name="Na h-Eileanan an Iar" />
+    <Constituency number="62" name="Orkney Islands" />
+    <Constituency number="64" name="Perthshire North" />
+    <Constituency number="65" name="Perthshire South &amp; Kinross-shire" />
+    <Constituency number="66" name="Renfrewshire North &amp; Cardonald" />
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" />
+    <Constituency number="68" name="Rutherglen &amp; Cambuslang" />
+    <Constituency number="69" name="Shetland Islands" />
+    <Constituency number="70" name="Skye, Lochaber &amp; Badenoch" />
+    <Constituency number="71" name="Stirling" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

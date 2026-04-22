@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="34" name="Edinburgh North Eastern &amp; Leith" electorate="65054" percentageBoundaryChange="35.40" gainOrHold="gain" winningPartyAbbreviation="Green" winningPartyName="Green" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Green win Edinburgh North Eastern &amp; Leith - gain from notional Scottish National Party">
+      <Candidate paId="299741" firstName="Andy" surname="Higgins Test" ballotName="Higgins Test, Andrew Darren">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299742" firstName="Tony" surname="Anderson Test" ballotName="Anderson Test, Anthony">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299743" firstName="Bob" surname="Wilkinson Test" ballotName="Wilkinson Test, Robert Christopher">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299744" firstName="Mark" surname="Kent Test" ballotName="Kent Test, Mark Stanley">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate elected="*" paId="299745" firstName="Timothy" surname="Hargreaves Test" ballotName="Hargreaves Test, Timothy Richard">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299746" firstName="William" surname="Hill Test" ballotName="Hill Test, William Mark">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

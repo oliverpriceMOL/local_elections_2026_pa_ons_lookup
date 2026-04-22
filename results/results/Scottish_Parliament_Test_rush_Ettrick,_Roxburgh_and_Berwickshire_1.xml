@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="39" name="Ettrick, Roxburgh &amp; Berwickshire" electorate="56409" gainOrHold="hold" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="C" sittingPartyName="Conservative" change="false" paStyleMessageText="Conservative hold Ettrick, Roxburgh &amp; Berwickshire">
+      <Candidate elected="*" previousSittingMember="*" paId="299768" firstName="Alison" surname="Thompson Test" ballotName="Thompson Test, Alison Sophie">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299769" firstName="Martin" surname="Spencer Test" ballotName="Spencer Test, Martin Michael">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299770" firstName="Meera" surname="Daniels Test" ballotName="Daniels Test, Meera Abigail">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299771" firstName="Robert" surname="Fuller Test" ballotName="Fuller Test, Robert Tomasz">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299772" firstName="Paul" surname="Lewis Test" ballotName="Lewis Test, Paul Andrew">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299773" firstName="John" surname="Holden Test" ballotName="Holden Test, John Edward">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hampshire' paId='4815' type='England' proportion='all'>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='19' seatsOffered='19' unopposedReturns='0' candidates='0'/>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='49' seatsOffered='49' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='3' seatsOffered='3' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='5' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+      <Party name='Reform UK' abbreviation='Reform' paId='664' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

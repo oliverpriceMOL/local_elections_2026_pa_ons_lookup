@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:11:23+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="42" name="Fife North East" electorate="58685" turnout="34559" percentageTurnout="58.89" percentageChangeTurnout="-9.71" winningParty="LD" gainOrHold="hold" sittingParty="LD" majority="20143" percentageMajority="58.29" percentageChangeMajority="+39.78" swing="19.89" swingTo="LD" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299785" firstName="Roger" surname="Jackson Test" ballotName="Jackson Test, Roger Steven">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="26080" percentageShare="75.47" percentageShareChange="+20.41" />
+      </Candidate>
+      <Candidate paId="299786" firstName="Ethan" surname="James Test" ballotName="James Test, Ethan Alan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="5937" percentageShare="17.18" percentageShareChange="-19.37" />
+      </Candidate>
+      <Candidate paId="299783" firstName="Derek" surname="Campbell Test" ballotName="Campbell Test, Derek Peter">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="1609" percentageShare="4.66" percentageShareChange="-1.11" />
+      </Candidate>
+      <Candidate paId="299784" firstName="Amanda" surname="Williams Test" ballotName="Williams Test, Amanda Mabel">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="933" percentageShare="2.70" percentageShareChange="+0.08" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="41" name="Fife North East" turnout="40257" percentageTurnout="68.60" winningParty="LD" majority="7448" percentageMajority="18.50">
+      <Candidate paId="253266" firstName="Willie" surname="Rennie" ballotName="Rennie, Willie" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="22163" percentageShare="55.05" />
+      </Candidate>
+      <Candidate paId="251896" firstName="Rhuaraidh" surname="Fleming" ballotName="Fleming, Rhuaraidh" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="14715" percentageShare="36.55" />
+      </Candidate>
+      <Candidate paId="253265" firstName="Rhona" surname="Metcalfe" ballotName="Metcalfe, Rhona" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="2323" percentageShare="5.77" />
+      </Candidate>
+      <Candidate paId="251991" firstName="Wendy" surname="Haynes" ballotName="Haynes, Wendy Helena" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="1056" percentageShare="2.62" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

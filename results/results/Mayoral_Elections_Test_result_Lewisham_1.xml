@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:57:12+00:00">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="3" name="Lewisham" electorate="202517" turnout="133066" percentageTurnout="65.71" winningParty="Lab" gainOrHold="hold" sittingParty="Lab" majority="41552" percentageMajority="31.23">
+      <Candidate elected="*" paId="300922" firstName="Michael" surname="Daniels Test" ballotName="Daniels Test, Michael Richard">
+        <Party paId="13900" name="Labour" abbreviation="Lab" votes="64048" percentageShare="48.13" />
+      </Candidate>
+      <Candidate paId="300921" firstName="Ruth" surname="Rose Test" ballotName="Rose Test, Ruth">
+        <Party paId="13899" name="Conservative" abbreviation="C" votes="22496" percentageShare="16.91" />
+      </Candidate>
+      <Candidate paId="300923" firstName="Chris" surname="Watts Test" ballotName="Watts Test, Christopher Richard">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" votes="16806" percentageShare="12.63" />
+      </Candidate>
+      <Candidate paId="300925" firstName="Michael" surname="Lloyd Test" ballotName="Lloyd Test, Michael Robert">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" votes="13705" percentageShare="10.30" />
+      </Candidate>
+      <Candidate paId="300924" firstName="Mike" surname="Roberts Test" ballotName="Roberts Test, Michael Peter">
+        <Party paId="13895" name="Green" abbreviation="Green" votes="13505" percentageShare="10.15" />
+      </Candidate>
+      <Candidate paId="300927" firstName="Jeremy" surname="Riley Test" ballotName="Riley Test, Jeremy Robert">
+        <Party paId="13938" name="Independent Jeremy Riley Test" abbreviation="Ind" votes="2014" percentageShare="1.51" />
+      </Candidate>
+      <Candidate paId="300926" firstName="Martin" surname="Sullivan Test" ballotName="Sullivan Test, Martin Iain">
+        <Party paId="13937" name="Independent Martin Sullivan Test" abbreviation="Ind" votes="492" percentageShare="0.37" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostResult>

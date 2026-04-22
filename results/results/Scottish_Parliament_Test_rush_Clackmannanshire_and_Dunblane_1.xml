@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="16" name="Clackmannanshire &amp; Dunblane" electorate="57536" percentageBoundaryChange="8.20" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative win Clackmannanshire &amp; Dunblane - gain from notional Scottish National Party">
+      <Candidate elected="*" previousSittingMember="+" paId="299653" firstName="Steve" surname="West Test" ballotName="West Test, Steven Ian">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299654" firstName="Richard" surname="White Test" ballotName="White Test, Richard Stephen">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299655" firstName="John" surname="Wild Test" ballotName="Wild Test, John George">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299656" firstName="Hamza" surname="Watkins Test" ballotName="Watkins Test, Hamza Declan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

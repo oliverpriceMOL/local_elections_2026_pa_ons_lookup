@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Birmingham' paId='4733' type='Metro' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Ind' paId='661' change='+3'/>
+        <Party name='Lab' paId='662' change='+2'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='C' paId='659' change='-3'/>
+        <Party name='LD' paId='667' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='57'/>
+        <Party name='C' paId='659' seats='19'/>
+        <Party name='Ind' paId='661' seats='12'/>
+        <Party name='LD' paId='667' seats='10'/>
+        <Party name='Green' paId='660' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

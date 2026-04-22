@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Bolton' paId='4735' type='Metro' proportion='third'>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='1' seatsOffered='0' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='13' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='15' seatsOffered='7' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='25' seatsOffered='7' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='6' seatsOffered='2' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

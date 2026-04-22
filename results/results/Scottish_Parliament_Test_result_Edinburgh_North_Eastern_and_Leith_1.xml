@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:33:04+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="34" name="Edinburgh North Eastern &amp; Leith" electorate="65054" percentageBoundaryChange="35.40" turnout="41106" percentageTurnout="63.19" percentageChangeTurnout="+0.13" winningParty="Green" gainOrHold="gain" sittingParty="SNP" majority="6971" percentageMajority="16.96" percentageChangeMajority="-2.95" swing="21.37" swingTo="Green" swingFrom="SNP">
+      <Candidate elected="*" paId="299745" firstName="Timothy" surname="Hargreaves Test" ballotName="Hargreaves Test, Timothy Richard">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="16198" percentageShare="39.41" />
+      </Candidate>
+      <Candidate paId="299742" firstName="Tony" surname="Anderson Test" ballotName="Anderson Test, Anthony">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="9227" percentageShare="22.45" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299744" firstName="Mark" surname="Kent Test" ballotName="Kent Test, Mark Stanley">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="7200" percentageShare="17.52" />
+      </Candidate>
+      <Candidate paId="299741" firstName="Andy" surname="Higgins Test" ballotName="Higgins Test, Andrew Darren">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="6009" percentageShare="14.62" />
+      </Candidate>
+      <Candidate paId="299743" firstName="Bob" surname="Wilkinson Test" ballotName="Wilkinson Test, Robert Christopher">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2026" percentageShare="4.93" />
+      </Candidate>
+      <Candidate paId="299746" firstName="William" surname="Hill Test" ballotName="Hill Test, William Mark">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" votes="446" percentageShare="1.08" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="34" name="Edinburgh North Eastern &amp; Leith" turnout="41019" percentageTurnout="63.05" winningParty="SNP" majority="8168" percentageMajority="19.91">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="16382" percentageShare="39.94" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8214" percentageShare="20.02" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="7827" percentageShare="19.08" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="5225" percentageShare="12.74" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="1601" percentageShare="3.90" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1065" percentageShare="2.60" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="627" percentageShare="1.53" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="78" percentageShare="0.19" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

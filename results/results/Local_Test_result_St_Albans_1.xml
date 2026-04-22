@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='St Albans' paId='4804' type='Non-Met' proportion='third' winningParty='LD' gainOrHold='no change' sittingParty='LD'>
+      <ElectedCouncillors>
+        <Party name='LD' paId='667' seats='18'/>
+        <Party name='Green' paId='660' seats='2'/>
+        <Party name='C' paId='659' seats='1'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Green' paId='660' change='+2'/>
+        <Party name='LD' paId='667' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='43'/>
+        <Party name='Green' paId='660' seats='5'/>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='Ind' paId='661' seats='2'/>
+        <Party name='Lab' paId='662' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

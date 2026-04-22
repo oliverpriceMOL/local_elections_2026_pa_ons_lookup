@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:36:52+00:00">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="2" name="Hackney" electorate="182136" turnout="122910" percentageTurnout="67.48" winningParty="Lab" gainOrHold="hold" sittingParty="Lab" majority="37566" percentageMajority="30.56">
+      <Candidate elected="*" paId="300915" firstName="John" surname="Cooper Test" ballotName="Cooper Test, John David">
+        <Party paId="13900" name="Labour" abbreviation="Lab" votes="59902" percentageShare="48.74" />
+      </Candidate>
+      <Candidate paId="300914" firstName="Phil" surname="Griffin Test" ballotName="Griffin Test, Philip Simon">
+        <Party paId="13899" name="Conservative" abbreviation="C" votes="22336" percentageShare="18.17" />
+      </Candidate>
+      <Candidate paId="300916" firstName="Isla" surname="Barker Test" ballotName="Barker Test, Isla Aria">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" votes="14935" percentageShare="12.15" />
+      </Candidate>
+      <Candidate paId="300917" firstName="Jim" surname="Harvey Test" ballotName="Harvey Test, James Steven">
+        <Party paId="13895" name="Green" abbreviation="Green" votes="12806" percentageShare="10.42" />
+      </Candidate>
+      <Candidate paId="300918" firstName="Funke" surname="Owens Test" ballotName="Owens Test, Funke Edith">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" votes="10678" percentageShare="8.69" />
+      </Candidate>
+      <Candidate paId="300919" firstName="Ian" surname="Hutton Test" ballotName="Hutton Test, Ian David">
+        <Party paId="13935" name="Independent Ian Hutton Test" abbreviation="Ind" votes="2089" percentageShare="1.70" />
+      </Candidate>
+      <Candidate paId="300920" firstName="Michael" surname="Leach Test" ballotName="Leach Test, Michael Peter">
+        <Party paId="13936" name="Independent Michael Leach Test" abbreviation="Ind" votes="164" percentageShare="0.13" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostResult>

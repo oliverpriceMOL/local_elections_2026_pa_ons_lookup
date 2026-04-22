@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" electorate="60799" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Aberdeen Deeside &amp; North Kincardine">
+      <Candidate elected="*" paId="299589" firstName="Terry" surname="Wilson Test" ballotName="Wilson Test, Terence James">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299590" firstName="Lee" surname="Martin Test" ballotName="Martin Test, Lee Henry">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299591" firstName="Lucas" surname="Thomas Test" ballotName="Thomas Test, Lucas">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299592" firstName="Anthea" surname="Morgan Test" ballotName="Morgan Test, Anthea Gillian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299593" firstName="William" surname="Howard Test" ballotName="Howard Test, William Robert">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

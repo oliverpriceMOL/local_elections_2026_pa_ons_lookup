@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:09:05+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="23" name="Cunninghame South" electorate="60158" percentageBoundaryChange="13.40" turnout="41515" percentageTurnout="69.01" percentageChangeTurnout="+10.11" winningParty="Reform" gainOrHold="gain" sittingParty="SNP" majority="12294" percentageMajority="29.61" percentageChangeMajority="+6.81" swing="37.33" swingTo="Reform" swingFrom="SNP">
+      <Candidate elected="*" paId="301019" firstName="Mary" surname="Jones Test" ballotName="Jones Test, Mary Heather">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" votes="20389" percentageShare="49.11" />
+      </Candidate>
+      <Candidate paId="299684" firstName="Jim" surname="Bird Test" ballotName="Bird Test, James">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="8095" percentageShare="19.50" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299687" firstName="Matt" surname="Lloyd Test" ballotName="Lloyd Test, Matthew Barry">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="6638" percentageShare="15.99" />
+      </Candidate>
+      <Candidate paId="299685" firstName="Mary" surname="Lambert Test" ballotName="Lambert Test, Mary Mabel">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="5206" percentageShare="12.54" />
+      </Candidate>
+      <Candidate paId="299688" firstName="Sunita" surname="Marsh Test" ballotName="Marsh Test, Sunita Lynne">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="685" percentageShare="1.65" />
+      </Candidate>
+      <Candidate paId="299686" firstName="Paul" surname="Morris Test" ballotName="Morris Test, Paul">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="502" percentageShare="1.21" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="23" name="Cunninghame South" turnout="35433" percentageTurnout="58.90" winningParty="SNP" majority="8080" percentageMajority="22.80">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="15917" percentageShare="44.92" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="7837" percentageShare="22.12" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="7666" percentageShare="21.64" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="1543" percentageShare="4.35" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1199" percentageShare="3.38" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="722" percentageShare="2.04" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="488" percentageShare="1.38" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="61" percentageShare="0.17" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

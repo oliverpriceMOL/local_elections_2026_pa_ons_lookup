@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="28" name="Dunfermline" electorate="62330" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Dunfermline">
+      <Candidate paId="299711" firstName="Jane" surname="Webb Test" ballotName="Webb Test, Jane Ella">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299712" firstName="Mabel" surname="Edwards Test" ballotName="Edwards Test, Mabel Eilidh">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299713" firstName="Doug" surname="Watts Test" ballotName="Watts Test, Douglas Henry">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299714" firstName="William" surname="Khan Test" ballotName="Khan Test, William Paul">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

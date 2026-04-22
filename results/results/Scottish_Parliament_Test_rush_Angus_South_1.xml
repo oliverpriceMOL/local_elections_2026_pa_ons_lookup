@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="9" name="Angus South" electorate="59472" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Angus South">
+      <Candidate elected="*" previousSittingMember="+" paId="299620" firstName="Tony" surname="Baxter Test" ballotName="Baxter Test, Anthony Edward">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299621" firstName="Nathan" surname="Hall Test" ballotName="Hall Test, Nathan Percy">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299622" firstName="Karolina" surname="White Test" ballotName="White Test, Karolina Jennifer">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299623" firstName="Les" surname="Harris Test" ballotName="Harris Test, Leslie James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

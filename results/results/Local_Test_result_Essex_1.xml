@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Essex' paId='4814' type='England' proportion='all' boundaryChange='true' winningParty='C' gainOrHold='no change' sittingParty='C'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='LD' paId='667' change='+3'/>
+        <Party name='Ind' paId='661' change='+3'/>
+        <Party name='C' paId='659' change='-8'/>
+        <Party name='Lab' paId='662' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='42'/>
+        <Party name='LD' paId='667' seats='10'/>
+        <Party name='Ind' paId='661' seats='10'/>
+        <Party name='Reform' paId='664' seats='8'/>
+        <Party name='Lab' paId='662' seats='4'/>
+        <Party name='R' paId='663' seats='3'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

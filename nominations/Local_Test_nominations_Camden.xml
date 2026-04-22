@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Camden' paId='4823' type='London' proportion='all'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='3' seatsOffered='3' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='45' seatsOffered='45' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='6' seatsOffered='6' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

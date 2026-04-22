@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:15:31+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="33" name="Edinburgh Eastern, Musselburgh &amp; Tranent" electorate="57112" percentageBoundaryChange="55.70" turnout="34872" percentageTurnout="61.06" percentageChangeTurnout="+0.55" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="4193" percentageMajority="12.02" percentageChangeMajority="-1.31" swing="12.68" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" paId="299738" firstName="Alan" surname="Marshall Test" ballotName="Marshall Test, Alan Harrison">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="14429" percentageShare="41.38" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299740" firstName="Gary" surname="Green Test" ballotName="Green Test, Gary Trevor">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10236" percentageShare="29.35" />
+      </Candidate>
+      <Candidate paId="299737" firstName="Ryan" surname="Ord Test" ballotName="Ord Test, Ryan Richard">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="9227" percentageShare="26.46" />
+      </Candidate>
+      <Candidate paId="299739" firstName="Christopher" surname="Cooper Test" ballotName="Cooper Test, Christopher Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="980" percentageShare="2.81" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="33" name="Edinburgh Eastern, Musselburgh &amp; Tranent" turnout="34560" percentageTurnout="60.51" winningParty="SNP" majority="4608" percentageMajority="13.33">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="13000" percentageShare="37.62" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8392" percentageShare="24.28" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="6399" percentageShare="18.52" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="4030" percentageShare="11.66" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1185" percentageShare="3.43" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="920" percentageShare="2.66" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="559" percentageShare="1.62" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="75" percentageShare="0.22" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

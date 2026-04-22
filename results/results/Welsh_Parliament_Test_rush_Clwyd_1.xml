@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Welsh Parliament Test" date="2026-05-06" type="W">
+    <Constituency number="9" name="Clwyd" electorate="152545">
+      <Candidate elected="*" paId="299006" firstName="Neil" surname="Jackson Test" ballotName="Jackson Test, Neil" partyListRank="1">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="299010" firstName="Mike" surname="Simpson Test" ballotName="Simpson Test, Michael Ivan" partyListRank="1">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="299015" firstName="Pete" surname="Griffiths Test" ballotName="Griffiths Test, Peter Norman" partyListRank="1">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299016" firstName="Alan" surname="Carr Test" ballotName="Carr Test, Alan" partyListRank="2">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299023" firstName="Anthony" surname="Foster Test" ballotName="Foster Test, Anthony Steve" partyListRank="1">
+        <Party paId="13706" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate elected="*" paId="299048" firstName="Christopher" surname="Lee Test" ballotName="Lee Test, Christopher Eddie" partyListRank="1">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

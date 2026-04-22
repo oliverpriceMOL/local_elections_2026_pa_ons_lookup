@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Tower Hamlets' paId='4846' type='London' proportion='all' winningParty='Ind' gainOrHold='no change' sittingParty='Ind'>
+      <Changes>
+        <Party name='Ind' paId='661' change='+3'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Lab' paId='662' change='-4'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Ind' paId='661' seats='30'/>
+        <Party name='Lab' paId='662' seats='12'/>
+        <Party name='Green' paId='660' seats='2'/>
+        <Party name='C' paId='659' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

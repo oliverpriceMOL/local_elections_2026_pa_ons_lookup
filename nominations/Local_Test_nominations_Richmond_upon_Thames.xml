@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Richmond-upon-Thames' paId='4843' type='London' proportion='all'>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='49' seatsOffered='49' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='5' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

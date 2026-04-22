@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="107" name="Scotland South" electorate="558410">
+      <Candidate elected="*" previousSittingMember="+" paId="300738" firstName="James" surname="Fleming Test" ballotName="Fleming Test, James Brian" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300750" firstName="Paul" surname="Webster Test" ballotName="Webster Test, Paul David" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300751" firstName="Hannah" surname="Ahmed Test" ballotName="Ahmed Test, Hannah Hannah" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300764" firstName="John" surname="Pugh Test" ballotName="Pugh Test, John David" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300765" firstName="Dave" surname="Davey Test" ballotName="Davey Test, David David" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300766" firstName="Phil" surname="Connor Test" ballotName="Connor Test, Philip Peter" partyListRank="3">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" paId="300776" firstName="Caoimhe" surname="Gibbs Test" ballotName="Gibbs Test, Caoimhe Freya" partyListRank="1">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

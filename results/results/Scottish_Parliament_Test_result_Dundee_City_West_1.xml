@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:42:02+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="27" name="Dundee City West" electorate="56733" turnout="40461" percentageTurnout="71.32" percentageChangeTurnout="+14.64" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="11776" percentageMajority="29.10" percentageChangeMajority="-11.07" swing="5.54" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299708" firstName="Hannah" surname="Cox Test" ballotName="Cox Test, Hannah">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="22852" percentageShare="56.48" percentageShareChange="-5.15" />
+      </Candidate>
+      <Candidate paId="299706" firstName="John" surname="Jones Test" ballotName="Jones Test, John Farhan">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="11076" percentageShare="27.37" percentageShareChange="+5.92" />
+      </Candidate>
+      <Candidate paId="299705" firstName="Isla" surname="Butler Test" ballotName="Butler Test, Isla Nicola">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="4620" percentageShare="11.42" percentageShareChange="+1.07" />
+      </Candidate>
+      <Candidate paId="299707" firstName="Monika" surname="Wilson Test" ballotName="Wilson Test, Monika">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1445" percentageShare="3.57" percentageShareChange="-0.38" />
+      </Candidate>
+      <Candidate paId="299710" firstName="Dougie" surname="Taylor Test" ballotName="Taylor Test, Douglas">
+        <Party paId="13819" name="Restore Scotland" abbreviation="RS" votes="304" percentageShare="0.75" percentageShareChange="-0.52" />
+      </Candidate>
+      <Candidate paId="299709" firstName="Steven" surname="Fowler Test" ballotName="Fowler Test, Steven Gordon">
+        <Party paId="13878" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" votes="164" percentageShare="0.41" percentageShareChange="-0.94" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="26" name="Dundee City West" turnout="32155" percentageTurnout="56.68" winningParty="SNP" majority="12919" percentageMajority="40.18">
+      <Candidate paId="251766" firstName="Joe" surname="FitzPatrick" ballotName="FitzPatrick, Joe" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19818" percentageShare="61.63" />
+      </Candidate>
+      <Candidate paId="252002" firstName="Mercedes" surname="Villalba" ballotName="Villalba, Mercedes" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="6899" percentageShare="21.46" />
+      </Candidate>
+      <Candidate paId="252155" firstName="Tess" surname="White" ballotName="White, Tess" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="3327" percentageShare="10.35" />
+      </Candidate>
+      <Candidate paId="252001" firstName="Daniel" surname="Coleman" ballotName="Coleman, Daniel" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1269" percentageShare="3.95" />
+      </Candidate>
+      <Candidate paId="252003" firstName="Jim" surname="McFarlane" ballotName="McFarlane, Jim" sex="M">
+        <Party paId="10408" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" votes="432" percentageShare="1.34" />
+      </Candidate>
+      <Candidate paId="252150" firstName="Ewan" surname="Gurr" ballotName="Gurr, Ewan" sex="M">
+        <Party paId="10631" name="Restore Scotland" abbreviation="RS" votes="410" percentageShare="1.28" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

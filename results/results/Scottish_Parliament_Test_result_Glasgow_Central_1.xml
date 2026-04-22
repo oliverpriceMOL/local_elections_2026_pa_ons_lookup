@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:41:51+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="47" name="Glasgow Central" electorate="72126" percentageBoundaryChange="58.70" turnout="54044" percentageTurnout="74.93" percentageChangeTurnout="+23.12" winningParty="Reform" gainOrHold="gain" sittingParty="SNP" majority="2499" percentageMajority="4.62" percentageChangeMajority="-12.14" swing="23.12" swingTo="Reform" swingFrom="SNP">
+      <Candidate elected="*" paId="301022" firstName="Liam" surname="Stevens Test" ballotName="Stevens Test, Liam Peter">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" votes="15338" percentageShare="28.38" />
+      </Candidate>
+      <Candidate paId="299810" firstName="Sean" surname="Ellis Test" ballotName="Ellis Test, Sean Colin">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="12839" percentageShare="23.76" />
+      </Candidate>
+      <Candidate paId="299812" firstName="Sanjay" surname="Lewis Test" ballotName="Lewis Test, Sanjay Maxwell">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="11092" percentageShare="20.52" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299813" firstName="Jane" surname="Smith Test" ballotName="Smith Test, Jane Irene">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="10050" percentageShare="18.60" />
+      </Candidate>
+      <Candidate paId="299809" firstName="John" surname="Fox Test" ballotName="Fox Test, John Nicholas">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="3989" percentageShare="7.38" />
+      </Candidate>
+      <Candidate paId="299811" firstName="Timothy" surname="Bailey Test" ballotName="Bailey Test, Timothy Philip">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="736" percentageShare="1.36" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="47" name="Glasgow Central" turnout="37367" percentageTurnout="51.81" winningParty="SNP" majority="6265" percentageMajority="16.77">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="16177" percentageShare="43.29" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="9912" percentageShare="26.53" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="5088" percentageShare="13.62" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="3161" percentageShare="8.46" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1835" percentageShare="4.91" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="682" percentageShare="1.83" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="434" percentageShare="1.16" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="78" percentageShare="0.21" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

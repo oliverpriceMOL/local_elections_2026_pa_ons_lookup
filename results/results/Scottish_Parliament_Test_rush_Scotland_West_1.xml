@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="108" name="Scotland West" electorate="564844">
+      <Candidate elected="*" previousSittingMember="+" paId="300821" firstName="Vera" surname="Holden Test" ballotName="Holden Test, Vera Susan" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="300831" firstName="Joan" surname="Kelly Test" ballotName="Kelly Test, Joan Ivy" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300832" firstName="Richard" surname="O'Brien Test" ballotName="O'Brien Test, Richard Russell" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300833" firstName="Stewart" surname="Roberts Test" ballotName="Roberts Test, Stewart Matthew" partyListRank="3">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300834" firstName="Dave" surname="Bailey Test" ballotName="Bailey Test, David Christopher" partyListRank="4">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300843" firstName="Tomasz" surname="Townsend Test" ballotName="Townsend Test, Tomasz" partyListRank="1">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="300850" firstName="Aoife" surname="Jackson Test" ballotName="Jackson Test, Aoife Molly" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

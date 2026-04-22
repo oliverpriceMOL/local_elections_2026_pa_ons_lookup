@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="102" name="Glasgow" electorate="537612">
+      <Candidate elected="*" paId="300300" firstName="Vicky" surname="Short Test" ballotName="Short Test, Victoria" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="300301" firstName="Graham" surname="Bird Test" ballotName="Bird Test, Graham Peter" partyListRank="2">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300307" firstName="Terry" surname="Birch Test" ballotName="Birch Test, Terence" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300308" firstName="John" surname="Welch Test" ballotName="Welch Test, John Adrian" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300309" firstName="Tomasz" surname="Webb Test" ballotName="Webb Test, Tomasz Terence" partyListRank="3">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300324" firstName="Ryan" surname="Smith Test" ballotName="Smith Test, Ryan James" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300335" firstName="Dorota" surname="Moore Test" ballotName="Moore Test, Dorota Samantha" partyListRank="1">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

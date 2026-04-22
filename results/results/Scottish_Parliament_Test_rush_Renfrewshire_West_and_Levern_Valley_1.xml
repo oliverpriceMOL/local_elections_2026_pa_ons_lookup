@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" electorate="60759" percentageBoundaryChange="12.50" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative win Renfrewshire West &amp; Levern Valley - gain from notional Scottish National Party">
+      <Candidate elected="*" paId="299911" firstName="Bruce" surname="Turnbull Test" ballotName="Turnbull Test, Bruce William">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299912" firstName="Morag" surname="Lee Test" ballotName="Lee Test, Morag Ann">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299913" firstName="Catherine" surname="Bartlett Test" ballotName="Bartlett Test, Catherine Amelia">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299914" firstName="Agnes" surname="Wells Test" ballotName="Wells Test, Agnes Neha">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299915" firstName="Gerry" surname="Cooper Test" ballotName="Cooper Test, Gerry Riley">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

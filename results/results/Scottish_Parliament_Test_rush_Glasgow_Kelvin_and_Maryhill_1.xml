@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="49" name="Glasgow Kelvin &amp; Maryhill" electorate="65716" percentageBoundaryChange="44.90" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour win Glasgow Kelvin &amp; Maryhill - gain from notional Scottish National Party">
+      <Candidate paId="299818" firstName="Abena" surname="Harding Test" ballotName="Harding Test, Abena Winifred">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="299819" firstName="Jim" surname="Thorpe Test" ballotName="Thorpe Test, James Michael">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299820" firstName="Helen" surname="Smart Test" ballotName="Smart Test, Helen Victoria">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299821" firstName="Lisa" surname="James Test" ballotName="James Test, Lisa Ngozi">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299822" firstName="Ian" surname="Martin Test" ballotName="Martin Test, Ian Stuart">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

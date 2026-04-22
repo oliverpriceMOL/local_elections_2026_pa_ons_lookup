@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Blackburn with Darwen' paId='4717' type='Unitary' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='10'/>
+        <Party name='Ind' paId='661' seats='5'/>
+        <Party name='C' paId='659' seats='2'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Lab' paId='662' change='+1'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='C' paId='659' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='28'/>
+        <Party name='Ind' paId='661' seats='16'/>
+        <Party name='C' paId='659' seats='7'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

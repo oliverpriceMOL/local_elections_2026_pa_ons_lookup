@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="29" name="East Kilbride" electorate="61479">
+      <Candidate paId="299715" previousSittingMember="+" firstName="Stephanie" surname="John Test" ballotName="John Test, Stephanie Diana">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299716" firstName="Chris" surname="Mason Test" ballotName="Mason Test, Christopher Andrew">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299717" firstName="Kevin" surname="Page Test" ballotName="Page Test, Kevin Richard">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299718" firstName="James" surname="Bennett Test" ballotName="Bennett Test, James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="28" name="East Kilbride" turnout="40766" percentageTurnout="66.31" winningParty="SNP" majority="8672" percentageMajority="21.27">
+      <Candidate paId="251884" firstName="Collette" surname="Stevenson" ballotName="Stevenson, Collette" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="21149" percentageShare="51.88" />
+      </Candidate>
+      <Candidate paId="253223" firstName="Monique" surname="McAdams" ballotName="McAdams, Monique" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="12477" percentageShare="30.61" />
+      </Candidate>
+      <Candidate paId="253225" firstName="Graham" surname="Simpson" ballotName="Simpson, Graham" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="5923" percentageShare="14.53" />
+      </Candidate>
+      <Candidate paId="253224" firstName="Paul" surname="McGarry" ballotName="McGarry, Paul" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1217" percentageShare="2.99" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

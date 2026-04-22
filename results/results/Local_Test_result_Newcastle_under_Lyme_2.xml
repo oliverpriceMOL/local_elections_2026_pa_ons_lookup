@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='2'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Newcastle-under-Lyme' paId='4792' type='Non-Met' proportion='all' winningParty='C' gainOrHold='no change' sittingParty='C'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='Lab' paId='662' change='-5'/>
+        <Party name='C' paId='659' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='24'/>
+        <Party name='Lab' paId='662' seats='12'/>
+        <Party name='Reform' paId='664' seats='8'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

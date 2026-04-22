@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:40:38+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="54" name="Kilmarnock &amp; Irvine Valley" electorate="66170" turnout="46990" percentageTurnout="71.01" percentageChangeTurnout="+9.62" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="3506" percentageMajority="7.46" percentageChangeMajority="-21.29" swing="12.42" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299849" firstName="Simon" surname="Smith Test" ballotName="Smith Test, Simon Michael">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="18170" percentageShare="38.67" percentageShareChange="-14.06" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299846" firstName="Charlie" surname="Phillips Test" ballotName="Phillips Test, Charles">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="14664" percentageShare="31.21" percentageShareChange="+10.79" />
+      </Candidate>
+      <Candidate paId="299847" firstName="Simon" surname="Byrne Test" ballotName="Byrne Test, Simon Paul">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="12113" percentageShare="25.78" percentageShareChange="+1.81" />
+      </Candidate>
+      <Candidate paId="299848" firstName="David" surname="Moss Test" ballotName="Moss Test, David Martin">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1297" percentageShare="2.76" percentageShareChange="+0.50" />
+      </Candidate>
+      <Candidate paId="299850" firstName="Mark" surname="Chambers Test" ballotName="Chambers Test, Mark Denis">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="746" percentageShare="1.59" percentageShareChange="+0.96" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="54" name="Kilmarnock &amp; Irvine Valley" turnout="40622" percentageTurnout="61.39" winningParty="SNP" majority="11681" percentageMajority="28.76">
+      <Candidate paId="251794" firstName="Willie" surname="Coffey" ballotName="Coffey, Willie" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="21418" percentageShare="52.73" />
+      </Candidate>
+      <Candidate paId="253291" firstName="Kevin" surname="McGregor" ballotName="McGregor, Kevin" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="9737" percentageShare="23.97" />
+      </Candidate>
+      <Candidate paId="253292" firstName="Brian" surname="Whittle" ballotName="Whittle, Brian" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="8295" percentageShare="20.42" />
+      </Candidate>
+      <Candidate paId="252084" firstName="Stephen" surname="McQuistin" ballotName="McQuistin, Stephen" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="919" percentageShare="2.26" />
+      </Candidate>
+      <Candidate paId="253290" firstName="Stef" surname="Johnstone" ballotName="Johnstone, Stef" sex="F">
+        <Party paId="10397" name="Scottish Libertarian Party" abbreviation="SLP" votes="253" percentageShare="0.62" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

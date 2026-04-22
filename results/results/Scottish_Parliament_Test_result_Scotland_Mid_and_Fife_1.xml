@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpResult revision="1" declarationTime="2026-04-01T11:45:55+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="105" name="Scotland Mid &amp; Fife" electorate="526283" turnout="350301" percentageTurnout="66.56" percentageChangeTurnout="+1.19" winningParty="SNP" majority="19908" percentageMajority="5.68" percentageChangeMajority="+1.19" swing="4.56" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="300568" firstName="Mike" surname="Hancock Test" ballotName="Hancock Test, Michael David" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300579" firstName="Frank" surname="Martin Test" ballotName="Martin Test, Francis" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300580" firstName="Beryl" surname="Williams Test" ballotName="Williams Test, Beryl Hannah" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300581" firstName="Christopher" surname="Wilson Test" ballotName="Wilson Test, Christopher" partyListRank="3">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="300586" firstName="Robin" surname="Brown Test" ballotName="Brown Test, Robin" partyListRank="1">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="300593" firstName="Christine" surname="Nicholls Test" ballotName="Nicholls Test, Christine Sadia" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="300594" firstName="Sarah" surname="Collins Test" ballotName="Collins Test, Sarah Muriel" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Party paId="13790" abbreviation="SNP" name="Scottish National Party" votes="108448" percentageShare="30.96" percentageShareChange="-8.81" />
+      <Party paId="13786" abbreviation="C" name="Conservative" votes="88540" percentageShare="25.28" percentageShareChange="+0.31" />
+      <Party paId="13787" abbreviation="Lab" name="Labour" votes="78727" percentageShare="22.47" percentageShareChange="+7.18" />
+      <Party paId="13789" abbreviation="LD" name="Liberal Democrat" votes="46226" percentageShare="13.20" percentageShareChange="+5.79" />
+      <Party paId="13813" abbreviation="Reform" name="Reform UK" votes="10695" percentageShare="3.05" percentageShareChange="+2.82" />
+      <Party paId="13791" abbreviation="Green" name="Green" votes="4947" percentageShare="1.41" percentageShareChange="-6.92" />
+      <Party paId="13810" abbreviation="Alba" name="Alba Party" votes="3855" percentageShare="1.10" percentageShareChange="-0.61" />
+      <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" votes="1461" percentageShare="0.42" percentageShareChange="-0.14" />
+      <Party paId="13886" abbreviation="Ind" name="Independent" votes="1353" percentageShare="0.39" />
+      <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" votes="1333" percentageShare="0.38" percentageShareChange="+0.26" />
+      <Party paId="13830" abbreviation="Unity" name="All For Unity" votes="1078" percentageShare="0.31" percentageShareChange="-0.44" />
+      <Party paId="13834" abbreviation="Renew" name="Renew" votes="918" percentageShare="0.26" percentageShareChange="+0.23" />
+      <Party paId="13825" abbreviation="ND" name="No Description" votes="914" percentageShare="0.26" percentageShareChange="+0.25" />
+      <Party paId="13828" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" votes="709" percentageShare="0.20" percentageShareChange="-0.07" />
+      <Party paId="13856" abbreviation="SLP" name="Scottish Libertarian Party" votes="553" percentageShare="0.16" percentageShareChange="-0.08" />
+      <Party paId="13826" abbreviation="FA" name="Freedom Alliance" votes="544" percentageShare="0.16" percentageShareChange="-0.09" />
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="105" name="Scotland Mid &amp; Fife" turnout="344059" percentageTurnout="65.38" winningParty="SNP" majority="50916" percentageMajority="14.80">
+      <Candidate elected="*" paId="253215" firstName="Murdo" surname="Fraser" ballotName="Fraser, Murdo" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253219" firstName="Liz" surname="Smith" ballotName="Smith, Liz" sex="F">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253207" firstName="Dean" surname="Lockhart" ballotName="Lockhart, Dean" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="252305" firstName="Alexander" surname="Stewart" ballotName="Stewart, Alexander" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253293" firstName="Claire" surname="Baker" ballotName="Baker, Claire" sex="F">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="253155" firstName="Alex" surname="Rowley" ballotName="Rowley, Alex" sex="M">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="252700" firstName="Mark" surname="Ruskell" ballotName="Ruskell, Mark" sex="M">
+        <Party paId="10350" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Party paId="10349" abbreviation="SNP" name="Scottish National Party" votes="136825" percentageShare="39.77" />
+      <Party paId="10345" abbreviation="C" name="Conservative" votes="85909" percentageShare="24.97" candidatesElected="4" />
+      <Party paId="10346" abbreviation="Lab" name="Labour" votes="52626" percentageShare="15.30" candidatesElected="2" />
+      <Party paId="10350" abbreviation="Green" name="Green" votes="28654" percentageShare="8.33" candidatesElected="1" />
+      <Party paId="10348" abbreviation="LD" name="Liberal Democrat" votes="25489" percentageShare="7.41" />
+      <Party paId="10624" abbreviation="Alba" name="Alba Party" votes="5893" percentageShare="1.71" />
+      <Party paId="10637" abbreviation="Unity" name="All For Unity" votes="2578" percentageShare="0.75" />
+      <Party paId="10634" abbreviation="SFP" name="Scottish Family Party" votes="1920" percentageShare="0.56" />
+      <Party paId="10636" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" votes="945" percentageShare="0.27" />
+      <Party paId="10635" abbreviation="FA" name="Freedom Alliance" votes="837" percentageShare="0.24" />
+      <Party paId="10397" abbreviation="SLP" name="Scottish Libertarian Party" votes="818" percentageShare="0.24" />
+      <Party paId="10626" abbreviation="Reform UK" name="Reform UK" votes="808" percentageShare="0.23" />
+      <Party paId="10409" abbreviation="UKIP" name="UK Independence Party" votes="399" percentageShare="0.12" />
+      <Party paId="10668" abbreviation="Ind" name="Independent Martin Keatings" votes="230" percentageShare="0.07" />
+      <Party paId="10639" abbreviation="Renew" name="Renew" votes="99" percentageShare="0.03" />
+      <Party paId="10379" abbreviation="ND" name="No Description" votes="29" percentageShare="0.01" />
+    </Constituency>
+  </PreviousElection>
+</TopUpResult>

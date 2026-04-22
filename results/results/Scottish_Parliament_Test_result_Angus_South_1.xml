@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:46:38+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="9" name="Angus South" electorate="59472" turnout="41068" percentageTurnout="69.05" percentageChangeTurnout="+4.14" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="4129" percentageMajority="10.05" percentageChangeMajority="-5.79" swing="12.95" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299620" firstName="Tony" surname="Baxter Test" ballotName="Baxter Test, Anthony Edward">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="19006" percentageShare="46.28" percentageShareChange="+11.44" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299623" firstName="Les" surname="Harris Test" ballotName="Harris Test, Leslie James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="14877" percentageShare="36.23" percentageShareChange="-14.46" />
+      </Candidate>
+      <Candidate paId="299621" firstName="Nathan" surname="Hall Test" ballotName="Hall Test, Nathan Percy">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="4610" percentageShare="11.23" percentageShareChange="+1.84" />
+      </Candidate>
+      <Candidate paId="299622" firstName="Karolina" surname="White Test" ballotName="White Test, Karolina Jennifer">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2575" percentageShare="6.27" percentageShareChange="+1.18" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="9" name="Angus South" turnout="38608" percentageTurnout="64.92" winningParty="SNP" majority="6117" percentageMajority="15.84">
+      <Candidate paId="251872" firstName="Graeme" surname="Dey" ballotName="Dey, Graeme James" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19568" percentageShare="50.68" />
+      </Candidate>
+      <Candidate paId="252154" firstName="Maurice" surname="Golden" ballotName="Golden, Maurice" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="13451" percentageShare="34.84" />
+      </Candidate>
+      <Candidate paId="252061" firstName="Graeme" surname="McKenzie" ballotName="McKenzie, Graeme Angus" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="3625" percentageShare="9.39" />
+      </Candidate>
+      <Candidate paId="253167" firstName="Ben" surname="Lawrie" ballotName="Lawrie, Ben George" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1964" percentageShare="5.09" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

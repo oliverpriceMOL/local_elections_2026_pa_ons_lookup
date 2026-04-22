@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpNominations revision="1">
+  <Election name="Welsh Parliament Test" date="2026-05-06" type="W">
+    <Constituency number="1" name="Afan Ogwr Rhondda" electorate="143374">
+      <Candidate paId="299954" previousSittingMember="*" firstName="Pete" surname="Nicholls Test" ballotName="Nicholls Test, Peter Andrew" partyListRank="1">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299955" firstName="Martin" surname="Henry Test" ballotName="Henry Test, Martin Steven" partyListRank="2">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299956" firstName="Liz" surname="Brown Test" ballotName="Brown Test, Elizabeth Willow" partyListRank="3">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299957" firstName="Eric" surname="Vaughan Test" ballotName="Vaughan Test, Eric Timothy" partyListRank="4">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299958" firstName="Amina" surname="Bhatti Test" ballotName="Bhatti Test, Amina Jennifer" partyListRank="5">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299959" firstName="Thomas" surname="Chadwick Test" ballotName="Chadwick Test, Thomas" partyListRank="6">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299960" firstName="Molly" surname="Miller Test" ballotName="Miller Test, Molly Mabel" partyListRank="7">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299961" firstName="Sophie" surname="Rhodes Test" ballotName="Rhodes Test, Sophie Mary" partyListRank="8">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate paId="299962" firstName="Huw" surname="Fowler Test" ballotName="Fowler Test, Huw Keith" partyListRank="1">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="299963" firstName="Judith" surname="Gill Test" ballotName="Gill Test, Judith" partyListRank="2">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="299964" firstName="Frederick" surname="Moore Test" ballotName="Moore Test, Frederick Robert" partyListRank="3">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="299965" firstName="Sophia" surname="Bates Test" ballotName="Bates Test, Sophia Aoife" partyListRank="4">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate paId="299966" firstName="Hannah" surname="Ford Test" ballotName="Ford Test, Hannah Angela" partyListRank="1">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="299967" firstName="Riley" surname="Ward Test" ballotName="Ward Test, Riley John" partyListRank="2">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="299968" firstName="Simon" surname="Richards Test" ballotName="Richards Test, Simon John" partyListRank="3">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="299969" firstName="Barbara" surname="James Test" ballotName="James Test, Barbara Mabel" partyListRank="4">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="299970" firstName="Rukhsana" surname="Scott Test" ballotName="Scott Test, Rukhsana Aoife" partyListRank="5">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate paId="299971" firstName="Vince" surname="Parkinson Test" ballotName="Parkinson Test, Vincent John" partyListRank="1">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299972" firstName="Harper" surname="Jones Test" ballotName="Jones Test, Harper Carol" partyListRank="2">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299973" firstName="Patrick" surname="Nicholls Test" ballotName="Nicholls Test, Patrick David" partyListRank="3">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299974" firstName="John" surname="Pearce Test" ballotName="Pearce Test, John Archibald" partyListRank="4">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299975" firstName="Beryl" surname="Richardson Test" ballotName="Richardson Test, Beryl" partyListRank="5">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299976" firstName="John" surname="Bennett Test" ballotName="Bennett Test, John Andrew" partyListRank="6">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299977" firstName="Andrew" surname="White Test" ballotName="White Test, Andrew Timothy" partyListRank="7">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299978" firstName="Dave" surname="Harper Test" ballotName="Harper Test, David Gary" partyListRank="8">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate paId="299979" firstName="Timothy" surname="Richards Test" ballotName="Richards Test, Timothy Philip" partyListRank="1">
+        <Party paId="13706" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="299980" firstName="Frank" surname="Fraser Test" ballotName="Fraser Test, Francis" partyListRank="2">
+        <Party paId="13706" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="299981" firstName="Lily" surname="Parker Test" ballotName="Parker Test, Lily Natasha" partyListRank="3">
+        <Party paId="13706" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="299982" firstName="Dave" surname="Wood Test" ballotName="Wood Test, David" partyListRank="4">
+        <Party paId="13706" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Candidate paId="300004" firstName="David" surname="Ward Test" ballotName="Ward Test, David Hamza" partyListRank="1">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300005" firstName="Jo" surname="Smith Test" ballotName="Smith Test, Josephine Siobhan" partyListRank="2">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300006" firstName="Jim" surname="Hussain Test" ballotName="Hussain Test, James Raj" partyListRank="3">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300007" firstName="James" surname="Norman Test" ballotName="Norman Test, James David" partyListRank="4">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="300008" firstName="Dave" surname="Holland Test" ballotName="Holland Test, David John" partyListRank="5">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Candidate paId="299983" firstName="John" surname="Dennis Test" ballotName="Dennis Test, John Peter" partyListRank="1">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299984" firstName="Gillian" surname="Ward Test" ballotName="Ward Test, Gillian" partyListRank="2">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299985" firstName="Eleanor" surname="Heath Test" ballotName="Heath Test, Eleanor Ngozi" partyListRank="3">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299986" firstName="Millie" surname="Williams Test" ballotName="Williams Test, Millicent Jennifer" partyListRank="4">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299987" firstName="Isla" surname="Robinson Test" ballotName="Robinson Test, Isla Olive" partyListRank="5">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299988" firstName="David" surname="Collier Test" ballotName="Collier Test, David John" partyListRank="6">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299989" firstName="Adrian" surname="Austin Test" ballotName="Austin Test, Adrian Robert" partyListRank="7">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="299990" firstName="John" surname="Patel Test" ballotName="Patel Test, John Raymond" partyListRank="8">
+        <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" />
+      </Candidate>
+      <Candidate paId="300013" firstName="Steven" surname="Ball Test" ballotName="Ball Test, Steven Michael" partyListRank="1">
+        <Party paId="13714" abbreviation="Comm Brit" name="Communist Party of Britain" />
+      </Candidate>
+      <Candidate paId="300014" firstName="Andy" surname="Clark Test" ballotName="Clark Test, Andrew Michael" partyListRank="2">
+        <Party paId="13714" abbreviation="Comm Brit" name="Communist Party of Britain" />
+      </Candidate>
+      <Candidate paId="300015" firstName="Emma" surname="Gill Test" ballotName="Gill Test, Emma" partyListRank="3">
+        <Party paId="13714" abbreviation="Comm Brit" name="Communist Party of Britain" />
+      </Candidate>
+      <Candidate paId="300016" firstName="Steve" surname="Patel Test" ballotName="Patel Test, Steven Gordon" partyListRank="4">
+        <Party paId="13714" abbreviation="Comm Brit" name="Communist Party of Britain" />
+      </Candidate>
+      <Candidate paId="300009" firstName="Steve" surname="Carr Test" ballotName="Carr Test, Steven David" partyListRank="1">
+        <Party paId="13711" abbreviation="Gwlad" name="Gwlad" />
+      </Candidate>
+      <Candidate paId="300010" firstName="Pete" surname="Taylor Test" ballotName="Taylor Test, Peter Michael" partyListRank="2">
+        <Party paId="13711" abbreviation="Gwlad" name="Gwlad" />
+      </Candidate>
+      <Candidate paId="300011" firstName="Nicki" surname="Williams Test" ballotName="Williams Test, Nicola Lynne" partyListRank="3">
+        <Party paId="13711" abbreviation="Gwlad" name="Gwlad" />
+      </Candidate>
+      <Candidate paId="300012" firstName="Dorota" surname="Nolan Test" ballotName="Nolan Test, Dorota Pearl" partyListRank="4">
+        <Party paId="13711" abbreviation="Gwlad" name="Gwlad" />
+      </Candidate>
+      <Candidate paId="300020" firstName="Rob" surname="Kirk Test" ballotName="Kirk Test, Robert Ronald" partyListRank="1">
+        <Party paId="13918" abbreviation="Ind" name="Independent" />
+      </Candidate>
+      <Candidate paId="300000" firstName="Alice" surname="Thomson Test" ballotName="Thomson Test, Alice" partyListRank="1">
+        <Party paId="13731" abbreviation="Propel" name="Propel" />
+      </Candidate>
+      <Candidate paId="300001" firstName="Sophia" surname="Flynn Test" ballotName="Flynn Test, Sophia Saoirse" partyListRank="2">
+        <Party paId="13731" abbreviation="Propel" name="Propel" />
+      </Candidate>
+      <Candidate paId="300002" firstName="Elizabeth" surname="Smith Test" ballotName="Smith Test, Elizabeth Jane" partyListRank="3">
+        <Party paId="13731" abbreviation="Propel" name="Propel" />
+      </Candidate>
+      <Candidate paId="300003" firstName="Dave" surname="Wright Test" ballotName="Wright Test, David Geoffrey" partyListRank="4">
+        <Party paId="13731" abbreviation="Propel" name="Propel" />
+      </Candidate>
+      <Candidate paId="299991" firstName="Clare" surname="Carr Test" ballotName="Carr Test, Clare Priya" partyListRank="1">
+        <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="299992" firstName="Bethan" surname="Webb Test" ballotName="Webb Test, Bethan Flora" partyListRank="2">
+        <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="299993" firstName="David" surname="Taylor Test" ballotName="Taylor Test, David Brendan" partyListRank="3">
+        <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="299994" firstName="Andrew" surname="Godfrey Test" ballotName="Godfrey Test, Andrew William" partyListRank="4">
+        <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="299995" firstName="Brian" surname="Davies Test" ballotName="Davies Test, Brian Stephen" partyListRank="5">
+        <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" />
+      </Candidate>
+      <Candidate paId="299996" firstName="Georgia" surname="Bowen Test" ballotName="Bowen Test, Georgia Natasha" partyListRank="1">
+        <Party paId="13710" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="299997" firstName="Dick" surname="Lane Test" ballotName="Lane Test, Richard John" partyListRank="2">
+        <Party paId="13710" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="299998" firstName="Heather" surname="Kemp Test" ballotName="Kemp Test, Heather Carol" partyListRank="3">
+        <Party paId="13710" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="299999" firstName="Gordon" surname="Smith Test" ballotName="Smith Test, Gordon Paul" partyListRank="4">
+        <Party paId="13710" abbreviation="UKIP" name="UK Independence Party" />
+      </Candidate>
+      <Candidate paId="300017" firstName="Violet" surname="Walsh Test" ballotName="Walsh Test, Violet" partyListRank="1">
+        <Party paId="13750" abbreviation="WP" name="Workers Party" />
+      </Candidate>
+      <Candidate paId="300018" firstName="John" surname="Young Test" ballotName="Young Test, John Robert" partyListRank="2">
+        <Party paId="13750" abbreviation="WP" name="Workers Party" />
+      </Candidate>
+      <Candidate paId="300019" firstName="Aoife" surname="Davies Test" ballotName="Davies Test, Aoife Nicola" partyListRank="3">
+        <Party paId="13750" abbreviation="WP" name="Workers Party" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpNominations>

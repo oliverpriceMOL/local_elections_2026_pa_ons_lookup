@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Merton' paId='4840' type='London' proportion='all' winningParty='LD' gainOrHold='gain' sittingParty='Lab'>
+      <Changes>
+        <Party name='LD' paId='667' change='+12'/>
+        <Party name='R' paId='663' change='+1'/>
+        <Party name='Lab' paId='662' change='-10'/>
+        <Party name='C' paId='659' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='29'/>
+        <Party name='Lab' paId='662' seats='20'/>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='R' paId='663' seats='3'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="3" declarationTime="2026-04-01T12:40:00+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="12" name="Banffshire &amp; Buchan Coast" electorate="61993" percentageBoundaryChange="5.00" turnout="38548" percentageTurnout="62.18" percentageChangeTurnout="+5.78" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="4810" percentageMajority="12.48" percentageChangeMajority="+11.51" swing="6.72" swingTo="SNP" swingFrom="C">
+      <Candidate elected="*" paId="299636" firstName="Phil" surname="Goodwin Test" ballotName="Goodwin Test, Philip Harrison">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="19196" percentageShare="49.80" />
+      </Candidate>
+      <Candidate paId="299633" firstName="Molly" surname="Hughes Test" ballotName="Hughes Test, Molly Maisie">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="14386" percentageShare="37.32" />
+      </Candidate>
+      <Candidate paId="299634" firstName="Ella" surname="Smith Test" ballotName="Smith Test, Ella Janet">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="2702" percentageShare="7.01" />
+      </Candidate>
+      <Candidate paId="299635" firstName="Jill" surname="Reed Test" ballotName="Reed Test, Jill Lynne">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1533" percentageShare="3.98" />
+      </Candidate>
+      <Candidate paId="299638" firstName="Craig" surname="West Test" ballotName="West Test, Craig John">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" votes="561" percentageShare="1.46" />
+      </Candidate>
+      <Candidate paId="299637" firstName="Harold" surname="Miller Test" ballotName="Miller Test, Harold Edward">
+        <Party paId="13819" name="Restore Scotland" abbreviation="RS" votes="170" percentageShare="0.44" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="12" name="Banffshire &amp; Buchan Coast" turnout="34966" percentageTurnout="56.40" winningParty="C" majority="338" percentageMajority="0.97">
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="13923" percentageShare="39.82" />
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="13585" percentageShare="38.85" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="2388" percentageShare="6.83" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1411" percentageShare="4.04" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="1271" percentageShare="3.63" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="1197" percentageShare="3.42" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="1015" percentageShare="2.90" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="176" percentageShare="0.50" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

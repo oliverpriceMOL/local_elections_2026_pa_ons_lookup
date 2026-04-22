@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hart' paId='4785' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='LD' paId='667' seats='6'/>
+        <Party name='R' paId='663' seats='3'/>
+        <Party name='C' paId='659' seats='2'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='C' paId='659' change='-1'/>
+        <Party name='R' paId='663' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='14'/>
+        <Party name='R' paId='663' seats='10'/>
+        <Party name='C' paId='659' seats='8'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

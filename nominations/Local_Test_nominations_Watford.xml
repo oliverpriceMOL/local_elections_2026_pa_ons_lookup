@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Watford' paId='4809' type='Non-Met' proportion='third'>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='6' seatsOffered='2' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='30' seatsOffered='10' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

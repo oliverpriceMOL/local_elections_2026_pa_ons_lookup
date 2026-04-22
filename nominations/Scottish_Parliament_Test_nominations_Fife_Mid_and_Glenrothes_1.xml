@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="56" name="Fife Mid &amp; Glenrothes" electorate="54658">
+      <Candidate paId="299856" firstName="Farhan" surname="Howard Test" ballotName="Howard Test, Farhan Robert">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299857" firstName="George" surname="Simpson Test" ballotName="Simpson Test, George Michael">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299858" firstName="Ruby" surname="Jackson Test" ballotName="Jackson Test, Ruby Evelyn">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299859" previousSittingMember="*" firstName="Peter" surname="Williams Test" ballotName="Williams Test, Peter John">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299860" firstName="Neil" surname="Wilkinson Test" ballotName="Wilkinson Test, Neil Robin">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="40" name="Fife Mid &amp; Glenrothes" turnout="32670" percentageTurnout="59.77" winningParty="SNP" majority="10234" percentageMajority="31.33">
+      <Candidate paId="251780" firstName="Jenny" surname="Gilruth" ballotName="Gilruth, Jenny" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18115" percentageShare="55.45" />
+      </Candidate>
+      <Candidate paId="252042" firstName="Altany" surname="Craik" ballotName="Craik, Altany" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="7881" percentageShare="24.12" />
+      </Candidate>
+      <Candidate paId="253264" firstName="David" surname="MacPhee" ballotName="MacPhee, David" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4500" percentageShare="13.77" />
+      </Candidate>
+      <Candidate paId="252720" firstName="Jane Ann" surname="Liston" ballotName="Liston, Jane Ann" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1789" percentageShare="5.48" />
+      </Candidate>
+      <Candidate paId="252049" firstName="Steve" surname="Saunders" ballotName="Saunders, Steve" sex="M">
+        <Party paId="10634" name="Scottish Family Party" abbreviation="SFP" votes="385" percentageShare="1.18" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of running totals messages for referendums
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+The Answer element is the smallest unit in a referendum running totals message.  It contains the answer text (short and long forms) and the number and percentage of voters who chose this answer.
+  -->
+  <xs:complexType name="Answer">
+    <xs:attribute name="text" type="xs:string" use="required"/>
+    <xs:attribute name="shortText" type="xs:string" use="required"/>
+    <xs:attribute name="votingAreas" type="xs:int" use="required"/>
+    <xs:attribute name="votes" type="xs:int" use="required"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="required"/>
+  </xs:complexType>
+  <!--
+  The Tied element details how many areas are tied on the containing proposition -->
+  <xs:complexType name="Tied">
+    <xs:attribute name="votingAreas" type="xs:int" use="required"/>
+  </xs:complexType>
+  <!--
+A Proposition element just contains the basic details of the proposition.
+  -->
+  <xs:complexType name="Proposition">
+    <xs:sequence>
+      <xs:element name="Answer" type="Answer" minOccurs="1" maxOccurs="unbounded"/>
+      <xs:element name="Tied" type="Tied" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="text" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <!--
+The Referendum element contains Proposition elements.
+  -->
+  <xs:complexType name="Referendum">
+    <xs:sequence>
+      <xs:element name="Proposition" type="Proposition"
+                  minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+  </xs:complexType>
+  <!--
+This is the root element.  It contains a Referendum element, with the
+running totals so far for the voting area in this referendum.
+  -->
+  <xs:element name="RunningTotals">
+    <xs:annotation>
+      <xs:documentation>Running totals in a referendum</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Referendum" type="Referendum"
+                    minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+      <xs:attribute name="numberOfResults" type="xs:int" use="required"/>
+      <xs:attribute name="totalVotingAreas" type="xs:int" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

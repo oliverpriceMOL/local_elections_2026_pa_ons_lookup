@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Lewisham' paId='4839' type='London' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Green' paId='660' change='+6'/>
+        <Party name='Lab' paId='662' change='-6'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='44'/>
+        <Party name='Green' paId='660' seats='10'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

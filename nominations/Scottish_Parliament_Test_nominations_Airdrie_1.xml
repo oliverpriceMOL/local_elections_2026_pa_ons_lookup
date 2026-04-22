@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="6" name="Airdrie" electorate="54147">
+      <Candidate paId="299607" firstName="Ken" surname="Elliott Test" ballotName="Elliott Test, Kenneth Alan">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299608" previousSittingMember="+" firstName="Hazel" surname="Nicholson Test" ballotName="Nicholson Test, Hazel Catherine">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299609" firstName="Stephen" surname="Sheppard Test" ballotName="Sheppard Test, Stephen William">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299610" firstName="Nisha" surname="Greenwood Test" ballotName="Greenwood Test, Nisha">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299611" firstName="Leo" surname="Law Test" ballotName="Law Test, Leo Brian">
+        <Party paId="13825" name="No Description" abbreviation="ND" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="6" name="Airdrie &amp; Shotts" turnout="31926" percentageTurnout="58.96" winningParty="SNP" majority="5468" percentageMajority="17.13">
+      <Candidate paId="251916" firstName="Neil" surname="Gray" ballotName="Gray, Neil Charles" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16139" percentageShare="50.55" />
+      </Candidate>
+      <Candidate paId="253166" firstName="Richard" surname="Leonard" ballotName="Leonard, Richard" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10671" percentageShare="33.42" />
+      </Candidate>
+      <Candidate paId="253165" firstName="Ross" surname="Lambie" ballotName="Lambie, Ross" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4422" percentageShare="13.85" />
+      </Candidate>
+      <Candidate paId="252172" firstName="John" surname="Cole" ballotName="Cole, John Arthur Henry" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="562" percentageShare="1.76" />
+      </Candidate>
+      <Candidate paId="252174" firstName="Jimmy" surname="Dowson" ballotName="Dowson, Jimmy" sex="M">
+        <Party paId="10379" name="No Description" abbreviation="ND" votes="132" percentageShare="0.41" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

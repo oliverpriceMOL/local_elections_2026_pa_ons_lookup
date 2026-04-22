@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:07:05+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="22" name="Cunninghame North" electorate="57714" turnout="39416" percentageTurnout="68.30" percentageChangeTurnout="+3.87" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="5459" percentageMajority="13.85" percentageChangeMajority="-7.06" swing="17.38" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299680" firstName="Margaret" surname="Lewis Test" ballotName="Lewis Test, Margaret Enid">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="17435" percentageShare="44.23" percentageShareChange="+16.12" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299683" firstName="John" surname="Parkes Test" ballotName="Parkes Test, John William">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="11976" percentageShare="30.38" percentageShareChange="-18.64" />
+      </Candidate>
+      <Candidate paId="299681" firstName="Ruth" surname="Chapman Test" ballotName="Chapman Test, Ruth">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="8736" percentageShare="22.16" percentageShareChange="+1.90" />
+      </Candidate>
+      <Candidate paId="299682" firstName="Rob" surname="Smith Test" ballotName="Smith Test, Robert Christopher">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1269" percentageShare="3.22" percentageShareChange="+0.62" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="21" name="Cunninghame North" turnout="37181" percentageTurnout="64.42" winningParty="SNP" majority="7776" percentageMajority="20.91">
+      <Candidate paId="251982" firstName="Kenneth" surname="Gibson" ballotName="Gibson, Kenneth J" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18227" percentageShare="49.02" />
+      </Candidate>
+      <Candidate paId="253202" firstName="Jamie" surname="Greene" ballotName="Greene, Jamie" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="10451" percentageShare="28.11" />
+      </Candidate>
+      <Candidate paId="253201" firstName="Katy" surname="Clark" ballotName="Clark, Katy" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="7536" percentageShare="20.27" />
+      </Candidate>
+      <Candidate paId="253203" firstName="Ruby" surname="Kirkwood" ballotName="Kirkwood, Ruby" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="967" percentageShare="2.60" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

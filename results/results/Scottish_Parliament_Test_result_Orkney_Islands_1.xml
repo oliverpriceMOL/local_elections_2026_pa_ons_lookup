@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:09:10+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="62" name="Orkney Islands" electorate="17728" turnout="12853" percentageTurnout="72.50" percentageChangeTurnout="+7.09" winningParty="LD" gainOrHold="hold" sittingParty="LD" majority="11853" percentageMajority="92.22" percentageChangeMajority="+58.85" swing="29.43" swingTo="LD" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299890" firstName="Mark" surname="Curtis Test" ballotName="Curtis Test, Mark Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="12212" percentageShare="95.01" percentageShareChange="+32.59" />
+      </Candidate>
+      <Candidate paId="299891" firstName="George" surname="Fox Test" ballotName="Fox Test, George Anthony">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="359" percentageShare="2.79" percentageShareChange="-26.26" />
+      </Candidate>
+      <Candidate paId="299888" firstName="Hilary" surname="Whitehouse Test" ballotName="Whitehouse Test, Hilary">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="203" percentageShare="1.58" percentageShareChange="-4.45" />
+      </Candidate>
+      <Candidate paId="299889" firstName="Phil" surname="Reeves Test" ballotName="Reeves Test, Philip Steven">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="79" percentageShare="0.61" percentageShareChange="-1.89" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="62" name="Orkney Islands" turnout="11596" percentageTurnout="65.41" winningParty="LD" majority="3869" percentageMajority="33.36">
+      <Candidate paId="251802" firstName="Liam" surname="McArthur" ballotName="McArthur, Liam Scott" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="7238" percentageShare="62.42" />
+      </Candidate>
+      <Candidate paId="251931" firstName="Robert" surname="Leslie" ballotName="Leslie, Robert Leslie" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="3369" percentageShare="29.05" />
+      </Candidate>
+      <Candidate paId="252030" firstName="Samuel" surname="Bown" ballotName="Bown, Samuel" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="699" percentageShare="6.03" />
+      </Candidate>
+      <Candidate paId="253310" firstName="Coilla" surname="Drake" ballotName="Drake, Coilla" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="290" percentageShare="2.50" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

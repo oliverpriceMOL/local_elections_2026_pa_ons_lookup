@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:54:57+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="24" name="Dumbarton" electorate="56296" turnout="41359" percentageTurnout="73.47" percentageChangeTurnout="+5.15" winningParty="Lab" gainOrHold="hold" sittingParty="Lab" majority="16465" percentageMajority="39.81" percentageChangeMajority="+35.95" swing="17.98" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299690" firstName="Steven" surname="Ritchie Test" ballotName="Ritchie Test, Steven Paul">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="25501" percentageShare="61.66" percentageShareChange="+15.31" />
+      </Candidate>
+      <Candidate paId="299692" firstName="John" surname="Jones Test" ballotName="Jones Test, John">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="9036" percentageShare="21.85" percentageShareChange="-20.64" />
+      </Candidate>
+      <Candidate paId="299689" firstName="Andy" surname="Spencer Test" ballotName="Spencer Test, Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="4965" percentageShare="12.00" percentageShareChange="+3.67" />
+      </Candidate>
+      <Candidate paId="299691" firstName="Phyllis" surname="Lowe Test" ballotName="Lowe Test, Phyllis Rani">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1007" percentageShare="2.43" percentageShareChange="+0.68" />
+      </Candidate>
+      <Candidate paId="299693" firstName="Dot" surname="Harris Test" ballotName="Harris Test, Dorothy Anne">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="489" percentageShare="1.18" percentageShareChange="+0.83" />
+      </Candidate>
+      <Candidate paId="299694" firstName="Mick" surname="O'Donnell Test" ballotName="O'Donnell Test, Michael David">
+        <Party paId="13945" name="Independent Mick O'Donnell Test" abbreviation="Ind" votes="278" percentageShare="0.67" />
+      </Candidate>
+      <Candidate paId="299695" firstName="Annie" surname="Cook Test" ballotName="Cook Test, Anne Fiona">
+        <Party paId="13946" name="Independent Annie Cook Test" abbreviation="Ind" votes="83" percentageShare="0.20" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="23" name="Dumbarton" turnout="38459" percentageTurnout="68.32" winningParty="Lab" majority="1483" percentageMajority="3.86">
+      <Candidate paId="253191" firstName="Jackie" surname="Baillie" ballotName="Baillie, Jackie" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="17825" percentageShare="46.35" />
+      </Candidate>
+      <Candidate paId="251882" firstName="Toni" surname="Giugliano" ballotName="Giugliano, Toni" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16342" percentageShare="42.49" />
+      </Candidate>
+      <Candidate paId="253192" firstName="Maurice" surname="Corry" ballotName="Corry, Maurice" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="3205" percentageShare="8.33" />
+      </Candidate>
+      <Candidate paId="252025" firstName="Andy" surname="Foxall" ballotName="Foxall, Andy" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="676" percentageShare="1.76" />
+      </Candidate>
+      <Candidate paId="253193" firstName="James" surname="Morrison" ballotName="Morrison, James" sex="M">
+        <Party paId="10702" name="Independent James Morrison" abbreviation="Ind" votes="183" percentageShare="0.48" />
+      </Candidate>
+      <Candidate paId="253194" firstName="Jonathan" surname="Rainey" ballotName="Rainey, Jonathan" sex="M">
+        <Party paId="10397" name="Scottish Libertarian Party" abbreviation="SLP" votes="134" percentageShare="0.35" />
+      </Candidate>
+      <Candidate paId="252028" firstName="Andrew" surname="Muir" ballotName="Muir, Andrew" sex="M">
+        <Party paId="10642" name="Independent Andrew Muir" abbreviation="Ind" votes="94" percentageShare="0.24" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

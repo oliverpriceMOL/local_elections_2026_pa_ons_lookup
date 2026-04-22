@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:06:31+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="35" name="Edinburgh North Western" electorate="58218" percentageBoundaryChange="17.60" turnout="36334" percentageTurnout="62.41" percentageChangeTurnout="-11.80" winningParty="LD" gainOrHold="hold" sittingParty="LD" majority="3554" percentageMajority="9.78" percentageChangeMajority="+4.16" swing="10.46" swingTo="LD" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299749" firstName="Angela" surname="Williamson Test" ballotName="Williamson Test, Angela">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="13247" percentageShare="36.46" />
+      </Candidate>
+      <Candidate paId="299747" firstName="Steven" surname="Taylor Test" ballotName="Taylor Test, Steven Christopher">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="9693" percentageShare="26.68" />
+      </Candidate>
+      <Candidate paId="299750" firstName="Hazel" surname="Evans Test" ballotName="Evans Test, Hazel Mia">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="7684" percentageShare="21.15" />
+      </Candidate>
+      <Candidate paId="299748" firstName="Lucas" surname="Walker Test" ballotName="Walker Test, Lucas David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="5597" percentageShare="15.40" />
+      </Candidate>
+      <Candidate paId="299751" firstName="Robert" surname="Kelly Test" ballotName="Kelly Test, Robert Michael">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="113" percentageShare="0.31" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="35" name="Edinburgh North Western" turnout="43206" percentageTurnout="74.21" winningParty="SNP" majority="2427" percentageMajority="5.62">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="13026" percentageShare="30.15" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="10599" percentageShare="24.53" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="8837" percentageShare="20.45" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="5295" percentageShare="12.26" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="3824" percentageShare="8.85" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1003" percentageShare="2.32" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="567" percentageShare="1.31" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="55" percentageShare="0.13" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

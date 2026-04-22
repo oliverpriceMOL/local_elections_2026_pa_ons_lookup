@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:28:33+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="60" name="Motherwell &amp; Wishaw" electorate="58152" turnout="34781" percentageTurnout="59.81" percentageChangeTurnout="+1.09" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="9804" percentageMajority="28.19" percentageChangeMajority="+5.31" swing="2.65" swingTo="SNP" swingFrom="Lab">
+      <Candidate elected="*" previousSittingMember="*" paId="299879" firstName="Dylan" surname="Allen Test" ballotName="Allen Test, Dylan Alexander">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="18241" percentageShare="52.45" percentageShareChange="-0.72" />
+      </Candidate>
+      <Candidate paId="299877" firstName="Heather" surname="Begum Test" ballotName="Begum Test, Heather Nisha">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="8437" percentageShare="24.26" percentageShareChange="-6.03" />
+      </Candidate>
+      <Candidate paId="299876" firstName="Mike" surname="Mills Test" ballotName="Mills Test, Michael William">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="6627" percentageShare="19.05" percentageShareChange="+5.96" />
+      </Candidate>
+      <Candidate paId="299878" firstName="Evie" surname="Smith Test" ballotName="Smith Test, Evelyn Molly">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="549" percentageShare="1.58" percentageShareChange="-0.05" />
+      </Candidate>
+      <Candidate paId="299882" firstName="Paul" surname="Smith Test" ballotName="Smith Test, Paul David">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" votes="484" percentageShare="1.39" percentageShareChange="+0.88" />
+      </Candidate>
+      <Candidate paId="299881" firstName="Georgia" surname="Wilkinson Test" ballotName="Wilkinson Test, Georgia">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="433" percentageShare="1.24" percentageShareChange="+0.50" />
+      </Candidate>
+      <Candidate paId="299880" firstName="Dick" surname="Arnold Test" ballotName="Arnold Test, Richard Rashid">
+        <Party paId="13804" name="Communist Party of Britain" abbreviation="Comm Brit" votes="10" percentageShare="0.03" percentageShareChange="-0.54" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="60" name="Motherwell &amp; Wishaw" turnout="34149" percentageTurnout="58.72" winningParty="SNP" majority="7813" percentageMajority="22.88">
+      <Candidate paId="251800" firstName="Clare" surname="Adamson" ballotName="Adamson, Clare" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18156" percentageShare="53.17" />
+      </Candidate>
+      <Candidate paId="253302" firstName="Martine" surname="Nolan" ballotName="Nolan, Martine" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10343" percentageShare="30.29" />
+      </Candidate>
+      <Candidate paId="253303" firstName="Nathan" surname="Wilson" ballotName="Wilson, Nathan" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4472" percentageShare="13.10" />
+      </Candidate>
+      <Candidate paId="252236" firstName="Martin" surname="Veart" ballotName="Veart, Martin" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="557" percentageShare="1.63" />
+      </Candidate>
+      <Candidate paId="253301" firstName="Mark" surname="Meechan" ballotName="Meechan, Mark" sex="M">
+        <Party paId="10397" name="Scottish Libertarian Party" abbreviation="SLP" votes="254" percentageShare="0.74" />
+      </Candidate>
+      <Candidate paId="252233" firstName="Daniel" surname="Lambe" ballotName="Lambe, Daniel Gerarde" sex="M">
+        <Party paId="10363" name="Communist Party of Britain" abbreviation="Comm Brit" votes="194" percentageShare="0.57" />
+      </Candidate>
+      <Candidate paId="253304" firstName="Neil" surname="Wilson" ballotName="Wilson, Neil" sex="M">
+        <Party paId="10409" name="UK Independence Party" abbreviation="UKIP" votes="173" percentageShare="0.51" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:11:06+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="3" name="Aberdeen Donside" electorate="62088" turnout="37410" percentageTurnout="60.25" percentageChangeTurnout="+2.42" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="10093" percentageMajority="26.98" percentageChangeMajority="+1.84" swing="0.92" swingTo="SNP" swingFrom="C">
+      <Candidate elected="*" paId="299597" firstName="Mark" surname="Smith Test" ballotName="Smith Test, Mark David">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="18665" percentageShare="49.89" percentageShareChange="-1.67" />
+      </Candidate>
+      <Candidate paId="299594" firstName="John" surname="Miller Test" ballotName="Miller Test, John Henry">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="8572" percentageShare="22.91" percentageShareChange="-3.51" />
+      </Candidate>
+      <Candidate paId="299595" firstName="Patrick" surname="Williams Test" ballotName="Williams Test, Patrick Barry">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="7902" percentageShare="21.12" percentageShareChange="+5.79" />
+      </Candidate>
+      <Candidate paId="299596" firstName="Clive" surname="Taylor Test" ballotName="Taylor Test, Clive Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2064" percentageShare="5.52" percentageShareChange="-0.50" />
+      </Candidate>
+      <Candidate paId="299598" firstName="Victoria" surname="Nicholson Test" ballotName="Nicholson Test, Victoria Carol">
+        <Party paId="13878" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" votes="207" percentageShare="0.55" percentageShareChange="-0.12" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="2" name="Aberdeen Donside" turnout="35909" percentageTurnout="57.84" winningParty="SNP" majority="9026" percentageMajority="25.14">
+      <Candidate paId="251868" firstName="Jackie" surname="Dunbar" ballotName="Dunbar, Jackie" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18514" percentageShare="51.56" />
+      </Candidate>
+      <Candidate paId="252159" firstName="Harriet" surname="Cross" ballotName="Cross, Harriet" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="9488" percentageShare="26.42" />
+      </Candidate>
+      <Candidate paId="252101" firstName="Heather" surname="Herbert" ballotName="Herbert, Heather" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="5505" percentageShare="15.33" />
+      </Candidate>
+      <Candidate paId="253161" firstName="Isobel" surname="Davidson" ballotName="Davidson, Isobel" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2162" percentageShare="6.02" />
+      </Candidate>
+      <Candidate paId="252100" firstName="Lucas" surname="Grant" ballotName="Grant, Lucas" sex="M">
+        <Party paId="10408" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" votes="240" percentageShare="0.67" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

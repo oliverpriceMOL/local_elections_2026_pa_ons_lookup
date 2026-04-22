@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Cheltenham' paId='4773' type='Non-Met' proportion='half'>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='1' seatsOffered='0' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='36' seatsOffered='18' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='3' seatsOffered='2' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

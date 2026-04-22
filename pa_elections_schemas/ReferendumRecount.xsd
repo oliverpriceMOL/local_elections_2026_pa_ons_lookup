@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of recount messages for referendums.
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <xs:complexType name="VotingArea">
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="recount" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!-- The root element is ReferendumRecount, and it contains a Referendum
+       element with a VotingArea element inside that.  The Recount
+       element does not contain any other information; its mere
+       presence indicates that a recount is taking place in the
+       referendum and voting area stated. -->
+  <xs:element name="ReferendumRecount">
+    <xs:annotation>
+      <xs:documentation>Notification of a recount in a single voting area</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Referendum">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VotingArea" type="VotingArea"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

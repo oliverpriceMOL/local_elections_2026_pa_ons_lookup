@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Colchester' paId='4776' type='Non-Met' proportion='all' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <Changes>
+        <Party name='LD' paId='667' change='+6'/>
+        <Party name='C' paId='659' change='-3'/>
+        <Party name='Lab' paId='662' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='20'/>
+        <Party name='C' paId='659' seats='16'/>
+        <Party name='Lab' paId='662' seats='11'/>
+        <Party name='Green' paId='660' seats='3'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

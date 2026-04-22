@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="25" name="Dumfriesshire" electorate="62116" gainOrHold="hold" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="C" sittingPartyName="Conservative" change="false" paStyleMessageText="Conservative hold Dumfriesshire">
+      <Candidate elected="*" previousSittingMember="*" paId="299696" firstName="Andy" surname="Price Test" ballotName="Price Test, Andrew Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299697" firstName="Rebecca" surname="Moore Test" ballotName="Moore Test, Rebecca Linda">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299698" firstName="Hamza" surname="Marshall Test" ballotName="Marshall Test, Hamza Dylan">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299699" firstName="Paul" surname="Davidson Test" ballotName="Davidson Test, Paul James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:40:02+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="25" name="Dumfriesshire" electorate="62116" turnout="38754" percentageTurnout="62.39" percentageChangeTurnout="-3.44" winningParty="C" gainOrHold="hold" sittingParty="C" majority="18453" percentageMajority="47.62" percentageChangeMajority="+37.67" swing="18.84" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299696" firstName="Andy" surname="Price Test" ballotName="Price Test, Andrew Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="25734" percentageShare="66.40" percentageShareChange="+18.75" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299699" firstName="Paul" surname="Davidson Test" ballotName="Davidson Test, Paul James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="7281" percentageShare="18.79" percentageShareChange="-18.92" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299697" firstName="Rebecca" surname="Moore Test" ballotName="Moore Test, Rebecca Linda">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="3939" percentageShare="10.16" percentageShareChange="-1.26" />
+      </Candidate>
+      <Candidate paId="299698" firstName="Hamza" surname="Marshall Test" ballotName="Marshall Test, Hamza Dylan">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1800" percentageShare="4.64" percentageShareChange="+1.43" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="24" name="Dumfriesshire" turnout="40893" percentageTurnout="65.83" winningParty="C" majority="4066" percentageMajority="9.94">
+      <Candidate paId="253212" firstName="Oliver" surname="Mundell" ballotName="Mundell, Oliver" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="19487" percentageShare="47.65" />
+      </Candidate>
+      <Candidate paId="251969" firstName="Joan" surname="McAlpine" ballotName="McAlpine, Joan" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="15421" percentageShare="37.71" />
+      </Candidate>
+      <Candidate paId="253213" firstName="Colin" surname="Smyth" ballotName="Smyth, Colin" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="4671" percentageShare="11.42" />
+      </Candidate>
+      <Candidate paId="253211" firstName="Richard" surname="Brodie" ballotName="Brodie, Richard John" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1314" percentageShare="3.21" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

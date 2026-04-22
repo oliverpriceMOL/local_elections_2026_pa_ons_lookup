@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Swindon' paId='4729' type='Unitary' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Green' paId='660' change='+5'/>
+        <Party name='Ind' paId='661' change='+2'/>
+        <Party name='LD' paId='667' change='+1'/>
+        <Party name='C' paId='659' change='-4'/>
+        <Party name='Lab' paId='662' change='-4'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='30'/>
+        <Party name='C' paId='659' seats='12'/>
+        <Party name='Green' paId='660' seats='9'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='LD' paId='667' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

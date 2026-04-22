@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Bradford' paId='4734' type='Metro' proportion='all'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='13' seatsOffered='13' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='5' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='10' seatsOffered='10' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='46' seatsOffered='46' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='16' seatsOffered='16' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

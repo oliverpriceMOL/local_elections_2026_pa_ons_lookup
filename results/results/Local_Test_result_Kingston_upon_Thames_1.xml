@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Kingston-upon-Thames' paId='4837' type='London' proportion='all' winningParty='LD' gainOrHold='no change' sittingParty='LD'>
+      <Changes>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='C' paId='659' change='-1'/>
+        <Party name='Ind' paId='661' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='44'/>
+        <Party name='Ind' paId='661' seats='3'/>
+        <Party name='C' paId='659' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

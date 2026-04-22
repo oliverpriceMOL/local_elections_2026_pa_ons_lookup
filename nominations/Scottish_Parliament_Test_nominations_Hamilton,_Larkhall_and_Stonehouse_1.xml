@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="51" name="Hamilton, Larkhall &amp; Stonehouse" electorate="59769">
+      <Candidate paId="299831" firstName="Linda" surname="Davies Test" ballotName="Davies Test, Linda Gillian">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299832" previousSittingMember="+" firstName="Tony" surname="Johnson Test" ballotName="Johnson Test, Anthony">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299833" firstName="Samantha" surname="Roberts Test" ballotName="Roberts Test, Samantha Rani">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299834" previousSittingMember="*" firstName="Jacob" surname="Taylor Test" ballotName="Taylor Test, Jacob Barry">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="52" name="Hamilton, Larkhall &amp; Stonehouse" turnout="36284" percentageTurnout="60.71" winningParty="SNP" majority="4582" percentageMajority="12.63">
+      <Candidate paId="251915" firstName="Christina" surname="McKelvie" ballotName="McKelvie, Christina" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16761" percentageShare="46.19" />
+      </Candidate>
+      <Candidate paId="253289" firstName="Monica" surname="Lennon" ballotName="Lennon, Monica" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="12179" percentageShare="33.57" />
+      </Candidate>
+      <Candidate paId="253287" firstName="Meghan" surname="Gallacher" ballotName="Gallacher, Meghan" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="6332" percentageShare="17.45" />
+      </Candidate>
+      <Candidate paId="253288" firstName="Mark" surname="McGeever" ballotName="McGeever, Mark" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1012" percentageShare="2.79" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+  <PreviousElection name="Hamilton, Larkhall &amp; Stonehouse SP by-election" date="2025-06-05" type="B">
+    <Constituency number="1" name="Hamilton, Larkhall &amp; Stonehouse SP by-election" turnout="27109" percentageTurnout="44.09" winningParty="Lab" majority="602" percentageMajority="2.22">
+      <Candidate paId="0" firstName="" surname="Russell" ballotName="Russell, Davy">
+        <Party paId="13519" name="Labour" abbreviation="Lab" votes="8559" percentageShare="31.57" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Loudon" ballotName="Loudon, Katy">
+        <Party paId="13521" name="Scottish National Party" abbreviation="SNP" votes="7957" percentageShare="29.35" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Lambie" ballotName="Lambie, Ross Alexander">
+        <Party paId="13523" name="Reform UK" abbreviation="Reform UK" votes="7088" percentageShare="26.15" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Nelson" ballotName="Nelson, Richard">
+        <Party paId="13518" name="Conservative" abbreviation="C" votes="1621" percentageShare="5.98" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="McGuinness" ballotName="McGuinness, Ann">
+        <Party paId="13522" name="Green" abbreviation="Green" votes="695" percentageShare="2.56" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Mir" ballotName="Mir, Aisha Jawaid">
+        <Party paId="13520" name="Liberal Democrat" abbreviation="LD" votes="533" percentageShare="1.97" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Bradley" ballotName="Bradley, Collette">
+        <Party paId="13526" name="Scottish Socialist Party" abbreviation="SSP" votes="278" percentageShare="1.03" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Brady" ballotName="Brady, Andy">
+        <Party paId="13525" name="Scottish Family Party" abbreviation="SFP" votes="219" percentageShare="0.81" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="Wilkinson" ballotName="Wilkinson, Marc">
+        <Party paId="13524" name="Independent" abbreviation="Ind" votes="109" percentageShare="0.40" />
+      </Candidate>
+      <Candidate paId="0" firstName="" surname="MacKay" ballotName="MacKay, Janice Elizabeth">
+        <Party paId="13527" name="UK Independence Party" abbreviation="UKIP" votes="50" percentageShare="0.18" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

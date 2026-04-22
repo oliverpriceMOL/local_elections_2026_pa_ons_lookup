@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="4" name="Aberdeenshire East" electorate="64059">
+      <Candidate paId="299599" firstName="Olivia" surname="Goddard Test" ballotName="Goddard Test, Olivia Anne">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299600" firstName="Anna" surname="Davies Test" ballotName="Davies Test, Anna Stephanie">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299601" firstName="Kate" surname="Ahmed Test" ballotName="Ahmed Test, Katherine">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299602" previousSittingMember="*" firstName="Micky" surname="Nattrass Test" ballotName="Nattrass Test, Michael Yusuf">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="4" name="Aberdeenshire East" turnout="41021" percentageTurnout="64.04" winningParty="SNP" majority="1889" percentageMajority="4.60">
+      <Candidate paId="251744" firstName="Gillian" surname="Martin" ballotName="Martin, Gillian Anne" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18307" percentageShare="44.63" />
+      </Candidate>
+      <Candidate paId="252157" firstName="Stewart" surname="Whyte" ballotName="Whyte, Stewart" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="16418" percentageShare="40.02" />
+      </Candidate>
+      <Candidate paId="253163" firstName="Conrad" surname="Wood" ballotName="Wood, Conrad James" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="3396" percentageShare="8.28" />
+      </Candidate>
+      <Candidate paId="252092" firstName="Graeme" surname="Downie" ballotName="Downie, Graeme James" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2900" percentageShare="7.07" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

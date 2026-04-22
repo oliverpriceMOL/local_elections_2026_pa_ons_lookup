@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Winchester' paId='4812' type='Non-Met' proportion='third' winningParty='LD' gainOrHold='no change' sittingParty='LD'>
+      <ElectedCouncillors>
+        <Party name='LD' paId='667' seats='12'/>
+        <Party name='C' paId='659' seats='2'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='LD' paId='667' change='+3'/>
+        <Party name='C' paId='659' change='-2'/>
+        <Party name='Ind' paId='661' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='35'/>
+        <Party name='C' paId='659' seats='6'/>
+        <Party name='Green' paId='660' seats='4'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

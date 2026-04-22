@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="20" name="Cowdenbeath" electorate="56434">
+      <Candidate paId="299671" firstName="Dave" surname="Power Test" ballotName="Power Test, David Mark">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299672" previousSittingMember="+" firstName="Bethany" surname="Ellis Test" ballotName="Ellis Test, Bethany Linda">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299673" firstName="Marion" surname="Ahmed Test" ballotName="Ahmed Test, Marion">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299674" previousSittingMember="*" firstName="Brian" surname="Shah Test" ballotName="Shah Test, Brian Zain">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299675" firstName="Sam" surname="Harris Test" ballotName="Harris Test, Samantha Jennifer">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="19" name="Cowdenbeath" turnout="34175" percentageTurnout="60.56" winningParty="SNP" majority="6013" percentageMajority="17.59">
+      <Candidate paId="251951" firstName="Annabelle" surname="Ewing" ballotName="Ewing, Annabelle" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16499" percentageShare="48.28" />
+      </Candidate>
+      <Candidate paId="253155" firstName="Alex" surname="Rowley" ballotName="Rowley, Alex" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10486" percentageShare="30.68" />
+      </Candidate>
+      <Candidate paId="253156" firstName="Darren" surname="Watt" ballotName="Watt, Darren" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4758" percentageShare="13.92" />
+      </Candidate>
+      <Candidate paId="253157" firstName="Mags" surname="Hall" ballotName="Hall, Mags" sex="F">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="1344" percentageShare="3.93" />
+      </Candidate>
+      <Candidate paId="252202" firstName="Malcolm" surname="Wood" ballotName="Wood, Malcolm" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1088" percentageShare="3.18" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

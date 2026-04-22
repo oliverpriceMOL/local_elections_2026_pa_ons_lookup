@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Plymouth' paId='4724' type='Unitary' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='11'/>
+        <Party name='Ind' paId='661' seats='3'/>
+        <Party name='Reform' paId='664' seats='3'/>
+        <Party name='C' paId='659' seats='1'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+3'/>
+        <Party name='Lab' paId='662' change='+1'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='C' paId='659' change='-4'/>
+        <Party name='LD' paId='667' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='40'/>
+        <Party name='Ind' paId='661' seats='8'/>
+        <Party name='Reform' paId='664' seats='4'/>
+        <Party name='C' paId='659' seats='3'/>
+        <Party name='Green' paId='660' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

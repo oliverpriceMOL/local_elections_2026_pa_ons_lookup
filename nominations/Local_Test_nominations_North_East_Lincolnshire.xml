@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='North East Lincolnshire' paId='4722' type='Unitary' proportion='third'>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='5' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+      <Party name='Reform UK' abbreviation='Reform' paId='664' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='18' seatsOffered='8' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='15' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='3' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

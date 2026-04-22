@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="2" declarationTime="2026-04-01T12:38:49+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="52" name="Inverclyde" electorate="61362" percentageBoundaryChange="6.20" turnout="35332" percentageTurnout="57.58" percentageChangeTurnout="-6.73" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="1072" percentageMajority="3.03" percentageChangeMajority="-20.80" swing="10.40" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299838" firstName="Steve" surname="Shaw Test" ballotName="Shaw Test, Steven John">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10493" percentageShare="29.70" />
+      </Candidate>
+      <Candidate paId="299836" firstName="Daisy" surname="Morgan Test" ballotName="Morgan Test, Daisy Sian">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="9421" percentageShare="26.66" />
+      </Candidate>
+      <Candidate paId="301020" firstName="Martin" surname="McDonald Test" ballotName="McDonald Test, Martin Graeme">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" votes="8486" percentageShare="24.02" />
+      </Candidate>
+      <Candidate paId="299835" firstName="Mia" surname="Hill Test" ballotName="Hill Test, Mia Ethel">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="5529" percentageShare="15.65" />
+      </Candidate>
+      <Candidate paId="299837" firstName="Katie" surname="Vaughan Test" ballotName="Vaughan Test, Katherine Nisha">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1004" percentageShare="2.84" />
+      </Candidate>
+      <Candidate paId="299839" firstName="Ngozi" surname="Goodwin Test" ballotName="Goodwin Test, Ngozi">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="399" percentageShare="1.13" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="52" name="Inverclyde" turnout="39460" percentageTurnout="64.31" winningParty="SNP" majority="9406" percentageMajority="23.84">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="18659" percentageShare="47.29" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="9253" percentageShare="23.45" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="6090" percentageShare="15.43" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="2479" percentageShare="6.28" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1106" percentageShare="2.80" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="1057" percentageShare="2.68" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="766" percentageShare="1.94" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="50" percentageShare="0.13" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

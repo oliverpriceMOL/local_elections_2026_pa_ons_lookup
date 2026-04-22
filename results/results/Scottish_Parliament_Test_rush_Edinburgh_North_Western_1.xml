@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="35" name="Edinburgh North Western" electorate="58218" percentageBoundaryChange="17.60" gainOrHold="hold" winningPartyAbbreviation="LD" winningPartyName="Liberal Democrat" sittingPartyAbbreviation="LD" sittingPartyName="Liberal Democrat" change="false" paStyleMessageText="Liberal Democrat win Edinburgh North Western - notional Liberal Democrat hold">
+      <Candidate paId="299747" firstName="Steven" surname="Taylor Test" ballotName="Taylor Test, Steven Christopher">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299748" firstName="Lucas" surname="Walker Test" ballotName="Walker Test, Lucas David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299749" firstName="Angela" surname="Williamson Test" ballotName="Williamson Test, Angela">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299750" firstName="Hazel" surname="Evans Test" ballotName="Evans Test, Hazel Mia">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299751" firstName="Robert" surname="Kelly Test" ballotName="Kelly Test, Robert Michael">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

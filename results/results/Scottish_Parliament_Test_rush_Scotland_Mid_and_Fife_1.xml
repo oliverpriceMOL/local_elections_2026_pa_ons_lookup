@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="105" name="Scotland Mid &amp; Fife" electorate="526283">
+      <Candidate elected="*" previousSittingMember="*" paId="300568" firstName="Mike" surname="Hancock Test" ballotName="Hancock Test, Michael David" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300579" firstName="Frank" surname="Martin Test" ballotName="Martin Test, Francis" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300580" firstName="Beryl" surname="Williams Test" ballotName="Williams Test, Beryl Hannah" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300581" firstName="Christopher" surname="Wilson Test" ballotName="Wilson Test, Christopher" partyListRank="3">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="300586" firstName="Robin" surname="Brown Test" ballotName="Brown Test, Robin" partyListRank="1">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="300593" firstName="Christine" surname="Nicholls Test" ballotName="Nicholls Test, Christine Sadia" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="300594" firstName="Sarah" surname="Collins Test" ballotName="Collins Test, Sarah Muriel" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

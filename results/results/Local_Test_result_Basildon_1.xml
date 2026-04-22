@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Basildon' paId='4765' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='Ind' paId='661' seats='5'/>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='Lab' paId='662' seats='3'/>
+        <Party name='Reform' paId='664' seats='2'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='15'/>
+        <Party name='C' paId='659' seats='13'/>
+        <Party name='Ind' paId='661' seats='12'/>
+        <Party name='Reform' paId='664' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

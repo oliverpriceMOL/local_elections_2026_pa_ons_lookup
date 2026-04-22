@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:22:49+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="43" name="Galloway &amp; Dumfries West" electorate="57419" turnout="36639" percentageTurnout="63.81" percentageChangeTurnout="-0.95" winningParty="C" gainOrHold="hold" sittingParty="C" majority="9705" percentageMajority="26.49" percentageChangeMajority="+19.40" swing="9.70" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299787" firstName="Peter" surname="Campbell Test" ballotName="Campbell Test, Peter">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="17945" percentageShare="48.98" percentageShareChange="+1.96" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299790" firstName="Sarah" surname="Walker Test" ballotName="Walker Test, Sarah Susan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="8240" percentageShare="22.49" percentageShareChange="-17.45" />
+      </Candidate>
+      <Candidate paId="299791" firstName="Cian" surname="Mistry Test" ballotName="Mistry Test, Cian Richard">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="5345" percentageShare="14.59" percentageShareChange="+11.98" />
+      </Candidate>
+      <Candidate paId="299788" firstName="Chris" surname="Martin Test" ballotName="Martin Test, Christopher">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="3906" percentageShare="10.66" percentageShareChange="+2.78" />
+      </Candidate>
+      <Candidate paId="299789" firstName="Florence" surname="Fleming Test" ballotName="Fleming Test, Florence Marjorie">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1203" percentageShare="3.28" percentageShareChange="+0.73" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="42" name="Galloway &amp; Dumfries West" turnout="37187" percentageTurnout="64.76" winningParty="C" majority="2635" percentageMajority="7.09">
+      <Candidate paId="253209" firstName="Finlay" surname="Carson" ballotName="Carson, Finlay" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="17486" percentageShare="47.02" />
+      </Candidate>
+      <Candidate paId="251968" firstName="Emma" surname="Harper" ballotName="Harper, Emma" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="14851" percentageShare="39.94" />
+      </Candidate>
+      <Candidate paId="252254" firstName="Archie" surname="Dryburgh" ballotName="Dryburgh, Archie" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2932" percentageShare="7.88" />
+      </Candidate>
+      <Candidate paId="253210" firstName="Laura" surname="Moodie" ballotName="Moodie, Laura" sex="F">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="970" percentageShare="2.61" />
+      </Candidate>
+      <Candidate paId="252256" firstName="Iain" surname="McDonald" ballotName="McDonald, Iain" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="948" percentageShare="2.55" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

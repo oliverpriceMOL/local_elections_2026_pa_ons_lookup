@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Winchester' paId='4812' type='Non-Met' proportion='third'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='8' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='32' seatsOffered='9' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='4' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

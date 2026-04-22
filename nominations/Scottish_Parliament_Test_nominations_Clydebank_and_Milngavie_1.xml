@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="17" name="Clydebank &amp; Milngavie" electorate="55368">
+      <Candidate paId="299657" firstName="Christopher" surname="Ryan Test" ballotName="Ryan Test, Christopher Adam">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299658" firstName="Susan" surname="Young Test" ballotName="Young Test, Susan Victoria">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299659" firstName="Emma" surname="Howell Test" ballotName="Howell Test, Emma Julie">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299660" firstName="Lucas" surname="Nicholls Test" ballotName="Nicholls Test, Lucas David">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299661" firstName="John" surname="Stanley Test" ballotName="Stanley Test, John Matthew">
+        <Party paId="13825" name="No Description" abbreviation="ND" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="16" name="Clydebank &amp; Milngavie" turnout="37670" percentageTurnout="68.04" winningParty="SNP" majority="5284" percentageMajority="14.03">
+      <Candidate paId="251878" firstName="Marie" surname="McNair" ballotName="McNair, Marie A" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="17797" percentageShare="47.24" />
+      </Candidate>
+      <Candidate paId="253189" firstName="Douglas" surname="McAllister" ballotName="McAllister, Douglas" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="12513" percentageShare="33.22" />
+      </Candidate>
+      <Candidate paId="253190" firstName="Pam" surname="Gosal" ballotName="Gosal, Pam" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4153" percentageShare="11.02" />
+      </Candidate>
+      <Candidate paId="253188" firstName="Katy" surname="Gordon" ballotName="Gordon, Katy" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2987" percentageShare="7.93" />
+      </Candidate>
+      <Candidate paId="252020" firstName="Alexander" surname="Robertson" ballotName="Robertson, Alexander John" sex="M">
+        <Party paId="10379" name="No Description" abbreviation="ND" votes="220" percentageShare="0.58" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

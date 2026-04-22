@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:24:37+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="1" name="Aberdeen Central" electorate="56817" turnout="36931" percentageTurnout="65.00" percentageChangeTurnout="+9.32" winningParty="Reform" gainOrHold="gain" sittingParty="SNP" majority="5059" percentageMajority="13.70" percentageChangeMajority="-7.14">
+      <Candidate elected="*" paId="301018" firstName="Keith" surname="Williams Test" ballotName="Williams Test, Keith">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" votes="12368" percentageShare="33.49" />
+      </Candidate>
+      <Candidate paId="299584" firstName="Nick" surname="Morris Test" ballotName="Morris Test, Nicholas Hamza">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="7309" percentageShare="19.79" percentageShareChange="-4.30" />
+      </Candidate>
+      <Candidate paId="299588" firstName="Christine" surname="Stevenson Test" ballotName="Stevenson Test, Christine Rebecca">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="6074" percentageShare="16.45" percentageShareChange="+9.85" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299587" firstName="Dave" surname="Lynch Test" ballotName="Lynch Test, David Wayne">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="5054" percentageShare="13.68" percentageShareChange="-31.25" />
+      </Candidate>
+      <Candidate paId="299585" firstName="Tim" surname="Lloyd Test" ballotName="Lloyd Test, Timothy John">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="5036" percentageShare="13.64" percentageShareChange="-6.26" />
+      </Candidate>
+      <Candidate paId="299586" firstName="Dorota" surname="White Test" ballotName="White Test, Dorota Celia">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1090" percentageShare="2.95" percentageShareChange="-1.53" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="1" name="Aberdeen Central" turnout="31638" percentageTurnout="55.68" winningParty="SNP" majority="6594" percentageMajority="20.84">
+      <Candidate paId="251741" firstName="Kevin" surname="Stewart" ballotName="Stewart, Kevin" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="14217" percentageShare="44.94" />
+      </Candidate>
+      <Candidate paId="253160" firstName="Douglas" surname="Lumsden" ballotName="Lumsden, Douglas" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="7623" percentageShare="24.09" />
+      </Candidate>
+      <Candidate paId="253353" firstName="Barry" surname="Black" ballotName="Black, Barry" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="6294" percentageShare="19.89" />
+      </Candidate>
+      <Candidate paId="252178" firstName="Guy" surname="Ingerson" ballotName="Ingerson, Guy" sex="M">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="2087" percentageShare="6.60" />
+      </Candidate>
+      <Candidate paId="252291" firstName="Desmond" surname="Bouse" ballotName="Bouse, Desmond" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1417" percentageShare="4.48" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

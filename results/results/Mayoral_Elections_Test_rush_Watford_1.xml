@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="6" name="Watford" electorate="71887" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="LD" sittingPartyName="Liberal Democrat" change="true" paStyleMessageText="Conservative gain from Liberal Democrat in Watford">
+      <Candidate elected="*" paId="300942" firstName="Theresa" surname="Byrne Test" ballotName="Byrne Test, Theresa Amelia">
+        <Party paId="13899" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="300943" firstName="Paul" surname="Chapman Test" ballotName="Chapman Test, Paul James">
+        <Party paId="13900" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="300944" firstName="Alan" surname="Brown Test" ballotName="Brown Test, Alan Liam">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="300945" firstName="Pete" surname="Day Test" ballotName="Day Test, Peter David">
+        <Party paId="13895" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="300946" firstName="Paul" surname="Stewart Test" ballotName="Stewart Test, Paul Timothy">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="300948" firstName="Aisha" surname="Murray Test" ballotName="Murray Test, Aisha Dorothy">
+        <Party paId="13944" name="Independent Aisha Murray Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="300947" firstName="Nick" surname="Wall Test" ballotName="Wall Test, Nicholas Ieuan">
+        <Party paId="13943" name="Independent Nick Wall Test" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

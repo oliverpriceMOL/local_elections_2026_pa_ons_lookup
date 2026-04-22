@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="23" name="Cunninghame South" electorate="60158" percentageBoundaryChange="13.40" gainOrHold="gain" winningPartyAbbreviation="Reform" winningPartyName="Reform UK" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Reform UK win Cunninghame South - gain from notional Scottish National Party">
+      <Candidate paId="299684" firstName="Jim" surname="Bird Test" ballotName="Bird Test, James">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299685" firstName="Mary" surname="Lambert Test" ballotName="Lambert Test, Mary Mabel">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299686" firstName="Paul" surname="Morris Test" ballotName="Morris Test, Paul">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299687" firstName="Matt" surname="Lloyd Test" ballotName="Lloyd Test, Matthew Barry">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate elected="*" paId="301019" firstName="Mary" surname="Jones Test" ballotName="Jones Test, Mary Heather">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="299688" firstName="Sunita" surname="Marsh Test" ballotName="Marsh Test, Sunita Lynne">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

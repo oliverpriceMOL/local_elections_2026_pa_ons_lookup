@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hastings' paId='4786' type='Non-Met' proportion='half'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='5' seatsOffered='3' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='12' seatsOffered='3' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='6' seatsOffered='6' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='9' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

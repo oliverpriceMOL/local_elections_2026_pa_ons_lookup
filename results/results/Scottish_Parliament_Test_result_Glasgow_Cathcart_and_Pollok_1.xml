@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:27:10+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="46" name="Glasgow Cathcart &amp; Pollok" electorate="67251" percentageBoundaryChange="41.10" turnout="39504" percentageTurnout="58.74" percentageChangeTurnout="+0.07" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="2489" percentageMajority="6.30" percentageChangeMajority="-11.44" swing="14.48" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" paId="299801" firstName="Ian" surname="Porter Test" ballotName="Porter Test, Ian Andrew">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="12884" percentageShare="32.61" />
+      </Candidate>
+      <Candidate paId="299804" firstName="Evelyn" surname="Evans Test" ballotName="Evans Test, Evelyn Lily">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="10395" percentageShare="26.31" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299803" firstName="Jenny" surname="Clark Test" ballotName="Clark Test, Jennifer">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="8449" percentageShare="21.39" />
+      </Candidate>
+      <Candidate paId="299800" firstName="Paul" surname="Stephenson Test" ballotName="Stephenson Test, Paul Richard">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="4645" percentageShare="11.76" />
+      </Candidate>
+      <Candidate paId="299808" firstName="Jane" surname="Shepherd Test" ballotName="Shepherd Test, Jane Linda">
+        <Party paId="13838" name="The Reclaim Party" abbreviation="Reclaim" votes="787" percentageShare="1.99" />
+      </Candidate>
+      <Candidate paId="299807" firstName="Millie" surname="Bolton Test" ballotName="Bolton Test, Millicent Isabella">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" votes="771" percentageShare="1.95" />
+      </Candidate>
+      <Candidate paId="299802" firstName="Jack" surname="Allen Test" ballotName="Allen Test, Jack David">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="643" percentageShare="1.63" />
+      </Candidate>
+      <Candidate paId="299805" firstName="Steven" surname="Ellis Test" ballotName="Ellis Test, Steven">
+        <Party paId="13825" name="No Description" abbreviation="ND" votes="532" percentageShare="1.35" />
+      </Candidate>
+      <Candidate paId="299806" firstName="Beryl" surname="Barnes Test" ballotName="Barnes Test, Beryl Natasha">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="398" percentageShare="1.01" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="46" name="Glasgow Cathcart &amp; Pollok" turnout="39454" percentageTurnout="58.67" winningParty="SNP" majority="6998" percentageMajority="17.74">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="17323" percentageShare="43.91" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="10325" percentageShare="26.17" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="4692" percentageShare="11.89" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="4202" percentageShare="10.65" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1575" percentageShare="3.99" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="728" percentageShare="1.85" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="540" percentageShare="1.37" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="69" percentageShare="0.17" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Crawley' paId='4777' type='Non-Met' proportion='third'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='11' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='25' seatsOffered='7' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

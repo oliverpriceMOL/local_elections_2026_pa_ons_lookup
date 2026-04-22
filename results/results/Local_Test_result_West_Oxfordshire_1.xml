@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='West Oxfordshire' paId='4853' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='C' paId='659' seats='5'/>
+        <Party name='LD' paId='667' seats='5'/>
+        <Party name='Green' paId='660' seats='3'/>
+        <Party name='Lab' paId='662' seats='2'/>
+        <Party name='Reform' paId='664' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Green' paId='660' change='+2'/>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='LD' paId='667' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='18'/>
+        <Party name='C' paId='659' seats='14'/>
+        <Party name='Lab' paId='662' seats='10'/>
+        <Party name='Green' paId='660' seats='6'/>
+        <Party name='Reform' paId='664' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

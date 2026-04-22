@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="47" name="Glasgow Central" electorate="72126" percentageBoundaryChange="58.70" gainOrHold="gain" winningPartyAbbreviation="Reform" winningPartyName="Reform UK" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Reform UK win Glasgow Central - gain from notional Scottish National Party">
+      <Candidate paId="299809" firstName="John" surname="Fox Test" ballotName="Fox Test, John Nicholas">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299810" firstName="Sean" surname="Ellis Test" ballotName="Ellis Test, Sean Colin">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299811" firstName="Timothy" surname="Bailey Test" ballotName="Bailey Test, Timothy Philip">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299812" firstName="Sanjay" surname="Lewis Test" ballotName="Lewis Test, Sanjay Maxwell">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299813" firstName="Jane" surname="Smith Test" ballotName="Smith Test, Jane Irene">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate elected="*" paId="301022" firstName="Liam" surname="Stevens Test" ballotName="Stevens Test, Liam Peter">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

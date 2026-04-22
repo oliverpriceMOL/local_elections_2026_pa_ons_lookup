@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:05:01+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="50" name="Glasgow Southside" electorate="66414" percentageBoundaryChange="35.00" turnout="41605" percentageTurnout="62.64" percentageChangeTurnout="+2.28" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="7133" percentageMajority="17.14" percentageChangeMajority="-3.95" swing="1.98" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299826" firstName="Jane" surname="Fox Test" ballotName="Fox Test, Jane Irene">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="20480" percentageShare="49.22" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299824" firstName="Judith" surname="Harris Test" ballotName="Harris Test, Judith Joanna">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="13347" percentageShare="32.08" />
+      </Candidate>
+      <Candidate paId="299823" firstName="Penelope" surname="Shaw Test" ballotName="Shaw Test, Penelope Kavita">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="4967" percentageShare="11.94" />
+      </Candidate>
+      <Candidate paId="299825" firstName="Peter" surname="Brown Test" ballotName="Brown Test, Peter Connor">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1107" percentageShare="2.66" />
+      </Candidate>
+      <Candidate paId="299828" firstName="Judith" surname="Baxter Test" ballotName="Baxter Test, Judith Fiona">
+        <Party paId="13825" name="No Description" abbreviation="ND" votes="801" percentageShare="1.93" />
+      </Candidate>
+      <Candidate paId="299827" firstName="Richard" surname="Smith Test" ballotName="Smith Test, Richard">
+        <Party paId="13814" name="Liberal" abbreviation="Lib" votes="610" percentageShare="1.47" />
+      </Candidate>
+      <Candidate paId="299829" firstName="Mark" surname="Kennedy Test" ballotName="Kennedy Test, Mark Graham">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" votes="251" percentageShare="0.60" />
+      </Candidate>
+      <Candidate paId="299830" firstName="Mark" surname="Sinclair Test" ballotName="Sinclair Test, Mark Christopher">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="42" percentageShare="0.10" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="50" name="Glasgow Southside" turnout="40092" percentageTurnout="60.37" winningParty="SNP" majority="8459" percentageMajority="21.10">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="16729" percentageShare="41.73" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8270" percentageShare="20.63" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="7661" percentageShare="19.11" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="4313" percentageShare="10.76" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1408" percentageShare="3.51" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="894" percentageShare="2.23" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="772" percentageShare="1.93" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="45" percentageShare="0.11" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

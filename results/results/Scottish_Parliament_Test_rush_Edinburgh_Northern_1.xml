@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="36" name="Edinburgh Northern" electorate="60693" percentageBoundaryChange="46.80" gainOrHold="gain" winningPartyAbbreviation="Reform" winningPartyName="Reform UK" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Reform UK win Edinburgh Northern - gain from notional Scottish National Party">
+      <Candidate paId="299752" firstName="Dave" surname="Noble Test" ballotName="Noble Test, David Vikram">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299753" firstName="Sienna" surname="Arnold Test" ballotName="Arnold Test, Sienna Jacqueline">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299754" firstName="Constance" surname="Taylor Test" ballotName="Taylor Test, Constance Agnieszka">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299755" firstName="Daisy" surname="Hunt Test" ballotName="Hunt Test, Daisy Ann">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299756" firstName="Michael" surname="Davies Test" ballotName="Davies Test, Michael Charles">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate elected="*" paId="301021" firstName="Elizabeth" surname="Wells Test" ballotName="Wells Test, Elizabeth Margaret">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="299757" firstName="Priya" surname="Carter Test" ballotName="Carter Test, Priya Jane">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Barnsley' paId='4732' type='Metro' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='34'/>
+        <Party name='LD' paId='667' seats='21'/>
+        <Party name='Ind' paId='661' seats='7'/>
+        <Party name='C' paId='659' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='LD' paId='667' change='+9'/>
+        <Party name='Ind' paId='661' change='+3'/>
+        <Party name='Lab' paId='662' change='-12'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='34'/>
+        <Party name='LD' paId='667' seats='21'/>
+        <Party name='Ind' paId='661' seats='7'/>
+        <Party name='C' paId='659' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

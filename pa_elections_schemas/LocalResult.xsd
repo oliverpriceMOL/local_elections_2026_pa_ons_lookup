@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of the results of local council elections for
+one or more local authorities
+-->
+<xs:schema elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+A mapping from parties to absolute numbers of seats, as used in
+ElectedCouncillors and NewCouncil elements
+    -->
+  <xs:complexType name="PartiesToSeats">
+    <xs:sequence>
+      <xs:element name="Party" type="PartySeats"
+                  minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+A single mapping from a party to an absolute number of seats
+    -->
+  <xs:complexType name="PartySeats">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="seats" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+  <!--
+A mapping from parties to changes in numbers of seats, as used in
+Changes elements
+  -->
+  <xs:complexType name="PartiesToChanges">
+    <xs:sequence>
+      <xs:element name="Party" type="PartyChange"
+                  minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+A single mapping from a party to a change in the number of seats
+    -->
+  <xs:complexType name="PartyChange">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="change" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!--
+A result for a single council, with the council details and the summary
+of the result being encapsulated as attributes, and the details of the
+elected councillors (in the case of thirds councils), changes and new
+council taking the form of child elements.
+
+Note that the presence of a winningParty attribute and the value of the
+gainOrHold attribute follows one of three possible patterns, which can
+generally be summed up for readers/viewers like this:
+  * winningParty gainOrHold 'from' sittingParty (if 'Gain')
+  * winningParty gainOrHold (if 'No change')
+  * sittingParty gainOrHold (if 'Lose to NOC')
+  -->
+  <xs:complexType name="CouncilResult">
+    <xs:sequence>
+      <xs:element name="ElectedCouncillors" type="PartiesToSeats"
+                  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="Changes" type="PartiesToChanges"
+                  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="NewCouncil" type="PartiesToSeats"
+                  minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="type" type="CouncilType" use="required"/>
+    <xs:attribute name="proportion" type="CouncilProportion" use="required"/>
+    <xs:attribute name="boundaryChange" type="xs:boolean"/>
+    <xs:attribute name="newCouncil" type="xs:boolean"/>
+    <xs:attribute name="firstTimePR" type="xs:boolean"/>
+    <xs:attribute name="winningParty" type="xs:string"/>
+    <xs:attribute name="gainOrHold" type="GainOrHold"/>
+    <xs:attribute name="sittingParty" type="xs:string"/>
+  </xs:complexType>
+  <!--
+Root element: contains an Election element, with the results for one
+or more councils listed in Council elements contained within it
+    -->
+  <xs:element name="LocalElectionResult">
+    <xs:annotation>
+      <xs:documentation>Results of local council elections</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Council" type="CouncilResult"
+                          minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="paId" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

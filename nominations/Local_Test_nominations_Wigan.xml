@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Wigan' paId='4762' type='Metro' proportion='third'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='1' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='62' seatsOffered='20' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='10' seatsOffered='3' unopposedReturns='0' candidates='0'/>
+      <Party name='Reform UK' abbreviation='Reform' paId='664' seatsHeld='2' seatsOffered='1' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

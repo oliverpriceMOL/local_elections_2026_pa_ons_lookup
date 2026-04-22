@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Thurrock' paId='4730' type='Unitary' proportion='all'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='11' seatsOffered='11' unopposedReturns='0' candidates='0'/>
+      <Party name='Reform UK' abbreviation='Reform' paId='664' seatsHeld='4' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='26' seatsOffered='26' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='8' seatsOffered='8' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

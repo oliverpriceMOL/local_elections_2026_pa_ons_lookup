@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:45:01+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="55" name="Kirkcaldy" electorate="61124" turnout="35142" percentageTurnout="57.49" percentageChangeTurnout="-0.06" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="4326" percentageMajority="12.31" percentageChangeMajority="-9.95" swing="17.29" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299852" firstName="Morag" surname="Holloway Test" ballotName="Holloway Test, Morag">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="14961" percentageShare="42.57" percentageShareChange="+12.48" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299854" firstName="Harrison" surname="Parker Test" ballotName="Parker Test, Harrison Alistair">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10635" percentageShare="30.26" percentageShareChange="-22.09" />
+      </Candidate>
+      <Candidate paId="299851" firstName="David" surname="Richards Test" ballotName="Richards Test, David William">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="7344" percentageShare="20.90" percentageShareChange="+6.99" />
+      </Candidate>
+      <Candidate paId="299853" firstName="Nora" surname="Black Test" ballotName="Black Test, Nora Eleanor">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1644" percentageShare="4.68" percentageShareChange="+1.79" />
+      </Candidate>
+      <Candidate paId="299855" firstName="Chloe" surname="Page Test" ballotName="Page Test, Chloe Ama">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="558" percentageShare="1.59" percentageShareChange="+0.82" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="55" name="Kirkcaldy" turnout="35178" percentageTurnout="57.55" winningParty="SNP" majority="7831" percentageMajority="22.26">
+      <Candidate paId="251953" firstName="David" surname="Torrance" ballotName="Torrance, David" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18417" percentageShare="52.35" />
+      </Candidate>
+      <Candidate paId="253293" firstName="Claire" surname="Baker" ballotName="Baker, Claire" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10586" percentageShare="30.09" />
+      </Candidate>
+      <Candidate paId="253294" firstName="Kathleen" surname="Leslie" ballotName="Leslie, Kathleen" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4891" percentageShare="13.90" />
+      </Candidate>
+      <Candidate paId="252038" firstName="Alan" surname="Beal" ballotName="Beal, Alan" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1015" percentageShare="2.89" />
+      </Candidate>
+      <Candidate paId="253295" firstName="Calum" surname="Paul" ballotName="Paul, Calum" sex="M">
+        <Party paId="10397" name="Scottish Libertarian Party" abbreviation="SLP" votes="269" percentageShare="0.76" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

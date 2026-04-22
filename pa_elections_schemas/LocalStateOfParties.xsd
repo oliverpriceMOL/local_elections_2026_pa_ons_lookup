@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of state-of-parties messages for local council elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+      A party is only included if it has at least one seat on a
+      council somewhere.  All real parties have a PA ID, which is unique
+      to that party in any given election, but No Overall Control is
+      effectively a 'pseudo-party' and does not have an ID.
+  -->
+  <xs:complexType name="StateOfSingleParty">
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="totalCouncils" type="xs:integer" use="required"/>
+    <xs:attribute name="seatsWon" type="xs:integer" use="required"/>
+    <xs:attribute name="changeInControl" type="xs:integer" use="required"/>
+    <xs:attribute name="netChangeInSeats" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!--
+      State of parties messages only need minimal information about
+      each conuncil, just to include its name in a list of councils
+      for which the state of parties has been generated.
+  -->
+  <xs:complexType name="Council">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="type" type="CouncilType" use="required"/>
+    <xs:attribute name="proportion" type="CouncilProportion" use="required"/>
+  </xs:complexType>
+  <!--
+      The minimal information about the election itself.
+  -->
+  <xs:complexType name="Election">
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="date" type="xs:date"/>
+    <xs:attribute name="paId" type="xs:string"/>
+  </xs:complexType>
+  <xs:simpleType name="Region">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="All"/>
+      <xs:enumeration value="England"/>
+      <xs:enumeration value="Scotland"/>
+      <xs:enumeration value="Wales"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+      This is the root element.  It contains an Election element, and
+      a Parties element which contains the state of each party as a
+      Party element inside it.  There may also be a CouncilsIncluded
+      element which, if included, is essentially just for checking
+      purposes, as it lists the name of each council on which the
+      state of parties is based.
+  -->
+  <xs:element name="LocalStateOfParties">
+    <xs:annotation>
+      <xs:documentation>State of parties in a local council
+        election
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election" type="Election">
+        </xs:element>
+        <xs:element name="Parties">
+          <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="Party" type="StateOfSingleParty"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CouncilsIncluded" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="Council" type="Council"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="region" type="Region"/>
+      <xs:attribute name="numberOfResults" type="xs:integer"/>
+      <xs:attribute name="totalNumberOfCouncils" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

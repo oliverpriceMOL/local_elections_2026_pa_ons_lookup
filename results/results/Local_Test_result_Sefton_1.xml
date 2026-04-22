@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Sefton' paId='4751' type='Metro' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='LD' paId='667' change='+5'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Lab' paId='662' change='-12'/>
+        <Party name='C' paId='659' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='39'/>
+        <Party name='LD' paId='667' seats='14'/>
+        <Party name='Reform' paId='664' seats='8'/>
+        <Party name='C' paId='659' seats='2'/>
+        <Party name='Green' paId='660' seats='2'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="65" name="Perthshire South &amp; Kinross-shire" electorate="63348" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Perthshire South &amp; Kinross-shire">
+      <Candidate elected="*" previousSittingMember="+" paId="299902" firstName="Grace" surname="Lowe Test" ballotName="Lowe Test, Grace Ruby">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299903" firstName="Anne" surname="Nolan Test" ballotName="Nolan Test, Anne Grace">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299904" firstName="Sanjay" surname="Pearson Test" ballotName="Pearson Test, Sanjay Walter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299905" firstName="William" surname="Abbott Test" ballotName="Abbott Test, William">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

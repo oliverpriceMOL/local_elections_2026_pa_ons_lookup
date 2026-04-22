@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:02:19+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="61" name="Na h-Eileanan an Iar" electorate="21992" turnout="15610" percentageTurnout="70.98" percentageChangeTurnout="+5.02" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="2514" percentageMajority="16.11" percentageChangeMajority="-7.61" swing="3.81" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299886" firstName="Violet" surname="Muir Test" ballotName="Muir Test, Violet Saoirse">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="7049" percentageShare="45.16" percentageShareChange="-6.23" />
+      </Candidate>
+      <Candidate paId="299884" firstName="Andy" surname="Williams Test" ballotName="Williams Test, Andrew Callum">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="4535" percentageShare="29.05" percentageShareChange="+1.39" />
+      </Candidate>
+      <Candidate paId="299883" firstName="Paul" surname="Bennett Test" ballotName="Bennett Test, Paul Stephen">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="3374" percentageShare="21.61" percentageShareChange="+7.03" />
+      </Candidate>
+      <Candidate paId="299885" firstName="Charlie" surname="Hall Test" ballotName="Hall Test, Charles Mark">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="465" percentageShare="2.98" percentageShareChange="+0.55" />
+      </Candidate>
+      <Candidate paId="299887" firstName="Wayne" surname="Little Test" ballotName="Little Test, Wayne Ian">
+        <Party paId="13825" name="No Description" abbreviation="ND" votes="187" percentageShare="1.20" percentageShareChange="-2.74" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="61" name="Na h-Eileanan an Iar" turnout="14507" percentageTurnout="65.96" winningParty="SNP" majority="3441" percentageMajority="23.72">
+      <Candidate paId="251801" firstName="Alasdair" surname="Allan" ballotName="Allan, Alasdair James" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="7454" percentageShare="51.38" />
+      </Candidate>
+      <Candidate paId="253307" firstName="Shaun" surname="Fraser" ballotName="Fraser, Shaun Alexander" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="4013" percentageShare="27.66" />
+      </Candidate>
+      <Candidate paId="253352" firstName="Gavin" surname="Berkenheger" ballotName="Berkenheger, Gavin" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="2116" percentageShare="14.59" />
+      </Candidate>
+      <Candidate paId="252197" firstName="Callum" surname="Macmillan" ballotName="Macmillan, Callum" sex="M">
+        <Party paId="10379" name="No Description" abbreviation="ND" votes="571" percentageShare="3.94" />
+      </Candidate>
+      <Candidate paId="253308" firstName="Neil" surname="Mitchison" ballotName="Mitchison, Neil" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="353" percentageShare="2.43" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

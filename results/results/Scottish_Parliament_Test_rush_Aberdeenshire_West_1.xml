@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="5" name="Aberdeenshire West" electorate="60081" gainOrHold="hold" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="C" sittingPartyName="Conservative" change="false" paStyleMessageText="Conservative hold Aberdeenshire West">
+      <Candidate elected="*" previousSittingMember="*" paId="299603" firstName="Neil" surname="Reid Test" ballotName="Reid Test, Neil John">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299604" firstName="Ava" surname="Smith Test" ballotName="Smith Test, Ava Samantha">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299605" firstName="Priya" surname="Hutchinson Test" ballotName="Hutchinson Test, Priya Paige">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299606" firstName="George" surname="Marsden Test" ballotName="Marsden Test, George Samuel">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

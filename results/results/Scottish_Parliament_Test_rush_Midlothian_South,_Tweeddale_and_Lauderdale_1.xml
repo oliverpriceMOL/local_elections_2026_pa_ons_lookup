@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="58" name="Midlothian South, Tweeddale &amp; Lauderdale" electorate="65033" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Midlothian South, Tweeddale &amp; Lauderdale">
+      <Candidate elected="*" paId="299865" firstName="Charles" surname="McCabe Test" ballotName="McCabe Test, Charles Theodore">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299866" firstName="Joseph" surname="Mason Test" ballotName="Mason Test, Joseph David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299867" firstName="Nathan" surname="Brown Test" ballotName="Brown Test, Nathan Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299868" firstName="Dave" surname="Warren Test" ballotName="Warren Test, David David">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299869" firstName="Mike" surname="Jones Test" ballotName="Jones Test, Michael">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299870" firstName="David" surname="Wilkins Test" ballotName="Wilkins Test, David Bernard">
+        <Party paId="13836" name="Vanguard Party" abbreviation="Vanguard" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

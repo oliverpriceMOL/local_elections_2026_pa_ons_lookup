@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Tamworth' paId='4806' type='Non-Met' proportion='third' winningParty='Lab' gainOrHold='gain' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='3'/>
+        <Party name='Ind' paId='661' seats='3'/>
+        <Party name='Reform' paId='664' seats='3'/>
+        <Party name='C' paId='659' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+3'/>
+        <Party name='Lab' paId='662' change='+2'/>
+        <Party name='Ind' paId='661' change='-5'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='17'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='Reform' paId='664' seats='4'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

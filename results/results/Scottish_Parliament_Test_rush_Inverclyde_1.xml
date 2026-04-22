@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="52" name="Inverclyde" electorate="61362" percentageBoundaryChange="6.20" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party win Inverclyde - notional Scottish National Party hold">
+      <Candidate paId="299835" firstName="Mia" surname="Hill Test" ballotName="Hill Test, Mia Ethel">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299836" firstName="Daisy" surname="Morgan Test" ballotName="Morgan Test, Daisy Sian">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299837" firstName="Katie" surname="Vaughan Test" ballotName="Vaughan Test, Katherine Nisha">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299838" firstName="Steve" surname="Shaw Test" ballotName="Shaw Test, Steven John">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="301020" firstName="Martin" surname="McDonald Test" ballotName="McDonald Test, Martin Graeme">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="299839" firstName="Ngozi" surname="Goodwin Test" ballotName="Goodwin Test, Ngozi">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

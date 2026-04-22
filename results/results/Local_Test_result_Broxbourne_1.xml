@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Broxbourne' paId='4768' type='Non-Met' proportion='third' winningParty='C' gainOrHold='no change' sittingParty='C'>
+      <ElectedCouncillors>
+        <Party name='C' paId='659' seats='6'/>
+        <Party name='Reform' paId='664' seats='3'/>
+        <Party name='Lab' paId='662' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+2'/>
+        <Party name='C' paId='659' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='22'/>
+        <Party name='Reform' paId='664' seats='4'/>
+        <Party name='Lab' paId='662' seats='3'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

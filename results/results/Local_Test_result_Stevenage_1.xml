@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Stevenage' paId='4805' type='Non-Met' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='6'/>
+        <Party name='Reform' paId='664' seats='4'/>
+        <Party name='LD' paId='667' seats='3'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+3'/>
+        <Party name='LD' paId='667' change='+1'/>
+        <Party name='Lab' paId='662' change='-4'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='26'/>
+        <Party name='LD' paId='667' seats='7'/>
+        <Party name='Reform' paId='664' seats='5'/>
+        <Party name='C' paId='659' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

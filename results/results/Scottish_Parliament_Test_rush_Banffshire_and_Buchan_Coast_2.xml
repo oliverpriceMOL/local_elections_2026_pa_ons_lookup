@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="2">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="12" name="Banffshire &amp; Buchan Coast" electorate="61993" percentageBoundaryChange="5.00" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Correction: Scottish National Party win Banffshire &amp; Buchan Coast - notional Scottish National Party hold">
+      <Candidate paId="299633" firstName="Molly" surname="Hughes Test" ballotName="Hughes Test, Molly Maisie">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299634" firstName="Ella" surname="Smith Test" ballotName="Smith Test, Ella Janet">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299635" firstName="Jill" surname="Reed Test" ballotName="Reed Test, Jill Lynne">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" paId="299636" firstName="Phil" surname="Goodwin Test" ballotName="Goodwin Test, Philip Harrison">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299638" firstName="Craig" surname="West Test" ballotName="West Test, Craig John">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" />
+      </Candidate>
+      <Candidate paId="299637" firstName="Harold" surname="Miller Test" ballotName="Miller Test, Harold Edward">
+        <Party paId="13819" name="Restore Scotland" abbreviation="RS" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

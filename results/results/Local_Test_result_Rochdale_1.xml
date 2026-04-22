@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Rochdale' paId='4748' type='Metro' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='8'/>
+        <Party name='Reform' paId='664' seats='7'/>
+        <Party name='C' paId='659' seats='2'/>
+        <Party name='Ind' paId='661' seats='2'/>
+        <Party name='LD' paId='667' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='Lab' paId='662' change='-6'/>
+        <Party name='C' paId='659' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='37'/>
+        <Party name='Reform' paId='664' seats='9'/>
+        <Party name='C' paId='659' seats='7'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='LD' paId='667' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

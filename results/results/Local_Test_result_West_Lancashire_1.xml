@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='West Lancashire' paId='4811' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='C' paId='659' seats='6'/>
+        <Party name='Lab' paId='662' seats='6'/>
+        <Party name='Ind' paId='661' seats='3'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Ind' paId='661' change='+2'/>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='Lab' paId='662' change='-2'/>
+        <Party name='Your' paId='671' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='19'/>
+        <Party name='C' paId='659' seats='15'/>
+        <Party name='Ind' paId='661' seats='11'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="1" name="Aberdeen Central" electorate="56817" gainOrHold="gain" winningPartyAbbreviation="Reform" winningPartyName="Reform UK" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Reform UK gain from Scottish National Party in Aberdeen Central">
+      <Candidate paId="299584" firstName="Nick" surname="Morris Test" ballotName="Morris Test, Nicholas Hamza">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299585" firstName="Tim" surname="Lloyd Test" ballotName="Lloyd Test, Timothy John">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299586" firstName="Dorota" surname="White Test" ballotName="White Test, Dorota Celia">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299587" firstName="Dave" surname="Lynch Test" ballotName="Lynch Test, David Wayne">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299588" firstName="Christine" surname="Stevenson Test" ballotName="Stevenson Test, Christine Rebecca">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate elected="*" paId="301018" firstName="Keith" surname="Williams Test" ballotName="Williams Test, Keith">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

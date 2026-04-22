@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:16:57+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="72" name="Strathkelvin &amp; Bearsden" electorate="64397" turnout="45701" percentageTurnout="70.97" percentageChangeTurnout="-0.84" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="1392" percentageMajority="3.05" percentageChangeMajority="-21.79" swing="12.05" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299937" firstName="Derek" surname="Taylor Test" ballotName="Taylor Test, Derek Richard">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="14698" percentageShare="32.16" percentageShareChange="-13.39" />
+      </Candidate>
+      <Candidate paId="299935" firstName="Becca" surname="Patel Test" ballotName="Patel Test, Rebecca">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="13306" percentageShare="29.12" percentageShareChange="+10.71" />
+      </Candidate>
+      <Candidate paId="299934" firstName="Rhys" surname="Clark Test" ballotName="Clark Test, Rhys Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="9757" percentageShare="21.35" percentageShareChange="+0.63" />
+      </Candidate>
+      <Candidate paId="299936" firstName="Ade" surname="Graham Test" ballotName="Graham Test, Adrian Amir">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="7279" percentageShare="15.93" percentageShareChange="+1.49" />
+      </Candidate>
+      <Candidate paId="299938" firstName="Aoife" surname="Watt Test" ballotName="Watt Test, Aoife Janice">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" votes="661" percentageShare="1.45" percentageShareChange="+0.55" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="72" name="Strathkelvin &amp; Bearsden" turnout="46244" percentageTurnout="71.81" winningParty="SNP" majority="11484" percentageMajority="24.83">
+      <Candidate paId="251983" firstName="Rona" surname="Mackay" ballotName="Mackay, Rona" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="21064" percentageShare="45.55" />
+      </Candidate>
+      <Candidate paId="253326" firstName="Andrew" surname="Polson" ballotName="Polson, Andrew" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="9580" percentageShare="20.72" />
+      </Candidate>
+      <Candidate paId="252217" firstName="Callum" surname="McNally" ballotName="McNally, Callum" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="8510" percentageShare="18.40" />
+      </Candidate>
+      <Candidate paId="253325" firstName="Susan" surname="Murray" ballotName="Murray, Susan" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="6675" percentageShare="14.43" />
+      </Candidate>
+      <Candidate paId="253324" firstName="Liam" surname="McKechnie" ballotName="McKechnie, Liam" sex="M">
+        <Party paId="10634" name="Scottish Family Party" abbreviation="SFP" votes="415" percentageShare="0.90" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

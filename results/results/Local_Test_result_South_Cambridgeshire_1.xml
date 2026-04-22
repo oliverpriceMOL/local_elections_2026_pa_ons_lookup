@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='South Cambridgeshire' paId='4803' type='Non-Met' proportion='all' winningParty='LD' gainOrHold='no change' sittingParty='LD'>
+      <Changes>
+        <Party name='LD' paId='667' change='+3'/>
+        <Party name='C' paId='659' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='38'/>
+        <Party name='C' paId='659' seats='6'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

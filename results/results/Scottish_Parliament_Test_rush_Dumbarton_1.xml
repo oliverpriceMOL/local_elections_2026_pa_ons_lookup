@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="24" name="Dumbarton" electorate="56296" gainOrHold="hold" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="Lab" sittingPartyName="Labour" change="false" paStyleMessageText="Labour hold Dumbarton">
+      <Candidate paId="299689" firstName="Andy" surname="Spencer Test" ballotName="Spencer Test, Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299690" firstName="Steven" surname="Ritchie Test" ballotName="Ritchie Test, Steven Paul">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299691" firstName="Phyllis" surname="Lowe Test" ballotName="Lowe Test, Phyllis Rani">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299692" firstName="John" surname="Jones Test" ballotName="Jones Test, John">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299695" firstName="Annie" surname="Cook Test" ballotName="Cook Test, Anne Fiona">
+        <Party paId="13946" name="Independent Annie Cook Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="299694" firstName="Mick" surname="O'Donnell Test" ballotName="O'Donnell Test, Michael David">
+        <Party paId="13945" name="Independent Mick O'Donnell Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="299693" firstName="Dot" surname="Harris Test" ballotName="Harris Test, Dorothy Anne">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

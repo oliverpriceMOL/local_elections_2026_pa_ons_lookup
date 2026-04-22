@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Cambridge' paId='4770' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='7'/>
+        <Party name='LD' paId='667' seats='4'/>
+        <Party name='Green' paId='660' seats='2'/>
+        <Party name='C' paId='659' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='LD' paId='667' change='+1'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Lab' paId='662' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='20'/>
+        <Party name='LD' paId='667' seats='12'/>
+        <Party name='Green' paId='660' seats='7'/>
+        <Party name='C' paId='659' seats='2'/>
+        <Party name='Your' paId='671' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

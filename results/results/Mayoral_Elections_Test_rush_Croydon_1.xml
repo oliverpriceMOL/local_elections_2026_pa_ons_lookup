@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="1" name="Croydon" electorate="280996" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="C" sittingPartyName="Conservative" change="true" paStyleMessageText="Labour gain from Conservative in Croydon">
+      <Candidate paId="300907" firstName="Paul" surname="Lloyd Test" ballotName="Lloyd Test, Paul Matthew">
+        <Party paId="13899" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="300908" firstName="Daniel" surname="Baker Test" ballotName="Baker Test, Daniel Michael">
+        <Party paId="13900" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="300909" firstName="Noah" surname="Jones Test" ballotName="Jones Test, Noah John">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="300910" firstName="Ruth" surname="Gregory Test" ballotName="Gregory Test, Ruth Janet">
+        <Party paId="13895" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="300911" firstName="Lesley" surname="Lloyd Test" ballotName="Lloyd Test, Lesley">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="300912" firstName="Micky" surname="Barker Test" ballotName="Barker Test, Michael">
+        <Party paId="13933" name="Independent Micky Barker Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="300913" firstName="Olive" surname="Rogers Test" ballotName="Rogers Test, Olive Mary">
+        <Party paId="13934" name="Independent Olive Rogers Test" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

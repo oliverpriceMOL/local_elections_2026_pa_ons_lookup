@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:18:07+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="36" name="Edinburgh Northern" electorate="60693" percentageBoundaryChange="46.80" turnout="37144" percentageTurnout="61.20" percentageChangeTurnout="-4.33" winningParty="Reform" gainOrHold="gain" sittingParty="SNP" majority="2748" percentageMajority="7.40" percentageChangeMajority="-5.25" swing="19.43" swingTo="Reform" swingFrom="SNP">
+      <Candidate elected="*" paId="301021" firstName="Elizabeth" surname="Wells Test" ballotName="Wells Test, Elizabeth Margaret">
+        <Party paId="13813" name="Reform UK" abbreviation="Reform" votes="9494" percentageShare="25.56" />
+      </Candidate>
+      <Candidate paId="299756" firstName="Michael" surname="Davies Test" ballotName="Davies Test, Michael Charles">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="6746" percentageShare="18.16" />
+      </Candidate>
+      <Candidate paId="299752" firstName="Dave" surname="Noble Test" ballotName="Noble Test, David Vikram">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="6038" percentageShare="16.26" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299755" firstName="Daisy" surname="Hunt Test" ballotName="Hunt Test, Daisy Ann">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="5979" percentageShare="16.10" />
+      </Candidate>
+      <Candidate paId="299753" firstName="Sienna" surname="Arnold Test" ballotName="Arnold Test, Sienna Jacqueline">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="4739" percentageShare="12.76" />
+      </Candidate>
+      <Candidate paId="299754" firstName="Constance" surname="Taylor Test" ballotName="Taylor Test, Constance Agnieszka">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="3953" percentageShare="10.64" />
+      </Candidate>
+      <Candidate paId="299757" firstName="Priya" surname="Carter Test" ballotName="Carter Test, Priya Jane">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" votes="195" percentageShare="0.52" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="36" name="Edinburgh Northern" turnout="39772" percentageTurnout="65.53" winningParty="SNP" majority="5032" percentageMajority="12.65">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="13153" percentageShare="33.07" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="8121" percentageShare="20.42" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="6282" percentageShare="15.80" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="5990" percentageShare="15.06" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="3961" percentageShare="9.96" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1462" percentageShare="3.68" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="702" percentageShare="1.77" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="101" percentageShare="0.25" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

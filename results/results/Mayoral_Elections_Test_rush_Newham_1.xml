@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="4" name="Newham" electorate="226690" gainOrHold="hold" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="Lab" sittingPartyName="Labour" change="false" paStyleMessageText="Labour hold Newham">
+      <Candidate paId="300928" firstName="Agnieszka" surname="Hammond Test" ballotName="Hammond Test, Agnieszka Daisy">
+        <Party paId="13899" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="300929" firstName="Ivan" surname="Brooks Test" ballotName="Brooks Test, Ivan">
+        <Party paId="13900" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="300930" firstName="Rob" surname="Harrison Test" ballotName="Harrison Test, Robert Charles">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="300931" firstName="Micky" surname="Morris Test" ballotName="Morris Test, Michael Kofi">
+        <Party paId="13895" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="300932" firstName="Janet" surname="Evans Test" ballotName="Evans Test, Janet Margaret">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="300933" firstName="Graham" surname="Poole Test" ballotName="Poole Test, Graham Carl">
+        <Party paId="13939" name="Independent Graham Poole Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="300934" firstName="Jacob" surname="Stuart Test" ballotName="Stuart Test, Jacob Christopher">
+        <Party paId="13940" name="Independent Jacob Stuart Test" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

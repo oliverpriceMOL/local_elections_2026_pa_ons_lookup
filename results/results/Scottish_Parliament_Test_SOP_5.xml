@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="5" totalNumberOfConstituencies="73" totalVotes="162705">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="3" losses="2" totalVotes="55703" percentageShare="34.24" percentageChange="-9.98" />
+    <Party paId="13786" name="Conservative" abbreviation="C" totalSeats="2" gains="2" totalVotes="52333" percentageShare="32.16" percentageChange="+12.12" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalVotes="41324" percentageShare="25.40" percentageChange="+3.41" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalVotes="5136" percentageShare="3.16" percentageChange="-0.43" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalVotes="5073" percentageShare="3.12" percentageChange="-3.91" />
+    <Party paId="13825" name="No Description" abbreviation="ND" totalVotes="988" percentageShare="0.61" percentageChange="+0.27" />
+    <Party paId="13814" name="Liberal" abbreviation="Lib" totalVotes="610" percentageShare="0.37" />
+    <Party paId="13886" name="Independent" abbreviation="Ind" totalVotes="42" percentageShare="0.03" />
+    <Party paId="-9999" name="Others" abbreviation="Others" totalVotes="1496" percentageShare="0.92" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" />
+    <Constituency number="20" name="Cowdenbeath" />
+    <Constituency number="50" name="Glasgow Southside" />
+    <Constituency number="61" name="Na h-Eileanan an Iar" />
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

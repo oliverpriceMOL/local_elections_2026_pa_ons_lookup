@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:11:36+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="29" name="East Kilbride" electorate="61479" turnout="42578" percentageTurnout="69.26" percentageChangeTurnout="+2.95" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="6862" percentageMajority="16.12" percentageChangeMajority="-5.16" swing="2.58" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" paId="299718" firstName="James" surname="Bennett Test" ballotName="Bennett Test, James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="19906" percentageShare="46.75" percentageShareChange="-5.13" />
+      </Candidate>
+      <Candidate paId="299716" firstName="Chris" surname="Mason Test" ballotName="Mason Test, Christopher Andrew">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="13044" percentageShare="30.64" percentageShareChange="+0.03" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299715" firstName="Stephanie" surname="John Test" ballotName="John Test, Stephanie Diana">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="8081" percentageShare="18.98" percentageShareChange="+4.45" />
+      </Candidate>
+      <Candidate paId="299717" firstName="Kevin" surname="Page Test" ballotName="Page Test, Kevin Richard">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1547" percentageShare="3.63" percentageShareChange="+0.65" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="28" name="East Kilbride" turnout="40766" percentageTurnout="66.31" winningParty="SNP" majority="8672" percentageMajority="21.27">
+      <Candidate paId="251884" firstName="Collette" surname="Stevenson" ballotName="Stevenson, Collette" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="21149" percentageShare="51.88" />
+      </Candidate>
+      <Candidate paId="253223" firstName="Monique" surname="McAdams" ballotName="McAdams, Monique" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="12477" percentageShare="30.61" />
+      </Candidate>
+      <Candidate paId="253225" firstName="Graham" surname="Simpson" ballotName="Simpson, Graham" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="5923" percentageShare="14.53" />
+      </Candidate>
+      <Candidate paId="253224" firstName="Paul" surname="McGarry" ballotName="McGarry, Paul" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1217" percentageShare="2.99" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Westminster' paId='4855' type='London' proportion='all' winningParty='C' gainOrHold='gain' sittingParty='Lab'>
+      <Changes>
+        <Party name='C' paId='659' change='+7'/>
+        <Party name='Reform' paId='664' change='+5'/>
+        <Party name='Lab' paId='662' change='-12'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='31'/>
+        <Party name='Lab' paId='662' seats='16'/>
+        <Party name='Reform' paId='664' seats='7'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

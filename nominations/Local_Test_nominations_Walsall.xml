@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Walsall' paId='4761' type='Metro' proportion='all'>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='11' seatsOffered='11' unopposedReturns='0' candidates='0'/>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='29' seatsOffered='29' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='14' seatsOffered='14' unopposedReturns='0' candidates='0'/>
+      <Party name='Your Party' abbreviation='Your' paId='671' seatsHeld='6' seatsOffered='6' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

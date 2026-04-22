@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Waltham Forest' paId='4847' type='London' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-9'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='36'/>
+        <Party name='C' paId='659' seats='13'/>
+        <Party name='Reform' paId='664' seats='8'/>
+        <Party name='Ind' paId='661' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

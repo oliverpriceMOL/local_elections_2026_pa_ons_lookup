@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:58:08+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="13" name="Bathgate" electorate="66599" percentageBoundaryChange="1.80" turnout="36313" percentageTurnout="54.52" percentageChangeTurnout="-6.39" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="2787" percentageMajority="7.67" percentageChangeMajority="-10.71" swing="13.36" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" paId="299640" firstName="Molly" surname="Green Test" ballotName="Green Test, Molly">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="14543" percentageShare="40.05" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299642" firstName="Kevin" surname="Robinson Test" ballotName="Robinson Test, Kevin">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="11756" percentageShare="32.37" />
+      </Candidate>
+      <Candidate paId="299639" firstName="Alan" surname="Moffatt Test" ballotName="Moffatt Test, Alan Philip">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="8706" percentageShare="23.97" />
+      </Candidate>
+      <Candidate paId="299641" firstName="Pooja" surname="Turner Test" ballotName="Turner Test, Pooja Adaeze">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1308" percentageShare="3.60" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="13" name="Bathgate" turnout="40568" percentageTurnout="60.91" winningParty="SNP" majority="7460" percentageMajority="18.39">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="16466" percentageShare="40.59" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="9006" percentageShare="22.20" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8739" percentageShare="21.54" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="2945" percentageShare="7.26" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1483" percentageShare="3.66" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="1241" percentageShare="3.06" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="580" percentageShare="1.43" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="108" percentageShare="0.27" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

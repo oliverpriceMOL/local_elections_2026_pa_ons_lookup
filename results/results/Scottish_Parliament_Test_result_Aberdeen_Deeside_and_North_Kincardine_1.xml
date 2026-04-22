@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:05:52+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" electorate="60799" turnout="33124" percentageTurnout="54.48" percentageChangeTurnout="-9.68" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="17344" percentageMajority="52.36" percentageChangeMajority="+48.08" swing="28.32" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299589" firstName="Terry" surname="Wilson Test" ballotName="Wilson Test, Terence James">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="22995" percentageShare="69.42" percentageShareChange="+31.41" />
+      </Candidate>
+      <Candidate paId="299592" firstName="Anthea" surname="Morgan Test" ballotName="Morgan Test, Anthea Gillian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="5651" percentageShare="17.06" percentageShareChange="-25.24" />
+      </Candidate>
+      <Candidate paId="299590" firstName="Lee" surname="Martin Test" ballotName="Martin Test, Lee Henry">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="2447" percentageShare="7.39" percentageShareChange="-4.16" />
+      </Candidate>
+      <Candidate paId="299591" firstName="Lucas" surname="Thomas Test" ballotName="Thomas Test, Lucas">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1473" percentageShare="4.45" percentageShareChange="-2.96" />
+      </Candidate>
+      <Candidate paId="299593" firstName="William" surname="Howard Test" ballotName="Howard Test, William Robert">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" votes="558" percentageShare="1.68" percentageShareChange="+0.95" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="3" name="Aberdeen South &amp; Kincardine North" turnout="39009" percentageTurnout="64.16" winningParty="SNP" majority="1671" percentageMajority="4.28">
+      <Candidate paId="251869" firstName="Audrey" surname="Nicoll" ballotName="Nicoll, Audrey" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16500" percentageShare="42.30" />
+      </Candidate>
+      <Candidate paId="253162" firstName="Liam" surname="Kerr" ballotName="Kerr, Liam" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="14829" percentageShare="38.01" />
+      </Candidate>
+      <Candidate paId="252192" firstName="Lynn" surname="Thomson" ballotName="Thomson, Lynn" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="4505" percentageShare="11.55" />
+      </Candidate>
+      <Candidate paId="252296" firstName="Ian" surname="Yuill" ballotName="Yuill, Ian" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2889" percentageShare="7.41" />
+      </Candidate>
+      <Candidate paId="252293" firstName="Stephen" surname="Jamieson" ballotName="Jamieson, Stephen" sex="M">
+        <Party paId="10397" name="Scottish Libertarian Party" abbreviation="SLP" votes="286" percentageShare="0.73" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

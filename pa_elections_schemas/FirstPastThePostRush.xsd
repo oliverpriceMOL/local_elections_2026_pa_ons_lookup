@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of rush messages for general elections, and for
+first-past-the-post constituencies in Scottish, Welsh, London
+and potentially other assembly elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+In first-past-the-post constituencies, each candidate is listed, but just
+one of them has elected="*".  At the very minimum, a candidate must
+have a surname; the title and first name are optional.
+
+A Party element, with name and abbreviation attributes, is contained
+inside a Candidate element.
+
+Note that the 'rushText' refers to the special piece of text which should
+be used in rush messages if the candidate in question is well known, such
+as 'International Development Secretary Fred Bloggs' or 'Television
+presenter Jo Smith'.  For most candidates it is absent.
+    -->
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="elected" type="SittingMember" use="optional"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="ballotName" type="xs:string" use="optional"/>
+    <xs:attribute name="rushText" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <!--
+A party, associated with a candidate, only needs to have a name and
+an abbreviation.
+    -->
+  <xs:complexType name="Party">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+  </xs:complexType>
+  <!--
+The bulk of the overall constituency results are represented as attributes
+to the Constituency element.  The individual Candidate results are contained
+within the Constituency element.
+    -->
+  <xs:complexType name="Constituency">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageBoundaryChange" type="Percentage" use="optional"/>
+    <xs:attribute name="winningPartyName" type="xs:string" use="required"/>
+    <xs:attribute name="winningPartyAbbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="gainOrHold" type="GainOrHold" use="optional"/>
+    <xs:attribute name="sittingPartyName" type="xs:string" use="optional"/>
+    <xs:attribute name="sittingPartyAbbreviation" type="xs:string" use="optional"/>
+    <xs:attribute name="change" type="xs:boolean" use="required"/>
+    <xs:attribute name="paStyleMessageText" type="xs:string" use="required"/>
+  </xs:complexType>
+  <!--
+This is the root element.  It contains an Election element, with the
+rush for the constituency in the current election contained in a
+Constituency element inside it.
+    -->
+  <xs:element name="FirstPastThePostRush">
+    <xs:annotation>
+      <xs:documentation>Rush in a first-past-the-post
+        constituency
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:08:16+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="58" name="Midlothian South, Tweeddale &amp; Lauderdale" electorate="65033" turnout="43545" percentageTurnout="66.96" percentageChangeTurnout="+0.79" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="6732" percentageMajority="15.46" percentageChangeMajority="-0.40" swing="15.66" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299865" firstName="Charles" surname="McCabe Test" ballotName="McCabe Test, Charles Theodore">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="16202" percentageShare="37.21" percentageShareChange="+7.04" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299868" firstName="Dave" surname="Warren Test" ballotName="Warren Test, David David">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="9470" percentageShare="21.75" percentageShareChange="-24.28" />
+      </Candidate>
+      <Candidate paId="299869" firstName="Mike" surname="Jones Test" ballotName="Jones Test, Michael">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="7868" percentageShare="18.07" percentageShareChange="+13.06" />
+      </Candidate>
+      <Candidate paId="299866" firstName="Joseph" surname="Mason Test" ballotName="Mason Test, Joseph David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="7488" percentageShare="17.20" percentageShareChange="+4.62" />
+      </Candidate>
+      <Candidate paId="299867" firstName="Nathan" surname="Brown Test" ballotName="Brown Test, Nathan Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2435" percentageShare="5.59" percentageShareChange="-0.48" />
+      </Candidate>
+      <Candidate paId="299870" firstName="David" surname="Wilkins Test" ballotName="Wilkins Test, David Bernard">
+        <Party paId="13836" name="Vanguard Party" abbreviation="Vanguard" votes="82" percentageShare="0.19" percentageShareChange="+0.03" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="58" name="Midlothian South, Tweeddale &amp; Lauderdale" turnout="43034" percentageTurnout="66.17" winningParty="SNP" majority="6826" percentageMajority="15.86">
+      <Candidate paId="251798" firstName="Christine" surname="Grahame" ballotName="Grahame, Christine" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19807" percentageShare="46.03" />
+      </Candidate>
+      <Candidate paId="253257" firstName="Shona" surname="Haslam" ballotName="Haslam, Shona" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="12981" percentageShare="30.16" />
+      </Candidate>
+      <Candidate paId="253259" firstName="Katherine" surname="Sangster" ballotName="Sangster, Katherine" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="5410" percentageShare="12.57" />
+      </Candidate>
+      <Candidate paId="253258" firstName="AC" surname="May" ballotName="May, AC" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2615" percentageShare="6.08" />
+      </Candidate>
+      <Candidate paId="253255" firstName="Dominic" surname="Ashmole" ballotName="Ashmole, Dominic" sex="M">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="2154" percentageShare="5.01" />
+      </Candidate>
+      <Candidate paId="253256" firstName="Michael" surname="Banks" ballotName="Banks, Michael" sex="M">
+        <Party paId="10640" name="Vanguard Party" abbreviation="Vanguard" votes="67" percentageShare="0.16" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

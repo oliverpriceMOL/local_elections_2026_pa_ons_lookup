@@ -1,0 +1,1104 @@
+{
+  "localCouncils": {
+    "4729": {
+      "code": "E06000030",
+      "name": "Swindon",
+      "layer": "lad"
+    },
+    "4765": {
+      "code": "E07000066",
+      "name": "Basildon",
+      "layer": "lad"
+    },
+    "4797": {
+      "code": "E07000123",
+      "name": "Preston",
+      "layer": "lad"
+    },
+    "4831": {
+      "code": "E09000015",
+      "name": "Harrow",
+      "layer": "lad"
+    },
+    "4746": {
+      "code": "E08000022",
+      "name": "North Tyneside",
+      "layer": "lad"
+    },
+    "4718": {
+      "code": "E06000006",
+      "name": "Halton",
+      "layer": "lad"
+    },
+    "4853": {
+      "code": "E07000181",
+      "name": "West Oxfordshire",
+      "layer": "lad"
+    },
+    "4801": {
+      "code": "E07000220",
+      "name": "Rugby",
+      "layer": "lad"
+    },
+    "4769": {
+      "code": "E07000117",
+      "name": "Burnley",
+      "layer": "lad"
+    },
+    "4745": {
+      "code": "E08000021",
+      "name": "Newcastle-upon-Tyne",
+      "layer": "lad"
+    },
+    "4739": {
+      "code": "E08000027",
+      "name": "Dudley",
+      "layer": "lad"
+    },
+    "4849": {
+      "code": "E06000046",
+      "name": "Isle of Wight",
+      "layer": "lad"
+    },
+    "4844": {
+      "code": "E09000028",
+      "name": "Southwark",
+      "layer": "lad"
+    },
+    "4767": {
+      "code": "E07000068",
+      "name": "Brentwood",
+      "layer": "lad"
+    },
+    "4776": {
+      "code": "E07000071",
+      "name": "Colchester",
+      "layer": "lad"
+    },
+    "4833": {
+      "code": "E09000017",
+      "name": "Hillingdon",
+      "layer": "lad"
+    },
+    "4754": {
+      "code": "E08000023",
+      "name": "South Tyneside",
+      "layer": "lad"
+    },
+    "4762": {
+      "code": "E08000010",
+      "name": "Wigan",
+      "layer": "lad"
+    },
+    "4723": {
+      "code": "E06000031",
+      "name": "Peterborough",
+      "layer": "lad"
+    },
+    "4731": {
+      "code": "E06000041",
+      "name": "Wokingham",
+      "layer": "lad"
+    },
+    "4819": {
+      "code": "E09000003",
+      "name": "Barnet",
+      "layer": "lad"
+    },
+    "4734": {
+      "code": "E08000032",
+      "name": "Bradford",
+      "layer": "lad"
+    },
+    "4728": {
+      "code": "E06000033",
+      "name": "Southend-on-Sea",
+      "layer": "lad"
+    },
+    "4759": {
+      "code": "E08000009",
+      "name": "Trafford",
+      "layer": "lad"
+    },
+    "4766": {
+      "code": "E07000084",
+      "name": "Basingstoke & Deane",
+      "layer": "lad"
+    },
+    "4804": {
+      "code": "E07000240",
+      "name": "St Albans",
+      "layer": "lad"
+    },
+    "4858": {
+      "code": "E06000083",
+      "name": "East Surrey",
+      "layer": "lad"
+    },
+    "4756": {
+      "code": "E08000007",
+      "name": "Stockport",
+      "layer": "lad"
+    },
+    "4725": {
+      "code": "E06000044",
+      "name": "Portsmouth",
+      "layer": "lad"
+    },
+    "4820": {
+      "code": "E09000005",
+      "name": "Brent",
+      "layer": "lad"
+    },
+    "4802": {
+      "code": "E07000092",
+      "name": "Rushmoor",
+      "layer": "lad"
+    },
+    "4813": {
+      "code": "E07000229",
+      "name": "Worthing",
+      "layer": "lad"
+    },
+    "4740": {
+      "code": "E08000037",
+      "name": "Gateshead",
+      "layer": "lad"
+    },
+    "4815": {
+      "code": "E10000014",
+      "name": "Hampshire",
+      "layer": "county"
+    },
+    "4795": {
+      "code": "E07000178",
+      "name": "Oxford",
+      "layer": "lad"
+    },
+    "4846": {
+      "code": "E09000030",
+      "name": "Tower Hamlets",
+      "layer": "lad"
+    },
+    "4803": {
+      "code": "E07000012",
+      "name": "South Cambridgeshire",
+      "layer": "lad"
+    },
+    "4777": {
+      "code": "E07000226",
+      "name": "Crawley",
+      "layer": "lad"
+    },
+    "4788": {
+      "code": "E07000011",
+      "name": "Huntingdonshire",
+      "layer": "lad"
+    },
+    "4826": {
+      "code": "E09000010",
+      "name": "Enfield",
+      "layer": "lad"
+    },
+    "4760": {
+      "code": "E08000036",
+      "name": "Wakefield",
+      "layer": "lad"
+    },
+    "4839": {
+      "code": "E09000023",
+      "name": "Lewisham",
+      "layer": "lad"
+    },
+    "4817": {
+      "code": "E10000029",
+      "name": "Suffolk",
+      "layer": "county"
+    },
+    "4814": {
+      "code": "E10000012",
+      "name": "Essex",
+      "layer": "county"
+    },
+    "4727": {
+      "code": "E06000045",
+      "name": "Southampton",
+      "layer": "lad"
+    },
+    "4784": {
+      "code": "E07000073",
+      "name": "Harlow",
+      "layer": "lad"
+    },
+    "4823": {
+      "code": "E09000007",
+      "name": "Camden",
+      "layer": "lad"
+    },
+    "4778": {
+      "code": "E07000086",
+      "name": "Eastleigh",
+      "layer": "lad"
+    },
+    "4796": {
+      "code": "E07000122",
+      "name": "Pendle",
+      "layer": "lad"
+    },
+    "4848": {
+      "code": "E06000010",
+      "name": "Hull",
+      "layer": "lad"
+    },
+    "4741": {
+      "code": "E08000034",
+      "name": "Kirklees",
+      "layer": "lad"
+    },
+    "4726": {
+      "code": "E06000038",
+      "name": "Reading",
+      "layer": "lad"
+    },
+    "4789": {
+      "code": "E07000120",
+      "name": "Hyndburn",
+      "layer": "lad"
+    },
+    "4742": {
+      "code": "E08000011",
+      "name": "Knowsley",
+      "layer": "lad"
+    },
+    "4798": {
+      "code": "E07000236",
+      "name": "Redditch",
+      "layer": "lad"
+    },
+    "4792": {
+      "code": "E07000195",
+      "name": "Newcastle-under-Lyme",
+      "layer": "lad"
+    },
+    "4787": {
+      "code": "E07000090",
+      "name": "Havant",
+      "layer": "lad"
+    },
+    "4755": {
+      "code": "E08000013",
+      "name": "St Helens",
+      "layer": "lad"
+    },
+    "4837": {
+      "code": "E09000021",
+      "name": "Kingston-upon-Thames",
+      "layer": "lad"
+    },
+    "4840": {
+      "code": "E09000024",
+      "name": "Merton",
+      "layer": "lad"
+    },
+    "4845": {
+      "code": "E09000029",
+      "name": "Sutton",
+      "layer": "lad"
+    },
+    "4786": {
+      "code": "E07000062",
+      "name": "Hastings",
+      "layer": "lad"
+    },
+    "4748": {
+      "code": "E08000005",
+      "name": "Rochdale",
+      "layer": "lad"
+    },
+    "4732": {
+      "code": "E08000038",
+      "name": "Barnsley",
+      "layer": "lad"
+    },
+    "4774": {
+      "code": "E07000177",
+      "name": "Cherwell",
+      "layer": "lad"
+    },
+    "4737": {
+      "code": "E08000033",
+      "name": "Calderdale",
+      "layer": "lad"
+    },
+    "4771": {
+      "code": "E07000192",
+      "name": "Cannock Chase",
+      "layer": "lad"
+    },
+    "4775": {
+      "code": "E07000118",
+      "name": "Chorley",
+      "layer": "lad"
+    },
+    "4841": {
+      "code": "E09000025",
+      "name": "Newham",
+      "layer": "lad"
+    },
+    "4830": {
+      "code": "E09000014",
+      "name": "Haringey",
+      "layer": "lad"
+    },
+    "4749": {
+      "code": "E08000006",
+      "name": "Salford",
+      "layer": "lad"
+    },
+    "4758": {
+      "code": "E08000008",
+      "name": "Tameside",
+      "layer": "lad"
+    },
+    "4773": {
+      "code": "E07000078",
+      "name": "Cheltenham",
+      "layer": "lad"
+    },
+    "4770": {
+      "code": "E07000008",
+      "name": "Cambridge",
+      "layer": "lad"
+    },
+    "4782": {
+      "code": "E07000087",
+      "name": "Fareham",
+      "layer": "lad"
+    },
+    "4811": {
+      "code": "E07000127",
+      "name": "West Lancashire",
+      "layer": "lad"
+    },
+    "4842": {
+      "code": "E09000026",
+      "name": "Redbridge",
+      "layer": "lad"
+    },
+    "4791": {
+      "code": "E07000138",
+      "name": "Lincoln",
+      "layer": "lad"
+    },
+    "4836": {
+      "code": "E09000020",
+      "name": "Kensington & Chelsea",
+      "layer": "lad"
+    },
+    "4857": {
+      "code": "E08000031",
+      "name": "Wolverhampton",
+      "layer": "lad"
+    },
+    "4717": {
+      "code": "E06000008",
+      "name": "Blackburn with Darwen",
+      "layer": "lad"
+    },
+    "4838": {
+      "code": "E09000022",
+      "name": "Lambeth",
+      "layer": "lad"
+    },
+    "4822": {
+      "code": "E09000006",
+      "name": "Bromley",
+      "layer": "lad"
+    },
+    "4724": {
+      "code": "E06000026",
+      "name": "Plymouth",
+      "layer": "lad"
+    },
+    "4818": {
+      "code": "E09000002",
+      "name": "Barking & Dagenham",
+      "layer": "lad"
+    },
+    "4735": {
+      "code": "E08000001",
+      "name": "Bolton",
+      "layer": "lad"
+    },
+    "4807": {
+      "code": "E07000102",
+      "name": "Three Rivers",
+      "layer": "lad"
+    },
+    "4721": {
+      "code": "E06000042",
+      "name": "Milton Keynes",
+      "layer": "lad"
+    },
+    "4810": {
+      "code": "E07000241",
+      "name": "Welwyn Hatfield",
+      "layer": "lad"
+    },
+    "4794": {
+      "code": "E07000219",
+      "name": "Nuneaton & Bedworth",
+      "layer": "lad"
+    },
+    "4843": {
+      "code": "E09000027",
+      "name": "Richmond-upon-Thames",
+      "layer": "lad"
+    },
+    "4733": {
+      "code": "E08000025",
+      "name": "Birmingham",
+      "layer": "lad"
+    },
+    "4743": {
+      "code": "E08000035",
+      "name": "Leeds",
+      "layer": "lad"
+    },
+    "4722": {
+      "code": "E06000012",
+      "name": "North East Lincolnshire",
+      "layer": "lad"
+    },
+    "4852": {
+      "code": "E10000011",
+      "name": "East Sussex",
+      "layer": "county"
+    },
+    "4847": {
+      "code": "E09000031",
+      "name": "Waltham Forest",
+      "layer": "lad"
+    },
+    "4790": {
+      "code": "E07000202",
+      "name": "Ipswich",
+      "layer": "lad"
+    },
+    "4824": {
+      "code": "E09000008",
+      "name": "Croydon",
+      "layer": "lad"
+    },
+    "4859": {
+      "code": "E06000084",
+      "name": "West Surrey",
+      "layer": "lad"
+    },
+    "4825": {
+      "code": "E09000009",
+      "name": "Ealing",
+      "layer": "lad"
+    },
+    "4730": {
+      "code": "E06000034",
+      "name": "Thurrock",
+      "layer": "lad"
+    },
+    "4768": {
+      "code": "E07000095",
+      "name": "Broxbourne",
+      "layer": "lad"
+    },
+    "4719": {
+      "code": "E06000001",
+      "name": "Hartlepool",
+      "layer": "lad"
+    },
+    "4829": {
+      "code": "E09000013",
+      "name": "Hammersmith & Fulham",
+      "layer": "lad"
+    },
+    "4751": {
+      "code": "E08000014",
+      "name": "Sefton",
+      "layer": "lad"
+    },
+    "4806": {
+      "code": "E07000199",
+      "name": "Tamworth",
+      "layer": "lad"
+    },
+    "4750": {
+      "code": "E08000028",
+      "name": "Sandwell",
+      "layer": "lad"
+    },
+    "4799": {
+      "code": "E07000075",
+      "name": "Rochford",
+      "layer": "lad"
+    },
+    "4736": {
+      "code": "E08000002",
+      "name": "Bury",
+      "layer": "lad"
+    },
+    "4783": {
+      "code": "E07000088",
+      "name": "Gosport",
+      "layer": "lad"
+    },
+    "4812": {
+      "code": "E07000094",
+      "name": "Winchester",
+      "layer": "lad"
+    },
+    "4761": {
+      "code": "E08000030",
+      "name": "Walsall",
+      "layer": "lad"
+    },
+    "4805": {
+      "code": "E07000243",
+      "name": "Stevenage",
+      "layer": "lad"
+    },
+    "4753": {
+      "code": "E08000029",
+      "name": "Solihull",
+      "layer": "lad"
+    },
+    "4793": {
+      "code": "E07000148",
+      "name": "Norwich",
+      "layer": "lad"
+    },
+    "4828": {
+      "code": "E09000012",
+      "name": "Hackney",
+      "layer": "lad"
+    },
+    "4781": {
+      "code": "E07000041",
+      "name": "Exeter",
+      "layer": "lad"
+    },
+    "4834": {
+      "code": "E09000018",
+      "name": "Hounslow",
+      "layer": "lad"
+    },
+    "4780": {
+      "code": "E07000072",
+      "name": "Epping Forest",
+      "layer": "lad"
+    },
+    "4855": {
+      "code": "E09000033",
+      "name": "Westminster",
+      "layer": "lad"
+    },
+    "4752": {
+      "code": "E08000039",
+      "name": "Sheffield",
+      "layer": "lad"
+    },
+    "4821": {
+      "code": "E09000004",
+      "name": "Bexley",
+      "layer": "lad"
+    },
+    "4747": {
+      "code": "E08000004",
+      "name": "Oldham",
+      "layer": "lad"
+    },
+    "4785": {
+      "code": "E07000089",
+      "name": "Hart",
+      "layer": "lad"
+    },
+    "4854": {
+      "code": "E09000032",
+      "name": "Wandsworth",
+      "layer": "lad"
+    },
+    "4808": {
+      "code": "E07000116",
+      "name": "Tunbridge Wells",
+      "layer": "lad"
+    },
+    "4835": {
+      "code": "E09000019",
+      "name": "Islington",
+      "layer": "lad"
+    },
+    "4816": {
+      "code": "E10000020",
+      "name": "Norfolk",
+      "layer": "county"
+    },
+    "4757": {
+      "code": "E08000024",
+      "name": "Sunderland",
+      "layer": "lad"
+    },
+    "4764": {
+      "code": "E07000223",
+      "name": "Adur",
+      "layer": "lad"
+    },
+    "4827": {
+      "code": "E09000011",
+      "name": "Greenwich",
+      "layer": "lad"
+    },
+    "4744": {
+      "code": "E08000003",
+      "name": "Manchester",
+      "layer": "lad"
+    },
+    "4832": {
+      "code": "E09000016",
+      "name": "Havering",
+      "layer": "lad"
+    },
+    "4856": {
+      "code": "E10000032",
+      "name": "West Sussex",
+      "layer": "county"
+    },
+    "4738": {
+      "code": "E08000026",
+      "name": "Coventry",
+      "layer": "lad"
+    },
+    "4809": {
+      "code": "E07000103",
+      "name": "Watford",
+      "layer": "lad"
+    }
+  },
+  "mayoralAreas": {
+    "3": {
+      "code": "E09000023",
+      "name": "Lewisham"
+    },
+    "2": {
+      "code": "E09000012",
+      "name": "Hackney"
+    },
+    "1": {
+      "code": "E09000008",
+      "name": "Croydon"
+    },
+    "6": {
+      "code": "E07000103",
+      "name": "Watford"
+    },
+    "5": {
+      "code": "E09000030",
+      "name": "Tower Hamlets"
+    },
+    "4": {
+      "code": "E09000025",
+      "name": "Newham"
+    }
+  },
+  "scottishConstituencies": {
+    "8": {
+      "code": "S16000158",
+      "name": "Angus North & Mearns"
+    },
+    "1": {
+      "code": "S16000151",
+      "name": "Aberdeen Central"
+    },
+    "62": {
+      "code": "S16000212",
+      "name": "Orkney Islands"
+    },
+    "15": {
+      "code": "S16000165",
+      "name": "Carrick, Cumnock & Doon Valley"
+    },
+    "53": {
+      "code": "S16000203",
+      "name": "Inverness & Nairn"
+    },
+    "18": {
+      "code": "S16000168",
+      "name": "Clydesdale"
+    },
+    "9": {
+      "code": "S16000159",
+      "name": "Angus South"
+    },
+    "61": {
+      "code": "S16000211",
+      "name": "Na h-Eileanan an Iar"
+    },
+    "32": {
+      "code": "S16000182",
+      "name": "Edinburgh Central"
+    },
+    "66": {
+      "code": "S16000216",
+      "name": "Renfrewshire North & Cardonald"
+    },
+    "27": {
+      "code": "S16000177",
+      "name": "Dundee City West"
+    },
+    "40": {
+      "code": "S16000190",
+      "name": "Falkirk East & Linlithgow"
+    },
+    "60": {
+      "code": "S16000210",
+      "name": "Motherwell & Wishaw"
+    },
+    "21": {
+      "code": "S16000171",
+      "name": "Cumbernauld & Kilsyth"
+    },
+    "42": {
+      "code": "S16000192",
+      "name": "Fife North East"
+    },
+    "59": {
+      "code": "S16000209",
+      "name": "Moray"
+    },
+    "12": {
+      "code": "S16000162",
+      "name": "Banffshire & Buchan Coast"
+    },
+    "69": {
+      "code": "S16000219",
+      "name": "Shetland Islands"
+    },
+    "2": {
+      "code": "S16000152",
+      "name": "Aberdeen Deeside & North Kincardine"
+    },
+    "55": {
+      "code": "S16000205",
+      "name": "Kirkcaldy"
+    },
+    "68": {
+      "code": "S16000218",
+      "name": "Rutherglen & Cambuslang"
+    },
+    "58": {
+      "code": "S16000208",
+      "name": "Midlothian South, Tweeddale & Lauderdale"
+    },
+    "11": {
+      "code": "S16000161",
+      "name": "Ayr"
+    },
+    "49": {
+      "code": "S16000199",
+      "name": "Glasgow Kelvin & Maryhill"
+    },
+    "6": {
+      "code": "S16000156",
+      "name": "Airdrie"
+    },
+    "65": {
+      "code": "S16000215",
+      "name": "Perthshire South & Kinross-shire"
+    },
+    "71": {
+      "code": "S16000221",
+      "name": "Stirling"
+    },
+    "17": {
+      "code": "S16000167",
+      "name": "Clydebank & Milngavie"
+    },
+    "20": {
+      "code": "S16000170",
+      "name": "Cowdenbeath"
+    },
+    "39": {
+      "code": "S16000189",
+      "name": "Ettrick, Roxburgh & Berwickshire"
+    },
+    "19": {
+      "code": "S16000169",
+      "name": "Coatbridge & Chryston"
+    },
+    "14": {
+      "code": "S16000164",
+      "name": "Caithness, Sutherland & Ross"
+    },
+    "24": {
+      "code": "S16000174",
+      "name": "Dumbarton"
+    },
+    "29": {
+      "code": "S16000179",
+      "name": "East Kilbride"
+    },
+    "56": {
+      "code": "S16000206",
+      "name": "Fife Mid & Glenrothes"
+    },
+    "30": {
+      "code": "S16000180",
+      "name": "East Lothian Coast & Lammermuirs"
+    },
+    "22": {
+      "code": "S16000172",
+      "name": "Cunninghame North"
+    },
+    "28": {
+      "code": "S16000178",
+      "name": "Dunfermline"
+    },
+    "54": {
+      "code": "S16000204",
+      "name": "Kilmarnock & Irvine Valley"
+    },
+    "5": {
+      "code": "S16000155",
+      "name": "Aberdeenshire West"
+    },
+    "43": {
+      "code": "S16000193",
+      "name": "Galloway & Dumfries West"
+    },
+    "25": {
+      "code": "S16000175",
+      "name": "Dumfriesshire"
+    },
+    "26": {
+      "code": "S16000176",
+      "name": "Dundee City East"
+    },
+    "73": {
+      "code": "S16000223",
+      "name": "Uddingston & Bellshill"
+    },
+    "7": {
+      "code": "S16000157",
+      "name": "Almond Valley"
+    },
+    "3": {
+      "code": "S16000153",
+      "name": "Aberdeen Donside"
+    },
+    "51": {
+      "code": "S16000201",
+      "name": "Hamilton, Larkhall & Stonehouse"
+    },
+    "31": {
+      "code": "S16000181",
+      "name": "Eastwood"
+    },
+    "10": {
+      "code": "S16000160",
+      "name": "Argyll & Bute"
+    },
+    "47": {
+      "code": "S16000197",
+      "name": "Glasgow Central"
+    },
+    "72": {
+      "code": "S16000222",
+      "name": "Strathkelvin & Bearsden"
+    },
+    "4": {
+      "code": "S16000154",
+      "name": "Aberdeenshire East"
+    },
+    "67": {
+      "code": "S16000217",
+      "name": "Renfrewshire West & Levern Valley"
+    },
+    "13": {
+      "code": "S16000163",
+      "name": "Bathgate"
+    },
+    "16": {
+      "code": "S16000166",
+      "name": "Clackmannanshire and Dunblane"
+    },
+    "23": {
+      "code": "S16000173",
+      "name": "Cunninghame South"
+    },
+    "33": {
+      "code": "S16000183",
+      "name": "Edinburgh Eastern, Musselburgh and Tranent"
+    },
+    "34": {
+      "code": "S16000184",
+      "name": "Edinburgh North Eastern and Leith"
+    },
+    "35": {
+      "code": "S16000185",
+      "name": "Edinburgh North Western"
+    },
+    "36": {
+      "code": "S16000186",
+      "name": "Edinburgh Northern"
+    },
+    "37": {
+      "code": "S16000187",
+      "name": "Edinburgh South Western"
+    },
+    "38": {
+      "code": "S16000188",
+      "name": "Edinburgh Southern"
+    },
+    "41": {
+      "code": "S16000191",
+      "name": "Falkirk West"
+    },
+    "44": {
+      "code": "S16000194",
+      "name": "Glasgow Anniesland"
+    },
+    "45": {
+      "code": "S16000195",
+      "name": "Glasgow Baillieston and Shettleston"
+    },
+    "46": {
+      "code": "S16000196",
+      "name": "Glasgow Cathcart and Pollok"
+    },
+    "48": {
+      "code": "S16000198",
+      "name": "Glasgow Easterhouse and Springburn"
+    },
+    "50": {
+      "code": "S16000200",
+      "name": "Glasgow Southside"
+    },
+    "52": {
+      "code": "S16000202",
+      "name": "Inverclyde"
+    },
+    "57": {
+      "code": "S16000207",
+      "name": "Midlothian North"
+    },
+    "63": {
+      "code": "S16000213",
+      "name": "Paisley"
+    },
+    "64": {
+      "code": "S16000214",
+      "name": "Perthshire North"
+    },
+    "70": {
+      "code": "S16000220",
+      "name": "Skye, Lochaber and Badenoch"
+    }
+  },
+  "scottishRegions": {
+    "102": {
+      "code": "S17000023",
+      "name": "Glasgow"
+    },
+    "107": {
+      "code": "S17000027",
+      "name": "Scotland South"
+    },
+    "106": {
+      "code": "S17000026",
+      "name": "Scotland North East"
+    },
+    "101": {
+      "code": "S17000022",
+      "name": "Edinburgh & Lothians East"
+    },
+    "108": {
+      "code": "S17000028",
+      "name": "Scotland West"
+    },
+    "103": {
+      "code": "S17000024",
+      "name": "Highlands & Islands"
+    },
+    "105": {
+      "code": "S17000025",
+      "name": "Scotland Mid & Fife"
+    },
+    "104": {
+      "code": "S17000021",
+      "name": "Scotland Central & Lothians West"
+    }
+  },
+  "welshConstituencies": {
+    "4": {
+      "code": "W09000051",
+      "name": "Brycheiniog Tawe Nedd"
+    },
+    "8": {
+      "code": "W09000055",
+      "name": "Ceredigion Penfro"
+    },
+    "5": {
+      "code": "W09000052",
+      "name": "Caerdydd Ffynnon Taf"
+    },
+    "11": {
+      "code": "W09000059",
+      "name": "Gwyr Abertawe"
+    },
+    "15": {
+      "code": "W09000062",
+      "name": "Sir Fynwy Torfaen"
+    },
+    "3": {
+      "code": "W09000050",
+      "name": "Blaenau Gwent Caerffili Rhymni"
+    },
+    "6": {
+      "code": "W09000053",
+      "name": "Caerdydd Penarth"
+    },
+    "12": {
+      "code": "W09000058",
+      "name": "Gwynedd Maldwyn"
+    },
+    "9": {
+      "code": "W09000056",
+      "name": "Clwyd"
+    },
+    "14": {
+      "code": "W09000061",
+      "name": "Pontypridd Cynon Merthyr"
+    },
+    "2": {
+      "code": "W09000049",
+      "name": "Bangor Conwy Mon"
+    },
+    "10": {
+      "code": "W09000057",
+      "name": "Fflint Wrecsam"
+    },
+    "16": {
+      "code": "W09000063",
+      "name": "Sir Gaerfyrddin"
+    },
+    "1": {
+      "code": "W09000048",
+      "name": "Afan Ogwr Rhondda"
+    },
+    "7": {
+      "code": "W09000054",
+      "name": "Casnewydd Islwyn"
+    },
+    "13": {
+      "code": "W09000060",
+      "name": "Pen-y-Bont Bro Morgannwg"
+    }
+  }
+}

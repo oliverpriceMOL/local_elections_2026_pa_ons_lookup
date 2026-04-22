@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Harlow' paId='4784' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='C'>
+      <ElectedCouncillors>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='Lab' paId='662' seats='4'/>
+        <Party name='Reform' paId='664' seats='3'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+3'/>
+        <Party name='C' paId='659' change='-2'/>
+        <Party name='Lab' paId='662' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='15'/>
+        <Party name='Lab' paId='662' seats='14'/>
+        <Party name='Reform' paId='664' seats='4'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

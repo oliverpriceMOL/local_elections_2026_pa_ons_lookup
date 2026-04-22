@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Brentwood' paId='4767' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='C' paId='659' seats='6'/>
+        <Party name='LD' paId='667' seats='4'/>
+        <Party name='Reform' paId='664' seats='2'/>
+        <Party name='Lab' paId='662' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+2'/>
+        <Party name='C' paId='659' change='-1'/>
+        <Party name='Ind' paId='661' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='17'/>
+        <Party name='C' paId='659' seats='15'/>
+        <Party name='Reform' paId='664' seats='3'/>
+        <Party name='Lab' paId='662' seats='3'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

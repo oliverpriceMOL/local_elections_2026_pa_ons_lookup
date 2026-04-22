@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:17:56+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="63" name="Paisley" electorate="59070" percentageBoundaryChange="6.40" turnout="33564" percentageTurnout="56.82" percentageChangeTurnout="-5.71" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="2701" percentageMajority="8.05" percentageChangeMajority="-13.37" swing="6.68" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299895" firstName="Yetunde" surname="Johnson Test" ballotName="Johnson Test, Yetunde Megan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="12069" percentageShare="35.96" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299893" firstName="Claire" surname="Spencer Test" ballotName="Spencer Test, Claire Isla">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="9368" percentageShare="27.91" />
+      </Candidate>
+      <Candidate paId="299896" firstName="Ed" surname="Harrison Test" ballotName="Harrison Test, Edward">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="5971" percentageShare="17.79" />
+      </Candidate>
+      <Candidate paId="299892" firstName="Andy" surname="Whitehead Test" ballotName="Whitehead Test, Andrew Ian">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="5288" percentageShare="15.75" />
+      </Candidate>
+      <Candidate paId="299894" firstName="Michael" surname="Tyler Test" ballotName="Tyler Test, Michael Alan">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="868" percentageShare="2.59" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="63" name="Paisley" turnout="36936" percentageTurnout="62.53" winningParty="SNP" majority="7910" percentageMajority="21.42">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="17028" percentageShare="46.10" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="9118" percentageShare="24.69" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="5292" percentageShare="14.33" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="2665" percentageShare="7.22" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1150" percentageShare="3.11" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="984" percentageShare="2.66" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="619" percentageShare="1.68" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="80" percentageShare="0.22" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

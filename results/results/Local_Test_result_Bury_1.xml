@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Bury' paId='4736' type='Metro' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='6'/>
+        <Party name='Ind' paId='661' seats='5'/>
+        <Party name='Reform' paId='664' seats='5'/>
+        <Party name='C' paId='659' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+3'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-3'/>
+        <Party name='C' paId='659' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='29'/>
+        <Party name='Ind' paId='661' seats='13'/>
+        <Party name='Reform' paId='664' seats='5'/>
+        <Party name='C' paId='659' seats='4'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="73" name="Uddingston &amp; Bellshill" electorate="59218">
+      <Candidate paId="299939" firstName="Jackie" surname="Smith Test" ballotName="Smith Test, Jacqueline">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299940" firstName="Maxwell" surname="Parker Test" ballotName="Parker Test, Maxwell Steven">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299941" firstName="Ed" surname="Ford Test" ballotName="Ford Test, Edward Robert">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299942" firstName="Ian" surname="Davidson Test" ballotName="Davidson Test, Ian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="73" name="Uddingston &amp; Bellshill" turnout="35990" percentageTurnout="60.78" winningParty="SNP" majority="5306" percentageMajority="14.74">
+      <Candidate paId="251919" firstName="Stephanie" surname="Callaghan" ballotName="Callaghan, Stephanie" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="17953" percentageShare="49.88" />
+      </Candidate>
+      <Candidate paId="252232" firstName="Frank" surname="McNally" ballotName="McNally, Frank" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="12647" percentageShare="35.14" />
+      </Candidate>
+      <Candidate paId="253306" firstName="Bryan" surname="Flannagan" ballotName="Flannagan, Bryan" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4569" percentageShare="12.70" />
+      </Candidate>
+      <Candidate paId="253305" firstName="Dawn" surname="Allan" ballotName="Allan, Dawn Marion Ferguson" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="821" percentageShare="2.28" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

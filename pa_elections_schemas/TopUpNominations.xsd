@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of single constituency nominations for proportionally-
+represented top-up constituencies in Scottish, Welsh, London
+and potentially other assembly elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+In top-up constituencies, each candidate has, at the very minimum, a party
+and a surname; the title and first name, and party list rank, are optional.
+    -->
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="elected" type="SittingMember" use="optional"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="ballotName" type="xs:string" use="optional"/>
+    <xs:attribute name="partyListRank" type="PartyListRank" use="optional"/>
+  </xs:complexType>
+  <!--
+In top-up constituencies, votes and percentages are only ever associated with
+parties, rather than with candidates.
+    -->
+  <xs:complexType name="Party">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="votes" type="xs:int" use="optional"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="optional"/>
+    <xs:attribute name="percentageShareChange" type="Percentage" use="optional"/>
+    <xs:attribute name="candidatesElected" type="xs:integer" use="optional"/>
+  </xs:complexType>
+  <!--
+The bulk of the overall constituency results are represented as attributes
+to the Constituency element.  The individual Candidate results are contained
+within the Constituency element.
+    -->
+  <xs:complexType name="Constituency">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="Party" type="Party" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageBoundaryChange" type="Percentage" use="optional"/>
+    <xs:attribute name="turnout" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageTurnout" type="Percentage" use="optional"/>
+    <xs:attribute name="winningParty" type="xs:string" use="optional"/>
+    <xs:attribute name="majority" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageMajority" type="Percentage" use="optional"/>
+  </xs:complexType>
+  <!--
+A summary of the results of a previous election contsists of a Constituency
+element, which contains the previous party results and list of people elected,
+together with some attributes pertaining to the election itself.
+    -->
+  <xs:complexType name="TopUpSummary">
+    <xs:sequence>
+      <xs:element name="Constituency" type="Constituency" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="ElectionType" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+  </xs:complexType>
+  <!--
+A summary of the notional results of a previous election in a
+constituency which has undergone a boundary change consists of a
+Constituency element, which contains the previous party results and
+numbers of candidates from each party notionally elected, together
+with some attributes pertaining to the election itself.
+    -->
+  <xs:complexType name="TopUpNotionalSummary">
+    <xs:sequence>
+      <xs:element name="Constituency" type="Constituency" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="ElectionType" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+  </xs:complexType>
+  <!--
+This is the root element.  It represents a set of nominations to a
+single constituency, complete with a summary of the results in this
+constituency at the previous election.  It contains an Election
+element, with the nominations for the constituency in the current
+election, followed by zero or more PreviousElection or
+PreviousNotionalElection elements, containing the results for the same
+or equivalent constituency in previous associated elections and
+by-elections.
+    -->
+  <xs:element name="TopUpNominations">
+    <xs:annotation>
+      <xs:documentation>Nominations to a single top-up constituency</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element name="PreviousElection" type="TopUpSummary" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="PreviousNotionalElection" type="TopUpNotionalSummary" minOccurs="0" maxOccurs="1"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

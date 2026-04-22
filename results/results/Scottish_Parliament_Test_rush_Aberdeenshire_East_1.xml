@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="4" name="Aberdeenshire East" electorate="64059" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Aberdeenshire East">
+      <Candidate paId="299599" firstName="Olivia" surname="Goddard Test" ballotName="Goddard Test, Olivia Anne">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299600" firstName="Anna" surname="Davies Test" ballotName="Davies Test, Anna Stephanie">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299601" firstName="Kate" surname="Ahmed Test" ballotName="Ahmed Test, Katherine">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299602" firstName="Micky" surname="Nattrass Test" ballotName="Nattrass Test, Michael Yusuf">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

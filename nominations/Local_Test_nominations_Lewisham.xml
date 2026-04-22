@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Lewisham' paId='4839' type='London' proportion='all'>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='50' seatsOffered='50' unopposedReturns='0' candidates='0'/>
+      <Party name='Green Party' abbreviation='Green' paId='660' seatsHeld='4' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

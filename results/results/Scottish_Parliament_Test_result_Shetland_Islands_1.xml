@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:37:39+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="69" name="Shetland Islands" electorate="18134" turnout="10909" percentageTurnout="60.16" percentageChangeTurnout="-5.65" winningParty="LD" gainOrHold="hold" sittingParty="LD" majority="363" percentageMajority="3.33" percentageChangeMajority="-3.43" swing="1.71" swingTo="SNP" swingFrom="LD">
+      <Candidate elected="*" previousSittingMember="*" paId="299922" firstName="Adrian" surname="Harris Test" ballotName="Harris Test, Adrian David">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="4693" percentageShare="43.02" percentageShareChange="-5.61" />
+      </Candidate>
+      <Candidate paId="299923" firstName="David" surname="Metcalfe Test" ballotName="Metcalfe Test, David Steven">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="4330" percentageShare="39.69" percentageShareChange="-2.18" />
+      </Candidate>
+      <Candidate paId="299920" firstName="Douglas" surname="Jennings Test" ballotName="Jennings Test, Douglas Michael">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="836" percentageShare="7.66" percentageShareChange="+3.45" />
+      </Candidate>
+      <Candidate paId="299921" firstName="David" surname="Richards Test" ballotName="Richards Test, David Charles">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="711" percentageShare="6.52" percentageShareChange="+2.96" />
+      </Candidate>
+      <Candidate paId="299925" firstName="Peter" surname="Dickinson Test" ballotName="Dickinson Test, Peter">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="206" percentageShare="1.89" percentageShareChange="+0.92" />
+      </Candidate>
+      <Candidate paId="299924" firstName="Phillip" surname="Humphreys Test" ballotName="Humphreys Test, Phillip Christopher">
+        <Party paId="13819" name="Restore Scotland" abbreviation="RS" votes="133" percentageShare="1.22" percentageShareChange="+0.46" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="69" name="Shetland Islands" turnout="11933" percentageTurnout="65.80" winningParty="LD" majority="806" percentageMajority="6.75">
+      <Candidate paId="252029" firstName="Beatrice" surname="Wishart" ballotName="Wishart, Beatrice" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="5803" percentageShare="48.63" />
+      </Candidate>
+      <Candidate paId="251929" firstName="Tom" surname="Wills" ballotName="Wills, Tom" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="4997" percentageShare="41.88" />
+      </Candidate>
+      <Candidate paId="252027" firstName="Nick" surname="Tulloch" ballotName="Tulloch, Nick" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="503" percentageShare="4.22" />
+      </Candidate>
+      <Candidate paId="252021" firstName="Martin" surname="Kerr" ballotName="Kerr, Martin" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="424" percentageShare="3.55" />
+      </Candidate>
+      <Candidate paId="252023" firstName="Peter" surname="Tait" ballotName="Tait, Peter" sex="M">
+        <Party paId="10658" name="Independent Peter Tait" abbreviation="Ind" votes="116" percentageShare="0.97" />
+      </Candidate>
+      <Candidate paId="253309" firstName="Brian" surname="Nugent" ballotName="Nugent, Brian" sex="M">
+        <Party paId="10631" name="Restore Scotland" abbreviation="RS" votes="90" percentageShare="0.75" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="72" name="Strathkelvin &amp; Bearsden" electorate="64397" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Strathkelvin &amp; Bearsden">
+      <Candidate paId="299934" firstName="Rhys" surname="Clark Test" ballotName="Clark Test, Rhys Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299935" firstName="Becca" surname="Patel Test" ballotName="Patel Test, Rebecca">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299936" firstName="Ade" surname="Graham Test" ballotName="Graham Test, Adrian Amir">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299937" firstName="Derek" surname="Taylor Test" ballotName="Taylor Test, Derek Richard">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299938" firstName="Aoife" surname="Watt Test" ballotName="Watt Test, Aoife Janice">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:33:05+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="71" name="Stirling" electorate="59285" turnout="44392" percentageTurnout="74.88" percentageChangeTurnout="+5.91" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="654" percentageMajority="1.47" percentageChangeMajority="-15.39" swing="7.69" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299933" firstName="Steven" surname="Clarke Test" ballotName="Clarke Test, Steven Oluwaseun">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="14926" percentageShare="33.62" percentageShareChange="-15.00" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299930" firstName="Ava" surname="Bell Test" ballotName="Bell Test, Ava Margaret">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="14272" percentageShare="32.15" percentageShareChange="+0.39" />
+      </Candidate>
+      <Candidate paId="299931" firstName="Stephen" surname="Flynn Test" ballotName="Flynn Test, Stephen Derek">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="12325" percentageShare="27.76" percentageShareChange="+11.73" />
+      </Candidate>
+      <Candidate paId="299932" firstName="Rob" surname="Miller Test" ballotName="Miller Test, Robert Nathan">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2869" percentageShare="6.46" percentageShareChange="+2.88" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="71" name="Stirling" turnout="40891" percentageTurnout="68.97" winningParty="SNP" majority="6895" percentageMajority="16.86">
+      <Candidate paId="251901" firstName="Evelyn" surname="Tweed" ballotName="Tweed, Evelyn" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19882" percentageShare="48.62" />
+      </Candidate>
+      <Candidate paId="253207" firstName="Dean" surname="Lockhart" ballotName="Lockhart, Dean" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="12987" percentageShare="31.76" />
+      </Candidate>
+      <Candidate paId="253206" firstName="Chris" surname="Kane" ballotName="Kane, Chris" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="6556" percentageShare="16.03" />
+      </Candidate>
+      <Candidate paId="253208" firstName="Fayzan" surname="Rehman" ballotName="Rehman, Fayzan" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1466" percentageShare="3.59" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

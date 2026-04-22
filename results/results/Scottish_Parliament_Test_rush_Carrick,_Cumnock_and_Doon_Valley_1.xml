@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="15" name="Carrick, Cumnock &amp; Doon Valley" electorate="59924" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Carrick, Cumnock &amp; Doon Valley">
+      <Candidate elected="*" paId="299649" firstName="Sunita" surname="Barnes Test" ballotName="Barnes Test, Sunita Monika">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299650" firstName="Katie" surname="Davies Test" ballotName="Davies Test, Katherine Dorothy">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299651" firstName="Steve" surname="Waller Test" ballotName="Waller Test, Steven Gregory">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299652" firstName="Phil" surname="Davies Test" ballotName="Davies Test, Philip">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

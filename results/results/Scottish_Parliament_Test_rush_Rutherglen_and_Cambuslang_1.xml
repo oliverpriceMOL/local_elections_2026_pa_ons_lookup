@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="68" name="Rutherglen &amp; Cambuslang" electorate="63431" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour gain from Scottish National Party in Rutherglen &amp; Cambuslang">
+      <Candidate paId="299916" firstName="Neil" surname="Mahmood Test" ballotName="Mahmood Test, Neil David">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299917" firstName="Jon" surname="Hayward Test" ballotName="Hayward Test, Jonathan Dylan">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299918" firstName="Lauren" surname="Moss Test" ballotName="Moss Test, Lauren Josephine">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299919" firstName="Robert" surname="Fox Test" ballotName="Fox Test, Robert Graham">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

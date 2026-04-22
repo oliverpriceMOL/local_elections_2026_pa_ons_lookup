@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpResult revision="1" declarationTime="2026-04-01T11:54:50+00:00">
+  <Election name="Welsh Parliament Test" date="2026-05-06" type="W">
+    <Constituency number="15" name="Sir Fynwy Torfaen" electorate="143272" turnout="94852" percentageTurnout="66.20" winningParty="PC" majority="9547" percentageMajority="10.07">
+      <Candidate elected="*" paId="299408" firstName="Peter" surname="MacDonald Test" ballotName="MacDonald Test, Peter Stephen" partyListRank="1">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="299412" firstName="Gillian" surname="Griffiths Test" ballotName="Griffiths Test, Gillian Louisa" partyListRank="1">
+        <Party paId="13712" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="299417" firstName="Jon" surname="Lewis Test" ballotName="Lewis Test, Jonathan Alistair" partyListRank="1">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299418" firstName="Henry" surname="Ward Test" ballotName="Ward Test, Henry Arthur" partyListRank="2">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299419" firstName="Chris" surname="Osborne Test" ballotName="Osborne Test, Christopher Eddie" partyListRank="3">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299450" firstName="Steven" surname="Dunn Test" ballotName="Dunn Test, Steven Jon" partyListRank="1">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+      <Party paId="13705" abbreviation="PC" name="Plaid Cymru" votes="28192" percentageShare="29.72" />
+      <Party paId="13709" abbreviation="Lab" name="Labour" votes="18645" percentageShare="19.66" />
+      <Party paId="13712" abbreviation="LD" name="Liberal Democrat" votes="12718" percentageShare="13.41" />
+      <Party paId="13707" abbreviation="Reform" name="Reform UK" votes="10346" percentageShare="10.91" />
+      <Party paId="13706" abbreviation="Green" name="Green" votes="9158" percentageShare="9.66" />
+      <Party paId="13708" abbreviation="C" name="Conservative" votes="8640" percentageShare="9.11" />
+      <Party paId="13918" abbreviation="Ind" name="Independent" votes="1114" percentageShare="1.17" />
+      <Party paId="13711" abbreviation="Gwlad" name="Gwlad" votes="1095" percentageShare="1.15" />
+      <Party paId="13745" abbreviation="TUSC" name="Trade Unionist and Socialist Coalition" votes="978" percentageShare="1.03" />
+      <Party paId="13731" abbreviation="Propel" name="Propel" votes="941" percentageShare="0.99" />
+      <Party paId="13713" abbreviation="Abolish" name="Abolish the Welsh Assembly Party" votes="927" percentageShare="0.98" />
+      <Party paId="13750" abbreviation="WP" name="Workers Party" votes="764" percentageShare="0.81" />
+      <Party paId="13710" abbreviation="UKIP" name="UK Independence Party" votes="680" percentageShare="0.72" />
+      <Party paId="13714" abbreviation="Comm Brit" name="Communist Party of Britain" votes="654" percentageShare="0.69" />
+    </Constituency>
+  </Election>
+</TopUpResult>

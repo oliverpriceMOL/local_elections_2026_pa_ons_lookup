@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='West Sussex' paId='4856' type='England' proportion='all' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='C'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+14'/>
+        <Party name='Ind' paId='661' change='+2'/>
+        <Party name='LD' paId='667' change='+1'/>
+        <Party name='C' paId='659' change='-14'/>
+        <Party name='Lab' paId='662' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='26'/>
+        <Party name='Reform' paId='664' seats='18'/>
+        <Party name='LD' paId='667' seats='11'/>
+        <Party name='Ind' paId='661' seats='9'/>
+        <Party name='Lab' paId='662' seats='5'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

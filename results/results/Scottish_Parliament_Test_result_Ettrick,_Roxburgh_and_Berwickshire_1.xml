@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:02:35+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="39" name="Ettrick, Roxburgh &amp; Berwickshire" electorate="56409" turnout="35306" percentageTurnout="62.59" percentageChangeTurnout="-1.30" winningParty="C" gainOrHold="hold" sittingParty="C" majority="6037" percentageMajority="17.10" percentageChangeMajority="-1.94" swing="0.97" swingTo="SNP" swingFrom="C">
+      <Candidate elected="*" previousSittingMember="*" paId="299768" firstName="Alison" surname="Thompson Test" ballotName="Thompson Test, Alison Sophie">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="14099" percentageShare="39.93" percentageShareChange="-11.57" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299771" firstName="Robert" surname="Fuller Test" ballotName="Fuller Test, Robert Tomasz">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="8062" percentageShare="22.83" percentageShareChange="-9.63" />
+      </Candidate>
+      <Candidate paId="299772" firstName="Paul" surname="Lewis Test" ballotName="Lewis Test, Paul Andrew">
+        <Party paId="13791" name="Green" abbreviation="Green" votes="6975" percentageShare="19.76" percentageShareChange="+16.75" />
+      </Candidate>
+      <Candidate paId="299769" firstName="Martin" surname="Spencer Test" ballotName="Spencer Test, Martin Michael">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="3632" percentageShare="10.29" percentageShareChange="+4.60" />
+      </Candidate>
+      <Candidate paId="299770" firstName="Meera" surname="Daniels Test" ballotName="Daniels Test, Meera Abigail">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="2486" percentageShare="7.04" percentageShareChange="+0.52" />
+      </Candidate>
+      <Candidate paId="299773" firstName="John" surname="Holden Test" ballotName="Holden Test, John Edward">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="52" percentageShare="0.15" percentageShareChange="-0.66" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="37" name="Ettrick, Roxburgh &amp; Berwickshire" turnout="36041" percentageTurnout="63.89" winningParty="C" majority="6863" percentageMajority="19.04">
+      <Candidate paId="253252" firstName="Rachael" surname="Hamilton" ballotName="Hamilton, Rachael" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="18564" percentageShare="51.51" />
+      </Candidate>
+      <Candidate paId="251970" firstName="Paul" surname="Wheelhouse" ballotName="Wheelhouse, Paul" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="11701" percentageShare="32.47" />
+      </Candidate>
+      <Candidate paId="253254" firstName="Jenny" surname="Marr" ballotName="Marr, Jenny" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2352" percentageShare="6.53" />
+      </Candidate>
+      <Candidate paId="253251" firstName="Ian" surname="Davidson" ballotName="Davidson, Ian" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2050" percentageShare="5.69" />
+      </Candidate>
+      <Candidate paId="253253" firstName="Barbra" surname="Harvie" ballotName="Harvie, Barbra" sex="F">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="1084" percentageShare="3.01" />
+      </Candidate>
+      <Candidate paId="252224" firstName="Jesse" surname="Rae" ballotName="Rae, Jesse" sex="M">
+        <Party paId="10662" name="Independent Jesse Rae" abbreviation="Ind" votes="290" percentageShare="0.80" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="9" totalNumberOfConstituencies="73" totalVotes="324989">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="5" losses="3" totalVotes="98597" percentageShare="30.34" percentageChange="-12.03" />
+    <Party paId="13786" name="Conservative" abbreviation="C" totalSeats="2" gains="2" totalVotes="92448" percentageShare="28.45" percentageChange="+8.26" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalVotes="74097" percentageShare="22.80" percentageChange="+2.06" />
+    <Party paId="13813" name="Reform UK" abbreviation="Reform" totalSeats="1" gains="1" totalVotes="28875" percentageShare="8.88" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalSeats="1" totalVotes="21530" percentageShare="6.62" percentageChange="+0.66" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalVotes="5073" percentageShare="1.56" percentageChange="-5.31" />
+    <Party paId="13886" name="Independent" abbreviation="Ind" totalVotes="1162" percentageShare="0.36" />
+    <Party paId="13825" name="No Description" abbreviation="ND" totalVotes="988" percentageShare="0.30" percentageChange="+0.13" />
+    <Party paId="13814" name="Liberal" abbreviation="Lib" totalVotes="610" percentageShare="0.19" />
+    <Party paId="-9999" name="Others" abbreviation="Others" totalVotes="1609" percentageShare="0.50" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" />
+    <Constituency number="20" name="Cowdenbeath" />
+    <Constituency number="23" name="Cunninghame South" />
+    <Constituency number="35" name="Edinburgh North Western" />
+    <Constituency number="40" name="Falkirk East &amp; Linlithgow" />
+    <Constituency number="50" name="Glasgow Southside" />
+    <Constituency number="52" name="Inverclyde" />
+    <Constituency number="61" name="Na h-Eileanan an Iar" />
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

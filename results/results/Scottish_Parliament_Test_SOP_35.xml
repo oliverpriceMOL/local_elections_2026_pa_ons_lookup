@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="35" totalNumberOfConstituencies="73" totalVotes="1254881">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="14" losses="16" totalVotes="401896" percentageShare="32.03" percentageChange="-11.24" />
+    <Party paId="13786" name="Conservative" abbreviation="C" totalSeats="10" gains="7" totalVotes="381508" percentageShare="30.40" percentageChange="+6.37" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalSeats="5" gains="5" totalVotes="291621" percentageShare="23.24" percentageChange="+3.98" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalSeats="3" gains="1" totalVotes="85891" percentageShare="6.84" percentageChange="+1.27" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalSeats="1" gains="1" totalVotes="43757" percentageShare="3.49" percentageChange="-1.68" />
+    <Party paId="13813" name="Reform UK" abbreviation="Reform" totalSeats="2" gains="2" totalVotes="38369" percentageShare="3.06" />
+    <Party paId="13825" name="No Description" abbreviation="ND" totalVotes="2114" percentageShare="0.17" percentageChange="+0.10" />
+    <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" totalVotes="1736" percentageShare="0.14" percentageChange="+0.11" />
+    <Party paId="13886" name="Independent" abbreviation="Ind" totalVotes="1368" percentageShare="0.11" percentageChange="+0.10" />
+    <Party paId="13814" name="Liberal" abbreviation="Lib" totalVotes="610" percentageShare="0.05" />
+    <Party paId="13804" name="Communist Party of Britain" abbreviation="Comm Brit" totalVotes="10" percentageShare="0.00" percentageChange="-0.01" />
+    <Party paId="-9999" name="Others" abbreviation="Others" totalVotes="6001" percentageShare="0.48" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" />
+    <Constituency number="3" name="Aberdeen Donside" />
+    <Constituency number="5" name="Aberdeenshire West" />
+    <Constituency number="6" name="Airdrie" />
+    <Constituency number="10" name="Argyll &amp; Bute" />
+    <Constituency number="16" name="Clackmannanshire &amp; Dunblane" />
+    <Constituency number="17" name="Clydebank &amp; Milngavie" />
+    <Constituency number="18" name="Clydesdale" />
+    <Constituency number="19" name="Coatbridge &amp; Chryston" />
+    <Constituency number="20" name="Cowdenbeath" />
+    <Constituency number="23" name="Cunninghame South" />
+    <Constituency number="25" name="Dumfriesshire" />
+    <Constituency number="30" name="East Lothian Coast &amp; Lammermuirs" />
+    <Constituency number="33" name="Edinburgh Eastern, Musselburgh &amp; Tranent" />
+    <Constituency number="34" name="Edinburgh North Eastern &amp; Leith" />
+    <Constituency number="35" name="Edinburgh North Western" />
+    <Constituency number="36" name="Edinburgh Northern" />
+    <Constituency number="37" name="Edinburgh South Western" />
+    <Constituency number="40" name="Falkirk East &amp; Linlithgow" />
+    <Constituency number="43" name="Galloway &amp; Dumfries West" />
+    <Constituency number="46" name="Glasgow Cathcart &amp; Pollok" />
+    <Constituency number="48" name="Glasgow Easterhouse &amp; Springburn" />
+    <Constituency number="50" name="Glasgow Southside" />
+    <Constituency number="51" name="Hamilton, Larkhall &amp; Stonehouse" />
+    <Constituency number="52" name="Inverclyde" />
+    <Constituency number="57" name="Midlothian North" />
+    <Constituency number="59" name="Moray" />
+    <Constituency number="60" name="Motherwell &amp; Wishaw" />
+    <Constituency number="61" name="Na h-Eileanan an Iar" />
+    <Constituency number="64" name="Perthshire North" />
+    <Constituency number="65" name="Perthshire South &amp; Kinross-shire" />
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" />
+    <Constituency number="69" name="Shetland Islands" />
+    <Constituency number="70" name="Skye, Lochaber &amp; Badenoch" />
+    <Constituency number="71" name="Stirling" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

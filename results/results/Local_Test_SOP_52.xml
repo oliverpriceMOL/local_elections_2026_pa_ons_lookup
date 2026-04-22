@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalStateOfParties region='All' numberOfResults='52' totalNumberOfCouncils='136'>
+  <Election date='2026-05-07' paId='252'/>
+  <Parties>
+    <Party paId='659' name='Conservative' abbreviation='C' totalCouncils='4' changeInControl='-2' seatsWon='296' netChangeInSeats='-55'/>
+    <Party paId='662' name='Labour' abbreviation='Lab' totalCouncils='21' changeInControl='-5' seatsWon='771' netChangeInSeats='-171'/>
+    <Party paId='667' name='Liberal Democrat' abbreviation='LD' totalCouncils='8' changeInControl='+1' seatsWon='318' netChangeInSeats='+51'/>
+    <Party paId='660' name='Green Party' abbreviation='Green' totalCouncils='1' changeInControl='+1' seatsWon='90' netChangeInSeats='+29'/>
+    <Party paId='661' name='Independent/Other' abbreviation='Ind' totalCouncils='2' changeInControl='+1' seatsWon='208' netChangeInSeats='+48'/>
+    <Party paId='663' name='Ratepayers or Residents' abbreviation='R' totalCouncils='1' changeInControl='0' seatsWon='33' netChangeInSeats='+3'/>
+    <Party paId='664' name='Reform UK' abbreviation='Reform' totalCouncils='1' changeInControl='+1' seatsWon='118' netChangeInSeats='+96'/>
+    <Party paId='671' name='Your Party' abbreviation='Your' totalCouncils='0' changeInControl='0' seatsWon='1' netChangeInSeats='-1'/>
+    <Party name='No Overall Control' abbreviation='NOC' totalCouncils='14' changeInControl='+3' seatsWon='0' netChangeInSeats='0'/>
+  </Parties>
+  <CouncilsIncluded>
+    <Council name='Barnsley' paId='4732' type='Metro' proportion='third'/>
+    <Council name='Basingstoke &amp; Deane' paId='4766' type='Non-Met' proportion='third'/>
+    <Council name='Bexley' paId='4821' type='London' proportion='all'/>
+    <Council name='Birmingham' paId='4733' type='Metro' proportion='all'/>
+    <Council name='Brent' paId='4820' type='London' proportion='all'/>
+    <Council name='Broxbourne' paId='4768' type='Non-Met' proportion='third'/>
+    <Council name='Bury' paId='4736' type='Metro' proportion='third'/>
+    <Council name='Camden' paId='4823' type='London' proportion='all'/>
+    <Council name='Cheltenham' paId='4773' type='Non-Met' proportion='half'/>
+    <Council name='Ealing' paId='4825' type='London' proportion='all'/>
+    <Council name='Eastleigh' paId='4778' type='Non-Met' proportion='third'/>
+    <Council name='Enfield' paId='4826' type='London' proportion='all'/>
+    <Council name='Fareham' paId='4782' type='Non-Met' proportion='half'/>
+    <Council name='Gateshead' paId='4740' type='Metro' proportion='all'/>
+    <Council name='Hackney' paId='4828' type='London' proportion='all'/>
+    <Council name='Hammersmith &amp; Fulham' paId='4829' type='London' proportion='all'/>
+    <Council name='Harlow' paId='4784' type='Non-Met' proportion='third'/>
+    <Council name='Harrow' paId='4831' type='London' proportion='all'/>
+    <Council name='Hastings' paId='4786' type='Non-Met' proportion='half'/>
+    <Council name='Havering' paId='4832' type='London' proportion='all'/>
+    <Council name='Isle of Wight' paId='4849' type='Unitary' proportion='all'/>
+    <Council name='Knowsley' paId='4742' type='Metro' proportion='third'/>
+    <Council name='Lincoln' paId='4791' type='Non-Met' proportion='third'/>
+    <Council name='Newcastle-under-Lyme' paId='4792' type='Non-Met' proportion='all'/>
+    <Council name='North Tyneside' paId='4746' type='Metro' proportion='third'/>
+    <Council name='Pendle' paId='4796' type='Non-Met' proportion='third'/>
+    <Council name='Peterborough' paId='4723' type='Unitary' proportion='third'/>
+    <Council name='Preston' paId='4797' type='Non-Met' proportion='third'/>
+    <Council name='Redbridge' paId='4842' type='London' proportion='all'/>
+    <Council name='Redditch' paId='4798' type='Non-Met' proportion='third'/>
+    <Council name='Richmond-upon-Thames' paId='4843' type='London' proportion='all'/>
+    <Council name='Rugby' paId='4801' type='Non-Met' proportion='third'/>
+    <Council name='St Albans' paId='4804' type='Non-Met' proportion='third'/>
+    <Council name='St Helens' paId='4755' type='Metro' proportion='all'/>
+    <Council name='Salford' paId='4749' type='Metro' proportion='third'/>
+    <Council name='Sefton' paId='4751' type='Metro' proportion='all'/>
+    <Council name='Sheffield' paId='4752' type='Metro' proportion='third'/>
+    <Council name='South Tyneside' paId='4754' type='Metro' proportion='all'/>
+    <Council name='Southampton' paId='4727' type='Unitary' proportion='third'/>
+    <Council name='Sunderland' paId='4757' type='Metro' proportion='all'/>
+    <Council name='Swindon' paId='4729' type='Unitary' proportion='all'/>
+    <Council name='Three Rivers' paId='4807' type='Non-Met' proportion='third'/>
+    <Council name='Thurrock' paId='4730' type='Unitary' proportion='all'/>
+    <Council name='Tower Hamlets' paId='4846' type='London' proportion='all'/>
+    <Council name='Trafford' paId='4759' type='Metro' proportion='third'/>
+    <Council name='Tunbridge Wells' paId='4808' type='Non-Met' proportion='third'/>
+    <Council name='Wandsworth' paId='4854' type='London' proportion='all'/>
+    <Council name='Watford' paId='4809' type='Non-Met' proportion='third'/>
+    <Council name='Welwyn Hatfield' paId='4810' type='Non-Met' proportion='third'/>
+    <Council name='West Lancashire' paId='4811' type='Non-Met' proportion='third'/>
+    <Council name='Wokingham' paId='4731' type='Unitary' proportion='third'/>
+    <Council name='Worthing' paId='4813' type='Non-Met' proportion='third'/>
+  </CouncilsIncluded>
+</LocalStateOfParties>

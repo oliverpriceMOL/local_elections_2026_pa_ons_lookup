@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Salford' paId='4749' type='Metro' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='13'/>
+        <Party name='C' paId='659' seats='3'/>
+        <Party name='Ind' paId='661' seats='2'/>
+        <Party name='LD' paId='667' seats='1'/>
+        <Party name='Your' paId='671' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='46'/>
+        <Party name='C' paId='659' seats='8'/>
+        <Party name='Ind' paId='661' seats='3'/>
+        <Party name='LD' paId='667' seats='2'/>
+        <Party name='Your' paId='671' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

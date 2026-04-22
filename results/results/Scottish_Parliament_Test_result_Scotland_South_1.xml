@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpResult revision="1" declarationTime="2026-04-01T11:54:47+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="107" name="Scotland South" electorate="558410" turnout="413513" percentageTurnout="74.05" percentageChangeTurnout="+8.89" winningParty="C" majority="12732" percentageMajority="3.08" percentageChangeMajority="+8.89" swing="3.60" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="300738" firstName="James" surname="Fleming Test" ballotName="Fleming Test, James Brian" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300750" firstName="Paul" surname="Webster Test" ballotName="Webster Test, Paul David" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300751" firstName="Hannah" surname="Ahmed Test" ballotName="Ahmed Test, Hannah Hannah" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300764" firstName="John" surname="Pugh Test" ballotName="Pugh Test, John David" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300765" firstName="Dave" surname="Davey Test" ballotName="Davey Test, David David" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="300766" firstName="Phil" surname="Connor Test" ballotName="Connor Test, Philip Peter" partyListRank="3">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" paId="300776" firstName="Caoimhe" surname="Gibbs Test" ballotName="Gibbs Test, Caoimhe Freya" partyListRank="1">
+        <Party paId="13791" abbreviation="Green" name="Green" />
+      </Candidate>
+      <Party paId="13786" abbreviation="C" name="Conservative" votes="144013" percentageShare="34.83" percentageShareChange="+1.37" />
+      <Party paId="13790" abbreviation="SNP" name="Scottish National Party" votes="131281" percentageShare="31.75" percentageShareChange="-5.83" />
+      <Party paId="13787" abbreviation="Lab" name="Labour" votes="73855" percentageShare="17.86" percentageShareChange="+2.13" />
+      <Party paId="13791" abbreviation="Green" name="Green" votes="20565" percentageShare="4.97" percentageShareChange="-0.24" />
+      <Party paId="13789" abbreviation="LD" name="Liberal Democrat" votes="15293" percentageShare="3.70" percentageShareChange="+0.28" />
+      <Party paId="13813" abbreviation="Reform" name="Reform UK" votes="13990" percentageShare="3.38" percentageShareChange="+3.17" />
+      <Party paId="13810" abbreviation="Alba" name="Alba Party" votes="3942" percentageShare="0.95" percentageShareChange="-0.12" />
+      <Party paId="13826" abbreviation="FA" name="Freedom Alliance" votes="1740" percentageShare="0.42" percentageShareChange="+0.23" />
+      <Party paId="13824" abbreviation="SFP" name="Scottish Family Party" votes="1720" percentageShare="0.42" percentageShareChange="-0.04" />
+      <Party paId="13930" abbreviation="IGV" name="Independent Green Voice" votes="1603" percentageShare="0.39" percentageShareChange="-0.08" />
+      <Party paId="13880" abbreviation="UKIP" name="UK Independence Party" votes="1284" percentageShare="0.31" percentageShareChange="+0.15" />
+      <Party paId="13828" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" votes="1278" percentageShare="0.31" percentageShareChange="-0.00" />
+      <Party paId="13830" abbreviation="Unity" name="All For Unity" votes="1268" percentageShare="0.31" percentageShareChange="-1.21" />
+      <Party paId="13856" abbreviation="SLP" name="Scottish Libertarian Party" votes="817" percentageShare="0.20" percentageShareChange="+0.05" />
+      <Party paId="13822" abbreviation="ScF" name="Scotia Future" votes="777" percentageShare="0.19" percentageShareChange="+0.13" />
+      <Party paId="13836" abbreviation="Vanguard" name="Vanguard Party" votes="87" percentageShare="0.02" percentageShareChange="-0.00" />
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="107" name="Scotland South" turnout="363848" percentageTurnout="65.16" winningParty="SNP" majority="15011" percentageMajority="4.13">
+      <Candidate elected="*" paId="253227" firstName="Craig" surname="Hoy" ballotName="Hoy, Craig" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253292" firstName="Brian" surname="Whittle" ballotName="Whittle, Brian" sex="M">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253184" firstName="Sharon" surname="Dowey" ballotName="Dowey, Sharon" sex="F">
+        <Party paId="10345" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="253213" firstName="Colin" surname="Smyth" ballotName="Smyth, Colin" sex="M">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="253186" firstName="Carol" surname="Mochan" ballotName="Mochan, Carol Ann" sex="F">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="253228" firstName="Martin" surname="Whitfield" ballotName="Whitfield, Martin David" sex="M">
+        <Party paId="10346" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="251968" firstName="Emma" surname="Harper" ballotName="Harper, Emma" sex="F">
+        <Party paId="10349" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Party paId="10349" abbreviation="SNP" name="Scottish National Party" votes="136741" percentageShare="37.58" candidatesElected="1" />
+      <Party paId="10345" abbreviation="C" name="Conservative" votes="121730" percentageShare="33.46" candidatesElected="3" />
+      <Party paId="10346" abbreviation="Lab" name="Labour" votes="57236" percentageShare="15.73" candidatesElected="3" />
+      <Party paId="10350" abbreviation="Green" name="Green" votes="18964" percentageShare="5.21" />
+      <Party paId="10348" abbreviation="LD" name="Liberal Democrat" votes="12422" percentageShare="3.41" />
+      <Party paId="10637" abbreviation="Unity" name="All For Unity" votes="5521" percentageShare="1.52" />
+      <Party paId="10624" abbreviation="Alba" name="Alba Party" votes="3896" percentageShare="1.07" />
+      <Party paId="10638" abbreviation="IGV" name="Independent Green Voice" votes="1690" percentageShare="0.46" />
+      <Party paId="10634" abbreviation="SFP" name="Scottish Family Party" votes="1659" percentageShare="0.46" />
+      <Party paId="10636" abbreviation="Abolish" name="Abolish The Scottish Parliament Party" votes="1126" percentageShare="0.31" />
+      <Party paId="10626" abbreviation="Reform UK" name="Reform UK" votes="779" percentageShare="0.21" />
+      <Party paId="10635" abbreviation="FA" name="Freedom Alliance" votes="686" percentageShare="0.19" />
+      <Party paId="10409" abbreviation="UKIP" name="UK Independence Party" votes="578" percentageShare="0.16" />
+      <Party paId="10397" abbreviation="SLP" name="Scottish Libertarian Party" votes="534" percentageShare="0.15" />
+      <Party paId="10633" abbreviation="ScF" name="Scotia Future" votes="194" percentageShare="0.05" />
+      <Party paId="10640" abbreviation="Vanguard" name="Vanguard Party" votes="92" percentageShare="0.03" />
+    </Constituency>
+  </PreviousElection>
+</TopUpResult>

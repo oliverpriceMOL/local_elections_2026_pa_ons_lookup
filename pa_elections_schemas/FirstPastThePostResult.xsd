@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of results messages for general elections, and for
+first-past-the-post constituencies in Scottish, Welsh, London
+and potentially other assembly elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+In first-past-the-post constituencies, each candidate appears along
+with his/her numbers of votes, percentage share of the vote, and
+possibly change in the percentage share.  At the very minimum, a
+candidate must have a surname; the title, first name and sex are
+optional.
+
+Note that the 'rushText' refers to the special piece of text which
+should be used in rush messages if the candidate in question is well
+known, such as 'International Development Secretary Fred Bloggs' or
+'Television presenter Jo Smith'.  For most candidates it is absent.
+    -->
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="ballotName" type="xs:string" use="optional"/>
+    <xs:attribute name="rushText" type="xs:string" use="optional"/>
+    <xs:attribute name="elected" type="SittingMember" use="optional"/>
+    <xs:attribute name="votes" type="xs:int" use="optional"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="optional"/>
+    <xs:attribute name="percentageShareChange" type="Percentage" use="optional"/>
+  </xs:complexType>
+  <!--
+A Party element is included inside each Candidate element, and has the
+party name and abbreviation.  In the case of notional previous
+constituencies (where boundary changes are concerned), each party also
+has its number of votes, percentage share of the vote, and possibly
+change in the percentage share, as in notional constituencies votes
+are attached to parties, rather than to candidates.
+    -->
+  <xs:complexType name="Party">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="elected" type="SittingMember" use="optional"/>
+    <xs:attribute name="votes" type="xs:int" use="optional"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="optional"/>
+    <xs:attribute name="percentageShareChange" type="Percentage" use="optional"/>
+  </xs:complexType>
+  <!--
+The bulk of the overall constituency results are represented as
+attributes to the Constituency element.  The individual Candidate
+results are contained within the Constituency element.
+    -->
+  <xs:complexType name="Constituency">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageBoundaryChange" type="Percentage" use="optional"/>
+    <xs:attribute name="turnout" type="xs:integer" use="required"/>
+    <xs:attribute name="percentageTurnout" type="Percentage" use="required"/>
+    <xs:attribute name="percentageChangeTurnout" type="Percentage" use="optional"/>
+    <xs:attribute name="winningParty" type="xs:string" use="required"/>
+    <xs:attribute name="gainOrHold" type="GainOrHold" use="optional"/>
+    <xs:attribute name="sittingParty" type="xs:string" use="optional"/>
+    <xs:attribute name="majority" type="xs:integer" use="required"/>
+    <xs:attribute name="percentageMajority" type="Percentage" use="required"/>
+    <xs:attribute name="percentageChangeMajority" type="Percentage" use="optional"/>
+    <xs:attribute name="swing" type="Percentage" use="optional"/>
+    <xs:attribute name="swingTo" type="xs:string" use="optional"/>
+    <xs:attribute name="swingFrom" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <!--
+Notional results in a previous election in a constituency which has
+undergone a boundary change are represented using the special
+NotionalConstituency element.  Individual Party results are contained
+within.
+    -->
+  <xs:complexType name="NotionalConstituency">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="turnout" type="xs:integer" use="required"/>
+    <xs:attribute name="percentageTurnout" type="Percentage" use="required"/>
+    <xs:attribute name="winningParty" type="xs:string" use="required"/>
+    <xs:attribute name="gainOrHold" type="GainOrHold" use="optional"/>
+    <xs:attribute name="majority" type="xs:integer" use="required"/>
+    <xs:attribute name="percentageMajority" type="Percentage" use="required"/>
+    <xs:attribute name="percentageChangeMajority" type="Percentage" use="optional"/>
+    <xs:attribute name="swing" type="Percentage" use="optional"/>
+    <xs:attribute name="swingTo" type="xs:string" use="optional"/>
+    <xs:attribute name="swingFrom" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <!--
+A summary of the results of a previous election contsists of a Constituency
+element, which contains the previous candidate results, together with some
+attributes pertaining to the election itself.
+    -->
+  <xs:complexType name="FirstPastThePostSummary">
+    <xs:sequence>
+      <xs:element name="Constituency" type="Constituency" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="ElectionType" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+  </xs:complexType>
+  <!--
+A summary of the notional results of a previous election in a
+constituency which has undergone a boundary change contsists of a
+Constituency element, which contains the previous party results,
+together with some attributes pertaining to the election itself.
+    -->
+  <xs:complexType name="FirstPastThePostNotionalSummary">
+    <xs:sequence>
+      <xs:element name="Constituency" type="NotionalConstituency" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="ElectionType" use="required"/>
+    <xs:attribute name="date" type="xs:date" use="required"/>
+  </xs:complexType>
+  <!--
+This is the root element.  It contains an Election element, with the
+results for the constituency in the current election, followed by zero
+or more PreviousElection elements, containing the results for the same
+or equivalent constituency in previous associated elections and
+by-elections.
+    -->
+  <xs:element name="FirstPastThePostResult">
+    <xs:annotation>
+      <xs:documentation>Single result in a first-past-the-post
+        constituency
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:choice>
+          <xs:element name="PreviousElection" type="FirstPastThePostSummary" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="PreviousNotionalElection" type="FirstPastThePostNotionalSummary" minOccurs="0"
+                      maxOccurs="1"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+      <xs:attribute name="declarationTime" type="xs:dateTime" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

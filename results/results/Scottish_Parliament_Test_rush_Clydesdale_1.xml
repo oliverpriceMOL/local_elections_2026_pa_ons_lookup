@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="18" name="Clydesdale" electorate="61155" gainOrHold="gain" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Conservative gain from Scottish National Party in Clydesdale">
+      <Candidate elected="*" paId="299662" firstName="David" surname="Brookes Test" ballotName="Brookes Test, David Robin">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299663" firstName="Thomas" surname="Wright Test" ballotName="Wright Test, Thomas Martin">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299664" firstName="Pete" surname="Peacock Test" ballotName="Peacock Test, Peter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299665" firstName="Wendy" surname="Davies Test" ballotName="Davies Test, Wendy Irene">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

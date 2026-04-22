@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Calderdale' paId='4737' type='Metro' proportion='all' boundaryChange='true' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+9'/>
+        <Party name='C' paId='659' change='+1'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Lab' paId='662' change='-6'/>
+        <Party name='LD' paId='667' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='21'/>
+        <Party name='Reform' paId='664' seats='12'/>
+        <Party name='C' paId='659' seats='11'/>
+        <Party name='LD' paId='667' seats='4'/>
+        <Party name='Green' paId='660' seats='4'/>
+        <Party name='Ind' paId='661' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

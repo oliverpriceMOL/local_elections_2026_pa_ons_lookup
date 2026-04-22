@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Norfolk' paId='4816' type='England' proportion='all' winningParty='C' gainOrHold='no change' sittingParty='C'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='Green' paId='660' change='+1'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-6'/>
+        <Party name='C' paId='659' change='-5'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='48'/>
+        <Party name='LD' paId='667' seats='12'/>
+        <Party name='Reform' paId='664' seats='9'/>
+        <Party name='Ind' paId='661' seats='7'/>
+        <Party name='Green' paId='660' seats='5'/>
+        <Party name='Lab' paId='662' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:02:34+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="41" name="Falkirk West" electorate="68843" percentageBoundaryChange="14.10" turnout="42378" percentageTurnout="61.56" percentageChangeTurnout="-1.18" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="1770" percentageMajority="4.18" percentageChangeMajority="-20.79" swing="10.56" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299782" firstName="Omar" surname="Ward Test" ballotName="Ward Test, Omar Tariq">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="15017" percentageShare="35.44" />
+      </Candidate>
+      <Candidate paId="299779" firstName="Timothy" surname="Hutchinson Test" ballotName="Hutchinson Test, Timothy">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="13247" percentageShare="31.26" />
+      </Candidate>
+      <Candidate paId="299780" firstName="Christopher" surname="Parker Test" ballotName="Parker Test, Christopher Stephen">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="12686" percentageShare="29.94" />
+      </Candidate>
+      <Candidate paId="299781" firstName="Megan" surname="Bell Test" ballotName="Bell Test, Megan Amelia">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1428" percentageShare="3.37" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="41" name="Falkirk West" turnout="43191" percentageTurnout="62.74" winningParty="SNP" majority="10785" percentageMajority="24.97">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="19665" percentageShare="45.53" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8880" percentageShare="20.56" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="8742" percentageShare="20.24" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="2870" percentageShare="6.64" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1256" percentageShare="2.91" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="987" percentageShare="2.29" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="698" percentageShare="1.62" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="93" percentageShare="0.22" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostResult>

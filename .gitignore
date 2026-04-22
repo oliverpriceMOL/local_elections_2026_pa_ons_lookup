@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+mock_up_designs/data/_analyze*.py
+mock_up_designs/server.py

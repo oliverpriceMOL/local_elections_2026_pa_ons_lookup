@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Cheltenham' paId='4773' type='Non-Met' proportion='half' winningParty='LD' gainOrHold='no change' sittingParty='LD'>
+      <ElectedCouncillors>
+        <Party name='LD' paId='667' seats='18'/>
+        <Party name='Green' paId='660' seats='2'/>
+      </ElectedCouncillors>
+      <Changes/>
+      <NewCouncil>
+        <Party name='LD' paId='667' seats='36'/>
+        <Party name='Green' paId='660' seats='3'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

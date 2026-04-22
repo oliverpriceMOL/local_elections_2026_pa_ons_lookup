@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="19" name="Coatbridge &amp; Chryston" electorate="56819" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Coatbridge &amp; Chryston">
+      <Candidate paId="299666" firstName="Adrian" surname="Hutchinson Test" ballotName="Hutchinson Test, Adrian Roger">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299667" firstName="Stewart" surname="Burns Test" ballotName="Burns Test, Stewart Philip">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299668" firstName="Chris" surname="Brown Test" ballotName="Brown Test, Christopher Edward">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299669" firstName="Julian" surname="Carter Test" ballotName="Carter Test, Julian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299670" firstName="Amy" surname="Humphries Test" ballotName="Humphries Test, Amy Anne">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

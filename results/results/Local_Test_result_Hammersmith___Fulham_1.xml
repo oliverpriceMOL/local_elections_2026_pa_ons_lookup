@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hammersmith &amp; Fulham' paId='4829' type='London' proportion='all' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <Changes>
+        <Party name='Lab' paId='662' change='+2'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='C' paId='659' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='39'/>
+        <Party name='C' paId='659' seats='7'/>
+        <Party name='Ind' paId='661' seats='2'/>
+        <Party name='Green' paId='660' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

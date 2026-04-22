@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hartlepool' paId='4719' type='Unitary' proportion='third' winningParty='Lab' gainOrHold='no change' sittingParty='Lab'>
+      <ElectedCouncillors>
+        <Party name='Lab' paId='662' seats='5'/>
+        <Party name='Reform' paId='664' seats='5'/>
+        <Party name='C' paId='659' seats='1'/>
+        <Party name='Ind' paId='661' seats='1'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+4'/>
+        <Party name='C' paId='659' change='-2'/>
+        <Party name='Lab' paId='662' change='-1'/>
+        <Party name='Ind' paId='661' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='21'/>
+        <Party name='Reform' paId='664' seats='8'/>
+        <Party name='Ind' paId='661' seats='5'/>
+        <Party name='C' paId='659' seats='2'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

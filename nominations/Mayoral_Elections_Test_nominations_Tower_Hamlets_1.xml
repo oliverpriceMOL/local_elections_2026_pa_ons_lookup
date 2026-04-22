@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="5" name="Tower Hamlets" electorate="205189">
+      <Candidate paId="300935" firstName="Hugh" surname="Roberts Test" ballotName="Roberts Test, Hugh">
+        <Party paId="13899" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="300936" firstName="Pete" surname="Clarke Test" ballotName="Clarke Test, Peter David">
+        <Party paId="13900" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="300937" firstName="David" surname="Parsons Test" ballotName="Parsons Test, David John">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="300938" firstName="Millie" surname="Barrett Test" ballotName="Barrett Test, Millicent Jane">
+        <Party paId="13895" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="300939" firstName="Matt" surname="Marsh Test" ballotName="Marsh Test, Matthew Timothy">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" />
+      </Candidate>
+      <Candidate paId="300955" previousSittingMember="*" firstName="Douglas" surname="George Test" ballotName="George Test, Douglas">
+        <Party paId="13931" name="Aspire" abbreviation="Aspire" />
+      </Candidate>
+      <Candidate paId="300940" firstName="Rajan" surname="Fisher Test" ballotName="Fisher Test, Rajan George">
+        <Party paId="13941" name="Independent Rajan Fisher Test" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="300941" firstName="Yetunde" surname="Patterson Test" ballotName="Patterson Test, Yetunde">
+        <Party paId="13942" name="Independent Yetunde Patterson Test" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostNominations>

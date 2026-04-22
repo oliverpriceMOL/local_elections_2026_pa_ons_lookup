@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="19" name="Coatbridge &amp; Chryston" electorate="56819">
+      <Candidate paId="299666" firstName="Adrian" surname="Hutchinson Test" ballotName="Hutchinson Test, Adrian Roger">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299667" firstName="Stewart" surname="Burns Test" ballotName="Burns Test, Stewart Philip">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299668" firstName="Chris" surname="Brown Test" ballotName="Brown Test, Christopher Edward">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299669" previousSittingMember="*" firstName="Julian" surname="Carter Test" ballotName="Carter Test, Julian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299670" firstName="Amy" surname="Humphries Test" ballotName="Humphries Test, Amy Anne">
+        <Party paId="13824" name="Scottish Family Party" abbreviation="SFP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="18" name="Coatbridge &amp; Chryston" turnout="35778" percentageTurnout="62.97" winningParty="SNP" majority="9437" percentageMajority="26.38">
+      <Candidate paId="251918" firstName="Fulton" surname="MacGregor" ballotName="MacGregor, Fulton" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="20577" percentageShare="57.51" />
+      </Candidate>
+      <Candidate paId="253199" firstName="Michael" surname="McPake" ballotName="McPake, Michael" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="11140" percentageShare="31.14" />
+      </Candidate>
+      <Candidate paId="252186" firstName="Gordon" surname="MacDonald" ballotName="MacDonald, Gordon" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="3028" percentageShare="8.46" />
+      </Candidate>
+      <Candidate paId="252187" firstName="Mhairi" surname="Macdonald" ballotName="Macdonald, Mhairi" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="622" percentageShare="1.74" />
+      </Candidate>
+      <Candidate paId="253198" firstName="Leo" surname="Lanahan" ballotName="Lanahan, Leo Francis" sex="M">
+        <Party paId="10634" name="Scottish Family Party" abbreviation="SFP" votes="411" percentageShare="1.15" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

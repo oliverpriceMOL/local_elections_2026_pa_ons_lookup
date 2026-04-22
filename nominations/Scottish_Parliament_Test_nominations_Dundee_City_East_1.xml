@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="26" name="Dundee City East" electorate="55691">
+      <Candidate paId="299700" firstName="Nick" surname="Williams Test" ballotName="Williams Test, Nicholas Emeka">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299701" firstName="Martin" surname="Byrne Test" ballotName="Byrne Test, Martin">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299702" firstName="Angela" surname="Clarke Test" ballotName="Clarke Test, Angela Ava">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299703" previousSittingMember="*" firstName="Roger" surname="Webb Test" ballotName="Webb Test, Roger">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299704" firstName="Norman" surname="Bailey Test" ballotName="Bailey Test, Norman Michael">
+        <Party paId="13878" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="25" name="Dundee City East" turnout="32471" percentageTurnout="58.31" winningParty="SNP" majority="13337" percentageMajority="41.07">
+      <Candidate paId="251997" firstName="Shona" surname="Robison" ballotName="Robison, Shona" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19230" percentageShare="59.22" />
+      </Candidate>
+      <Candidate paId="252189" firstName="Owen" surname="Wright" ballotName="Wright, Owen" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="5893" percentageShare="18.15" />
+      </Candidate>
+      <Candidate paId="252160" firstName="Philip" surname="Scott" ballotName="Scott, Philip" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="5630" percentageShare="17.34" />
+      </Candidate>
+      <Candidate paId="251996" firstName="Michael" surname="Crichton" ballotName="Crichton, Michael" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1431" percentageShare="4.41" />
+      </Candidate>
+      <Candidate paId="251999" firstName="Wayne" surname="Scott" ballotName="Scott, Wayne" sex="M">
+        <Party paId="10408" name="Trade Unionist and Socialist Coalition" abbreviation="TUSC" votes="287" percentageShare="0.88" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

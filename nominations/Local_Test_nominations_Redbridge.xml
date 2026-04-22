@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Redbridge' paId='4842' type='London' proportion='all'>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='54' seatsOffered='54' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='4' seatsOffered='4' unopposedReturns='0' candidates='0'/>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='5' seatsOffered='5' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

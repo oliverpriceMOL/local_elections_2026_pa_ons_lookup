@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Wandsworth' paId='4854' type='London' proportion='all' winningParty='NOC' gainOrHold='lose to NOC' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='Ind' paId='661' change='+3'/>
+        <Party name='Lab' paId='662' change='-8'/>
+        <Party name='C' paId='659' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Lab' paId='662' seats='26'/>
+        <Party name='C' paId='659' seats='19'/>
+        <Party name='Reform' paId='664' seats='8'/>
+        <Party name='Ind' paId='661' seats='5'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

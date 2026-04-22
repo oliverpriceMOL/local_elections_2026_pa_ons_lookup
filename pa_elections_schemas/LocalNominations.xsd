@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of the results of local council elections for
+one or more local authorities
+-->
+<xs:schema elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+Nominations for a party to a council.  Although the four numeric fields are
+optional, in practice they should all be present for most, if not all,
+councils.
+  -->
+  <xs:complexType name="PartyNominations">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="seatsHeld"
+                  type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="seatsOffered"
+                  type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="unopposedReturns"
+                  type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="candidates"
+                  type="xs:nonNegativeInteger" use="optional"/>
+  </xs:complexType>
+  <!--
+Nominations for a single council, with the council details
+encapsulated as attributes, and the details of the nominations taking
+the form of child elements.  Note that the messages do not list
+details of actual candidates, but only give the number of candidates
+for each party
+  -->
+  <xs:complexType name="CouncilNominations">
+    <xs:sequence>
+      <xs:element name="Party" type="PartyNominations"
+                  minOccurs="0" maxOccurs="100"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="paId" type="xs:string"/>
+    <xs:attribute name="type" type="CouncilType" use="required"/>
+    <xs:attribute name="proportion" type="CouncilProportion" use="required"/>
+    <xs:attribute name="boundaryChange" type="xs:boolean"/>
+    <xs:attribute name="newCouncil" type="xs:boolean"/>
+    <xs:attribute name="firstTimePR" type="xs:boolean"/>
+  </xs:complexType>
+  <!--
+Root element: contains an Election element, with the nominations for one
+or more councils listed in Council elements contained within it
+    -->
+  <xs:element name="LocalElectionNominations">
+    <xs:annotation>
+      <xs:documentation>Nominations to local council
+        elections
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Council" type="CouncilNominations"
+                          minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="paId" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

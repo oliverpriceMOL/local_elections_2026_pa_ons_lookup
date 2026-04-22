@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="73" name="Uddingston &amp; Bellshill" electorate="59218" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour gain from Scottish National Party in Uddingston &amp; Bellshill">
+      <Candidate paId="299939" firstName="Jackie" surname="Smith Test" ballotName="Smith Test, Jacqueline">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="299940" firstName="Maxwell" surname="Parker Test" ballotName="Parker Test, Maxwell Steven">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299941" firstName="Ed" surname="Ford Test" ballotName="Ford Test, Edward Robert">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299942" firstName="Ian" surname="Davidson Test" ballotName="Davidson Test, Ian">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

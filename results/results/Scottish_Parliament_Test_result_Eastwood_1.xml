@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:04:34+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="31" name="Eastwood" electorate="56074" turnout="36284" percentageTurnout="64.71" percentageChangeTurnout="-11.45" winningParty="C" gainOrHold="hold" sittingParty="C" majority="12388" percentageMajority="34.14" percentageChangeMajority="+28.95" swing="14.48" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299723" firstName="Aiden" surname="Morgan Test" ballotName="Morgan Test, Aiden Andrew">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="20555" percentageShare="56.65" percentageShareChange="+14.71" />
+      </Candidate>
+      <Candidate paId="299726" firstName="Nora" surname="Parkes Test" ballotName="Parkes Test, Nora Ava">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="8167" percentageShare="22.51" percentageShareChange="-14.25" />
+      </Candidate>
+      <Candidate paId="299724" firstName="Kofi" surname="Jones Test" ballotName="Jones Test, Kofi Simon">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="5537" percentageShare="15.26" percentageShareChange="-0.57" />
+      </Candidate>
+      <Candidate paId="299725" firstName="David" surname="Thomas Test" ballotName="Thomas Test, David David">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="868" percentageShare="2.39" percentageShareChange="+0.26" />
+      </Candidate>
+      <Candidate paId="299728" firstName="Gertrude" surname="Martin Test" ballotName="Martin Test, Gertrude Aria">
+        <Party paId="13886" name="Independent" abbreviation="Ind" votes="632" percentageShare="1.74" percentageShareChange="-1.42" />
+      </Candidate>
+      <Candidate paId="299727" firstName="Rob" surname="Knowles Test" ballotName="Knowles Test, Robert">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" votes="525" percentageShare="1.45" percentageShareChange="+1.27" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="30" name="Eastwood" turnout="42703" percentageTurnout="76.15" winningParty="C" majority="2216" percentageMajority="5.19">
+      <Candidate paId="252827" firstName="Jackson" surname="Carlaw" ballotName="Carlaw, Jacjson" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="17911" percentageShare="41.94" />
+      </Candidate>
+      <Candidate paId="251984" firstName="Colm" surname="Merrick" ballotName="Merrick, Colm" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="15695" percentageShare="36.75" />
+      </Candidate>
+      <Candidate paId="253229" firstName="Katie" surname="Pragnell" ballotName="Pragnell, Katie Victoria" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="6759" percentageShare="15.83" />
+      </Candidate>
+      <Candidate paId="252247" firstName="David" surname="Macdonald" ballotName="Macdonald, David" sex="M">
+        <Party paId="10652" name="Independent David Macdonald" abbreviation="Ind" votes="1352" percentageShare="3.17" />
+      </Candidate>
+      <Candidate paId="252246" firstName="Tahir" surname="Jameel" ballotName="Jameel, Tahir" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="911" percentageShare="2.13" />
+      </Candidate>
+      <Candidate paId="252248" firstName="Janice" surname="MacKay" ballotName="MacKay, Janice" sex="F">
+        <Party paId="10409" name="UK Independence Party" abbreviation="UKIP" votes="75" percentageShare="0.18" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

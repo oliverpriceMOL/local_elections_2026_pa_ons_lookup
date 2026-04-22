@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="21" name="Cumbernauld &amp; Kilsyth" electorate="51455" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Cumbernauld &amp; Kilsyth">
+      <Candidate paId="299676" firstName="Grace" surname="Reed Test" ballotName="Reed Test, Grace Penelope">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299677" firstName="Dave" surname="Richardson Test" ballotName="Richardson Test, David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299678" firstName="Freddie" surname="Davidson Test" ballotName="Davidson Test, Frederick Christopher">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299679" firstName="Adaeze" surname="Robinson Test" ballotName="Robinson Test, Adaeze">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

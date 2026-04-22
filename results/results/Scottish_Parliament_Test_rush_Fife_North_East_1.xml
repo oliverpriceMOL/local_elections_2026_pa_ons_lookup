@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="42" name="Fife North East" electorate="58685" gainOrHold="hold" winningPartyAbbreviation="LD" winningPartyName="Liberal Democrat" sittingPartyAbbreviation="LD" sittingPartyName="Liberal Democrat" change="false" paStyleMessageText="Liberal Democrat hold Fife North East">
+      <Candidate paId="299783" firstName="Derek" surname="Campbell Test" ballotName="Campbell Test, Derek Peter">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299784" firstName="Amanda" surname="Williams Test" ballotName="Williams Test, Amanda Mabel">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299785" firstName="Roger" surname="Jackson Test" ballotName="Jackson Test, Roger Steven">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299786" firstName="Ethan" surname="James Test" ballotName="James Test, Ethan Alan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

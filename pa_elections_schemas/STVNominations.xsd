@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of nominations messages for all elections which use Single
+Transferable Vote (STV) or a variation thereof, including elections to
+the Northern Ireland Assembly, mayoral elections in English cities and
+boroughs, and elections of heads of police forces.
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+
+Nominations are to a single constituency. The details of each
+nominated candidate are provided, with the details of his/her party
+inside a Party element. At the very minimum, a candidate must have a
+surname; the title, first name and sex are optional.
+
+If this constituency had elections a previous time, a
+PreviousFirstRoundResultsSummary element may be included. This gives
+the first-round results for this constituency in the last election,
+and lists the candidates (and their parties) who were elected last
+time, regardless of the round in which this was decided.
+
+The 'paId' of a candidate can be used to uniquely identify a candidate
+within any one election. Please note, however, that it can never be used
+to identify the same candidate or member across multiple elections, so
+for example Boris Johnson in the 2008 London mayor election has a different
+paId from Boris Johnson in the 2012 London mayoral election.
+
+Note that the 'rushText' refers to the special piece of text which
+should be used in rush messages if the candidate in question is well
+known, such as 'International Development Secretary Fred Bloggs' or
+'Television presenter Jo Smith'.  For most candidates it is absent.
+    -->
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="rushText" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <!--
+A CandidateWithResult element is the same as a Candidate element,
+except that it may have resultStatus and votes attributes. This
+only occurs inside the CandidatesElected element, showing the
+first-round results in the previous election.
+  -->
+  <xs:complexType name="CandidateWithResult">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="rushText" type="xs:string" use="optional"/>
+    <xs:attribute name="resultStatus" type="STVResultStatus" use="optional"/>
+    <xs:attribute name="votes" type="xs:int" use="optional"/>
+  </xs:complexType>
+  <!--
+A Party element is included inside each Candidate element, and has the
+party name and abbreviation.  In the case of notional previous
+constituencies (where boundary changes are concerned), each party also
+has its number of votes, percentage share of the vote, and possibly
+change in the percentage share, as in notional constituencies votes
+are attached to parties, rather than to candidates.
+
+The 'paId' of a party can be used to uniquely identify a candidate
+within any one election. Please note, however, that it can never be used
+to identify the same party across multiple elections, so
+for example the DUP the 2011 Northern Ireland Assembly election has a
+different paId from the DUP in the 2007 election.
+    -->
+  <xs:complexType name="Party">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+  </xs:complexType>
+  <!--
+The CandidatesElected element lists those candidates, along with their
+parties, who were elected in this constituency in the previous
+associated election.
+  -->
+  <xs:complexType name="CandidatesElected">
+    <xs:sequence>
+      <xs:element name="Candidate" type="CandidateWithResult" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+The PreviousFirstRoundResultsSummary, if present, summarises the results of
+the first round of the previous election in this constituency, showing
+all the candidates along with their parties and their numbers of votes.
+Also a CandidatesElected element lists the candidates and parties who
+were elected in the previous election, regardless of the round in which
+this took place.
+  -->
+  <xs:complexType name="PreviousFirstRoundResultsSummary">
+    <xs:sequence>
+      <xs:element name="Candidate" type="CandidateWithResult" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="CandidatesElected" type="CandidatesElected" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+The Constituency element, of which there is one per message, occurs just
+inside the Election element. It contains constituency-wide attributes,
+and then includes multiple Candidate elements listing the nominations
+in the constituency.
+
+Finally, if this constituency took part in a previous associated election,
+a PreviousFirstRoundResultsSummary element may be present, summarising
+the first-round results in the last election and stating who was elected.
+  -->
+  <xs:complexType name="Constituency">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="PreviousFirstRoundResultsSummary" type="PreviousFirstRoundResultsSummary" minOccurs="0"
+                  maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="boundaryChange" type="xs:boolean" use="required"/>
+    <xs:attribute name="percentageBoundaryChange" type="Percentage" use="optional"/>
+    <xs:attribute name="paId" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!--
+Nominations is the root element.
+  -->
+  <xs:element name="Nominations">
+    <xs:annotation>
+      <xs:documentation>Nominations in a constituency
+        in an STV election
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

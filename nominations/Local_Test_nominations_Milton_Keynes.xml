@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Milton Keynes' paId='4721' type='Unitary' proportion='all' boundaryChange='true'>
+      <Party name='Conservative' abbreviation='C' paId='659' seatsHeld='9' seatsOffered='9' unopposedReturns='0' candidates='0'/>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='30' seatsOffered='30' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='18' seatsOffered='18' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

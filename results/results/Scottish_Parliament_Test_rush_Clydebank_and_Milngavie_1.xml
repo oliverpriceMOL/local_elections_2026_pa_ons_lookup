@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="17" name="Clydebank &amp; Milngavie" electorate="55368" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Clydebank &amp; Milngavie">
+      <Candidate paId="299657" firstName="Christopher" surname="Ryan Test" ballotName="Ryan Test, Christopher Adam">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299658" firstName="Susan" surname="Young Test" ballotName="Young Test, Susan Victoria">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299659" firstName="Emma" surname="Howell Test" ballotName="Howell Test, Emma Julie">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" paId="299660" firstName="Lucas" surname="Nicholls Test" ballotName="Nicholls Test, Lucas David">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299661" firstName="John" surname="Stanley Test" ballotName="Stanley Test, John Matthew">
+        <Party paId="13825" name="No Description" abbreviation="ND" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

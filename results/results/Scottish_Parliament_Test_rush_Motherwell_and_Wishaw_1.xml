@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="60" name="Motherwell &amp; Wishaw" electorate="58152" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party hold Motherwell &amp; Wishaw">
+      <Candidate paId="299876" firstName="Mike" surname="Mills Test" ballotName="Mills Test, Michael William">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299877" firstName="Heather" surname="Begum Test" ballotName="Begum Test, Heather Nisha">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299878" firstName="Evie" surname="Smith Test" ballotName="Smith Test, Evelyn Molly">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="*" paId="299879" firstName="Dylan" surname="Allen Test" ballotName="Allen Test, Dylan Alexander">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299880" firstName="Dick" surname="Arnold Test" ballotName="Arnold Test, Richard Rashid">
+        <Party paId="13804" name="Communist Party of Britain" abbreviation="Comm Brit" />
+      </Candidate>
+      <Candidate paId="299881" firstName="Georgia" surname="Wilkinson Test" ballotName="Wilkinson Test, Georgia">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+      <Candidate paId="299882" firstName="Paul" surname="Smith Test" ballotName="Smith Test, Paul David">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

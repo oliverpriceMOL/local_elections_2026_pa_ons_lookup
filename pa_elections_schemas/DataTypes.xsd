@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A collection of data types used by election XML schemas -->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--
+The election type can be one of the following:
+G - General
+S - Scottish Parliament
+W - Welsh Assembly
+L - London Assembly
+E - European Parliament
+B - a by-election of the same type as the main election
+NI - Northern Ireland Assembly
+M - Mayor
+P - Police
+STV - Single Transferable Vote election, further details not specified
+  -->
+  <xs:simpleType name="ElectionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="G"/>
+      <xs:enumeration value="S"/>
+      <xs:enumeration value="W"/>
+      <xs:enumeration value="L"/>
+      <xs:enumeration value="E"/>
+      <xs:enumeration value="B"/>
+      <xs:enumeration value="NI"/>
+      <xs:enumeration value="M"/>
+      <xs:enumeration value="P"/>
+      <xs:enumeration value="STV"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+A first-past-the-post constituency, when the results are in, can
+always be shown as either a gain or a hold for a party.  If no direct
+comparison can be performed with a previous election, the seat is just
+shown as a win for which party won it.
+
+In local elections, the choices are 'gain', 'no change' and 'lose to NOC'.
+  -->
+  <xs:simpleType name="GainOrHold">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="gain"/>
+      <xs:enumeration value="hold"/>
+      <xs:enumeration value="win"/>
+      <xs:enumeration value="no change"/>
+      <xs:enumeration value="lose to NOC"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+The sitting-member flag uses the same single-character codes that are
+used in PA's other, non-XML, message formats.  If a candidate was
+previously a sitting member in the same constituency, an asterisk is
+output.  If a candidate was previously a sitting member, but in a
+different constituency, a plus sign is output.  This type is also used
+to show which candidates have been elected in the current election:
+the only value in this case is the asterisk.
+  -->
+  <xs:simpleType name="SittingMember">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="*"/>
+      <xs:enumeration value="+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+The sex of a candidate, in nominations and results messages, is
+represented by a single capital letter, M for male, and F for female.
+  -->
+  <xs:simpleType name="SexOfCandidate">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="F"/>
+      <xs:enumeration value="M"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+Percentages are always shown with two decimal places.  In the case of
+a percentage change, the figure will be preceded with a plus or minus
+sign.
+  -->
+  <xs:simpleType name="Percentage">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+In top-up constituencies, candidates have a party list rank value,
+which is simply a natural number (1 for the candidate on top of the
+party's list, 2 for the next one, etc.)
+  -->
+  <xs:simpleType name="PartyListRank">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="1000"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+The various types of council that exist in Great Britain
+  -->
+  <xs:simpleType name="CouncilType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="England"/>
+      <xs:enumeration value="Scotland"/>
+      <xs:enumeration value="Wales"/>
+      <xs:enumeration value="Metro"/>
+      <xs:enumeration value="Non-Met"/>
+      <xs:enumeration value="Unitary"/>
+      <xs:enumeration value="London"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+The proportion of seats on the council that are up for election, either
+'all' or a fraction expressed in words
+  -->
+  <xs:simpleType name="CouncilProportion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="all"/>
+      <xs:enumeration value="half"/>
+      <xs:enumeration value="third"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--
+The various result statuses that each candidate can have in each round of
+a Single Transferable Vote election:
+* - elected
+- - eliminated
+S - surplus distributed
+D - votes distributed
+  -->
+  <xs:simpleType name="STVResultStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="*"/>
+      <xs:enumeration value="-"/>
+      <xs:enumeration value="S"/>
+      <xs:enumeration value="D"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Welsh Parliament Test" date="2026-05-06" type="W">
+    <Constituency number="10" name="Fflint Wrecsam" electorate="146659">
+      <Candidate elected="*" previousSittingMember="*" paId="299065" firstName="Andy" surname="Morris Test" ballotName="Morris Test, Andrew Russell" partyListRank="1">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="299073" firstName="Vanessa" surname="Smith Test" ballotName="Smith Test, Vanessa Jennifer" partyListRank="1">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="299082" firstName="Pat" surname="Berry Test" ballotName="Berry Test, Patrick Kevin" partyListRank="1">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299083" firstName="Mohammed" surname="Ford Test" ballotName="Ford Test, Mohammed Joe" partyListRank="2">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299084" firstName="Alexander" surname="Wilkinson Test" ballotName="Wilkinson Test, Alexander Chris" partyListRank="3">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299115" firstName="Jim" surname="Webb Test" ballotName="Webb Test, James Alistair" partyListRank="1">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

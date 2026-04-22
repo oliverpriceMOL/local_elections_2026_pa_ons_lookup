@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Kensington &amp; Chelsea' paId='4836' type='London' proportion='all' winningParty='C' gainOrHold='no change' sittingParty='C'>
+      <Changes>
+        <Party name='C' paId='659' change='+3'/>
+        <Party name='LD' paId='667' change='+1'/>
+        <Party name='Lab' paId='662' change='-4'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='39'/>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='Lab' paId='662' seats='3'/>
+        <Party name='LD' paId='667' seats='3'/>
+        <Party name='Green' paId='660' seats='1'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

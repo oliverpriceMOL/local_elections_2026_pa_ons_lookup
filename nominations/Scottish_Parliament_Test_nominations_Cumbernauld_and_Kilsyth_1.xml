@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="21" name="Cumbernauld &amp; Kilsyth" electorate="51455">
+      <Candidate paId="299676" firstName="Grace" surname="Reed Test" ballotName="Reed Test, Grace Penelope">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299677" previousSittingMember="+" firstName="Dave" surname="Richardson Test" ballotName="Richardson Test, David">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299678" firstName="Freddie" surname="Davidson Test" ballotName="Davidson Test, Frederick Christopher">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299679" previousSittingMember="*" firstName="Adaeze" surname="Robinson Test" ballotName="Robinson Test, Adaeze">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="20" name="Cumbernauld &amp; Kilsyth" turnout="33478" percentageTurnout="65.06" winningParty="SNP" majority="9841" percentageMajority="29.40">
+      <Candidate paId="251880" firstName="Jamie" surname="Hepburn" ballotName="Hepburn, Jamie" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="19633" percentageShare="58.64" />
+      </Candidate>
+      <Candidate paId="253200" firstName="Mark" surname="Griffin" ballotName="Griffin, Mark" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="9792" percentageShare="29.25" />
+      </Candidate>
+      <Candidate paId="252212" firstName="Haroun" surname="Malik" ballotName="Malik, Haroun" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="3375" percentageShare="10.08" />
+      </Candidate>
+      <Candidate paId="252208" firstName="Elaine" surname="Ford" ballotName="Ford, Elaine" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="678" percentageShare="2.03" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

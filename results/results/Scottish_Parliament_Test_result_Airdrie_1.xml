@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:36:11+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="6" name="Airdrie" electorate="54147" turnout="30728" percentageTurnout="56.75" percentageChangeTurnout="-2.21" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="3725" percentageMajority="12.12" percentageChangeMajority="-5.00" swing="14.62" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299608" firstName="Hazel" surname="Nicholson Test" ballotName="Nicholson Test, Hazel Catherine">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="14347" percentageShare="46.69" percentageShareChange="+13.27" />
+      </Candidate>
+      <Candidate paId="299610" firstName="Nisha" surname="Greenwood Test" ballotName="Greenwood Test, Nisha">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10622" percentageShare="34.57" percentageShareChange="-15.98" />
+      </Candidate>
+      <Candidate paId="299607" firstName="Ken" surname="Elliott Test" ballotName="Elliott Test, Kenneth Alan">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="4514" percentageShare="14.69" percentageShareChange="+0.84" />
+      </Candidate>
+      <Candidate paId="299609" firstName="Stephen" surname="Sheppard Test" ballotName="Sheppard Test, Stephen William">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="711" percentageShare="2.31" percentageShareChange="+0.55" />
+      </Candidate>
+      <Candidate paId="299611" firstName="Leo" surname="Law Test" ballotName="Law Test, Leo Brian">
+        <Party paId="13825" name="No Description" abbreviation="ND" votes="534" percentageShare="1.74" percentageShareChange="+1.32" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="6" name="Airdrie &amp; Shotts" turnout="31926" percentageTurnout="58.96" winningParty="SNP" majority="5468" percentageMajority="17.13">
+      <Candidate paId="251916" firstName="Neil" surname="Gray" ballotName="Gray, Neil Charles" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16139" percentageShare="50.55" />
+      </Candidate>
+      <Candidate paId="253166" firstName="Richard" surname="Leonard" ballotName="Leonard, Richard" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="10671" percentageShare="33.42" />
+      </Candidate>
+      <Candidate paId="253165" firstName="Ross" surname="Lambie" ballotName="Lambie, Ross" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="4422" percentageShare="13.85" />
+      </Candidate>
+      <Candidate paId="252172" firstName="John" surname="Cole" ballotName="Cole, John Arthur Henry" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="562" percentageShare="1.76" />
+      </Candidate>
+      <Candidate paId="252174" firstName="Jimmy" surname="Dowson" ballotName="Dowson, Jimmy" sex="M">
+        <Party paId="10379" name="No Description" abbreviation="ND" votes="132" percentageShare="0.41" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

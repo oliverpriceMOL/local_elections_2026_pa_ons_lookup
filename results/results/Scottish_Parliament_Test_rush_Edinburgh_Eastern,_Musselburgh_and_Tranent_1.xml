@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="33" name="Edinburgh Eastern, Musselburgh &amp; Tranent" electorate="57112" percentageBoundaryChange="55.70" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour win Edinburgh Eastern, Musselburgh &amp; Tranent - gain from notional Scottish National Party">
+      <Candidate paId="299737" firstName="Ryan" surname="Ord Test" ballotName="Ord Test, Ryan Richard">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="299738" firstName="Alan" surname="Marshall Test" ballotName="Marshall Test, Alan Harrison">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299739" firstName="Christopher" surname="Cooper Test" ballotName="Cooper Test, Christopher Michael">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299740" firstName="Gary" surname="Green Test" ballotName="Green Test, Gary Trevor">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

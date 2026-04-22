@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="51" name="Hamilton, Larkhall &amp; Stonehouse" electorate="59769" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour gain from Scottish National Party in Hamilton, Larkhall &amp; Stonehouse">
+      <Candidate paId="299831" firstName="Linda" surname="Davies Test" ballotName="Davies Test, Linda Gillian">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299832" firstName="Tony" surname="Johnson Test" ballotName="Johnson Test, Anthony">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299833" firstName="Samantha" surname="Roberts Test" ballotName="Roberts Test, Samantha Rani">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299834" firstName="Jacob" surname="Taylor Test" ballotName="Taylor Test, Jacob Barry">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

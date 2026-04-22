@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Pendle' paId='4796' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='Ind' paId='661' seats='4'/>
+        <Party name='C' paId='659' seats='2'/>
+        <Party name='LD' paId='667' seats='2'/>
+        <Party name='Reform' paId='664' seats='2'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='Reform' paId='664' change='+2'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='C' paId='659' change='-2'/>
+        <Party name='LD' paId='667' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Ind' paId='661' seats='13'/>
+        <Party name='C' paId='659' seats='9'/>
+        <Party name='LD' paId='667' seats='8'/>
+        <Party name='Reform' paId='664' seats='3'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

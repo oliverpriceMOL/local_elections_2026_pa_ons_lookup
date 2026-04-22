@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Havering' paId='4832' type='London' proportion='all' winningParty='R' gainOrHold='no change' sittingParty='R'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+7'/>
+        <Party name='R' paId='663' change='+3'/>
+        <Party name='C' paId='659' change='-8'/>
+        <Party name='Lab' paId='662' change='-2'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='R' paId='663' seats='33'/>
+        <Party name='Reform' paId='664' seats='10'/>
+        <Party name='Lab' paId='662' seats='6'/>
+        <Party name='C' paId='659' seats='6'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="65" name="Perthshire South &amp; Kinross-shire" electorate="63348">
+      <Candidate paId="299902" previousSittingMember="+" firstName="Grace" surname="Lowe Test" ballotName="Lowe Test, Grace Ruby">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299903" firstName="Anne" surname="Nolan Test" ballotName="Nolan Test, Anne Grace">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299904" firstName="Sanjay" surname="Pearson Test" ballotName="Pearson Test, Sanjay Walter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299905" firstName="William" surname="Abbott Test" ballotName="Abbott Test, William">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="65" name="Perthshire South &amp; Kinross-shire" turnout="44070" percentageTurnout="69.57" winningParty="SNP" majority="1948" percentageMajority="4.42">
+      <Candidate paId="251952" firstName="Jim" surname="Fairlie" ballotName="Fairlie, Jim" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="20126" percentageShare="45.67" />
+      </Candidate>
+      <Candidate paId="253219" firstName="Liz" surname="Smith" ballotName="Smith, Liz" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="18178" percentageShare="41.25" />
+      </Candidate>
+      <Candidate paId="252070" firstName="Janine" surname="Rennie" ballotName="Rennie, Janine Danielle" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2943" percentageShare="6.68" />
+      </Candidate>
+      <Candidate paId="253218" firstName="Julia" surname="Brown" ballotName="Brown, Julia Mary" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2823" percentageShare="6.41" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

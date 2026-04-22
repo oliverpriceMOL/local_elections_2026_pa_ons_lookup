@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Thurrock' paId='4730' type='Unitary' proportion='all' winningParty='Reform' gainOrHold='gain' sittingParty='Lab'>
+      <Changes>
+        <Party name='Reform' paId='664' change='+21'/>
+        <Party name='Ind' paId='661' change='+1'/>
+        <Party name='Lab' paId='662' change='-19'/>
+        <Party name='C' paId='659' change='-3'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='Reform' paId='664' seats='25'/>
+        <Party name='Ind' paId='661' seats='9'/>
+        <Party name='C' paId='659' seats='8'/>
+        <Party name='Lab' paId='662' seats='7'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

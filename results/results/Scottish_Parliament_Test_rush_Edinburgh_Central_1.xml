@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="32" name="Edinburgh Central" electorate="71019" percentageBoundaryChange="29.20" gainOrHold="gain" winningPartyAbbreviation="Green" winningPartyName="Green" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Green win Edinburgh Central - gain from notional Scottish National Party">
+      <Candidate paId="299729" firstName="Joanna" surname="Cox Test" ballotName="Cox Test, Joanna Sally">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299730" firstName="Victoria" surname="Harding Test" ballotName="Harding Test, Victoria Rebecca">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299731" firstName="Hugh" surname="Hilton Test" ballotName="Hilton Test, Hugh Peter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299732" firstName="Chris" surname="Ellis Test" ballotName="Ellis Test, Christopher Donald">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299733" firstName="Robert" surname="Charlesworth Test" ballotName="Charlesworth Test, Robert Donald">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299736" firstName="Jim" surname="Johnson Test" ballotName="Johnson Test, James Edward">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="299734" firstName="Ian" surname="Griffin Test" ballotName="Griffin Test, Ian">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+      <Candidate paId="299735" firstName="Agnieszka" surname="Edwards Test" ballotName="Edwards Test, Agnieszka Harper">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:55:33+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="11" name="Ayr" electorate="63711" turnout="40984" percentageTurnout="64.33" percentageChangeTurnout="-3.84" winningParty="SNP" gainOrHold="hold" sittingParty="SNP" majority="3140" percentageMajority="7.66" percentageChangeMajority="+7.27" swing="3.64" swingTo="SNP" swingFrom="C">
+      <Candidate elected="*" paId="299631" firstName="Aisling" surname="Wilson Test" ballotName="Wilson Test, Aisling">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="16683" percentageShare="40.71" percentageShareChange="-2.77" />
+      </Candidate>
+      <Candidate paId="299628" firstName="Helen" surname="Lord Test" ballotName="Lord Test, Helen Anna">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="13543" percentageShare="33.04" percentageShareChange="-10.04" />
+      </Candidate>
+      <Candidate paId="299629" firstName="Steve" surname="Burgess Test" ballotName="Burgess Test, Steven">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="8681" percentageShare="21.18" percentageShareChange="+10.21" />
+      </Candidate>
+      <Candidate paId="299630" firstName="Graham" surname="Taylor Test" ballotName="Taylor Test, Graham Malcolm">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1360" percentageShare="3.32" percentageShareChange="+1.46" />
+      </Candidate>
+      <Candidate paId="299632" firstName="Steve" surname="Arnold Test" ballotName="Arnold Test, Steven">
+        <Party paId="13822" name="Scotia Future" abbreviation="ScF" votes="717" percentageShare="1.75" percentageShareChange="+1.13" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="11" name="Ayr" turnout="43433" percentageTurnout="68.17" winningParty="SNP" majority="170" percentageMajority="0.39">
+      <Candidate paId="251974" firstName="Siobhian" surname="Brown" ballotName="Brown, Siobhian" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="18881" percentageShare="43.47" />
+      </Candidate>
+      <Candidate paId="251751" firstName="John" surname="Scott" ballotName="Scott, John" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="18711" percentageShare="43.08" />
+      </Candidate>
+      <Candidate paId="252301" firstName="Esther" surname="Clark" ballotName="Clark, Esther" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="4766" percentageShare="10.97" />
+      </Candidate>
+      <Candidate paId="252302" firstName="Jamie" surname="Ross" ballotName="Ross, Jamie" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="808" percentageShare="1.86" />
+      </Candidate>
+      <Candidate paId="253171" firstName="Chic" surname="Brodie" ballotName="Brodie, Chic" sex="M">
+        <Party paId="10633" name="Scotia Future" abbreviation="ScF" votes="267" percentageShare="0.61" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

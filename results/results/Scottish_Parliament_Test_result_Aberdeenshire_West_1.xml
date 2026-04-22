@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:31:22+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="5" name="Aberdeenshire West" electorate="60081" turnout="30983" percentageTurnout="51.57" percentageChangeTurnout="-17.96" winningParty="C" gainOrHold="hold" sittingParty="C" majority="3496" percentageMajority="11.28" percentageChangeMajority="+3.17" swing="1.58" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="*" paId="299603" firstName="Neil" surname="Reid Test" ballotName="Reid Test, Neil John">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="13966" percentageShare="45.08" percentageShareChange="-2.10" />
+      </Candidate>
+      <Candidate paId="299606" firstName="George" surname="Marsden Test" ballotName="Marsden Test, George Samuel">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="10470" percentageShare="33.79" percentageShareChange="-5.27" />
+      </Candidate>
+      <Candidate paId="299604" firstName="Ava" surname="Smith Test" ballotName="Smith Test, Ava Samantha">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="3392" percentageShare="10.95" percentageShareChange="+5.25" />
+      </Candidate>
+      <Candidate paId="299605" firstName="Priya" surname="Hutchinson Test" ballotName="Hutchinson Test, Priya Paige">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="3155" percentageShare="10.18" percentageShareChange="+2.13" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="5" name="Aberdeenshire West" turnout="41773" percentageTurnout="69.53" winningParty="C" majority="3390" percentageMajority="8.12">
+      <Candidate paId="252152" firstName="Alexander" surname="Burnett" ballotName="Burnett, Alexander" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="19709" percentageShare="47.18" />
+      </Candidate>
+      <Candidate paId="251961" firstName="Fergus" surname="Mutch" ballotName="Mutch, Fergus" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="16319" percentageShare="39.07" />
+      </Candidate>
+      <Candidate paId="253164" firstName="Rosemary" surname="Bruce" ballotName="Bruce, Rosemary" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="3363" percentageShare="8.05" />
+      </Candidate>
+      <Candidate paId="252088" firstName="Andy" surname="Brown" ballotName="Brown, Andrew Philip" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2382" percentageShare="5.70" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

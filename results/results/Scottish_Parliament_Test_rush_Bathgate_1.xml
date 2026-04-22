@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="13" name="Bathgate" electorate="66599" percentageBoundaryChange="1.80" gainOrHold="gain" winningPartyAbbreviation="Lab" winningPartyName="Labour" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="true" paStyleMessageText="Labour win Bathgate - gain from notional Scottish National Party">
+      <Candidate paId="299639" firstName="Alan" surname="Moffatt Test" ballotName="Moffatt Test, Alan Philip">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate elected="*" paId="299640" firstName="Molly" surname="Green Test" ballotName="Green Test, Molly">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299641" firstName="Pooja" surname="Turner Test" ballotName="Turner Test, Pooja Adaeze">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299642" firstName="Kevin" surname="Robinson Test" ballotName="Robinson Test, Kevin">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

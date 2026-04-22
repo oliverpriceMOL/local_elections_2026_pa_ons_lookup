@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Welsh Parliament Test" date="2026-05-06" type="W">
+    <Constituency number="12" name="Gwynedd Maldwyn" electorate="146756">
+      <Candidate elected="*" previousSittingMember="*" paId="299199" firstName="Sean" surname="Cooper Test" ballotName="Cooper Test, Sean Duncan" partyListRank="1">
+        <Party paId="13708" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="299207" firstName="Martin" surname="Mitchell Test" ballotName="Mitchell Test, Martin Pete" partyListRank="1">
+        <Party paId="13709" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="299216" firstName="Yvonne" surname="Wallace Test" ballotName="Wallace Test, Yvonne Dot" partyListRank="1">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299217" firstName="Mike" surname="Campbell Test" ballotName="Campbell Test, Michael George" partyListRank="2">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299218" firstName="Brian" surname="Ward Test" ballotName="Ward Test, Brian" partyListRank="3">
+        <Party paId="13705" abbreviation="PC" name="Plaid Cymru" />
+      </Candidate>
+      <Candidate elected="*" paId="299249" firstName="Steven" surname="Turner Test" ballotName="Turner Test, Steven Ronnie" partyListRank="1">
+        <Party paId="13707" abbreviation="Reform" name="Reform UK" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

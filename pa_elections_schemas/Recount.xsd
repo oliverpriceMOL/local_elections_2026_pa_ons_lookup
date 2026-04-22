@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of recount messages for general and assembly elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <xs:complexType name="Constituency">
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="recount" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!-- The root element is Recount, and it contains an Election
+       element with a Constituency element inside that.  The Recount
+       element does not contain any other information; its mere
+       presence indicates that a recount is taking place in the
+       election and constituency stated. -->
+  <xs:element name="Recount">
+    <xs:annotation>
+      <xs:documentation>Notification of a recount in a single constituency</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+

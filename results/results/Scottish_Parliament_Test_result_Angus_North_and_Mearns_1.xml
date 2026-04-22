@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:20:08+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="8" name="Angus North &amp; Mearns" electorate="55149" turnout="40212" percentageTurnout="72.92" percentageChangeTurnout="+8.96" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="1817" percentageMajority="4.52" percentageChangeMajority="-5.43" swing="7.23" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299616" firstName="David" surname="Smith Test" ballotName="Smith Test, David Mark">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="16731" percentageShare="41.61" percentageShareChange="+2.95" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299619" firstName="Kenneth" surname="Bryan Test" ballotName="Bryan Test, Kenneth James">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="14914" percentageShare="37.09" percentageShareChange="-11.52" />
+      </Candidate>
+      <Candidate paId="299617" firstName="Frank" surname="Phillips Test" ballotName="Phillips Test, Francis Peter">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="5282" percentageShare="13.14" percentageShareChange="+5.52" />
+      </Candidate>
+      <Candidate paId="299618" firstName="John" surname="Smith Test" ballotName="Smith Test, John John">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="3285" percentageShare="8.17" percentageShareChange="+3.05" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="8" name="Angus North &amp; Mearns" turnout="35269" percentageTurnout="63.95" winningParty="SNP" majority="3509" percentageMajority="9.95">
+      <Candidate paId="251879" firstName="Mairi" surname="Gougeon" ballotName="Gougeon, Mairi" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="17144" percentageShare="48.61" />
+      </Candidate>
+      <Candidate paId="252053" firstName="Braden" surname="Davy" ballotName="Davy, Braden" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="13635" percentageShare="38.66" />
+      </Candidate>
+      <Candidate paId="252054" firstName="Cindy" surname="Douglas" ballotName="Douglas, Cindy" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="2686" percentageShare="7.62" />
+      </Candidate>
+      <Candidate paId="252055" firstName="Michael" surname="Turvey" ballotName="Turvey, Michael John" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1804" percentageShare="5.11" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

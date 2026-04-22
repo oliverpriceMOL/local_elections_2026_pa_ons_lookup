@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of state-of-parties messages for general elections, and for
+first-past-the-post constituencies in Scottish, Welsh, London
+and potentially other assembly elections
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+      The state of a single party must include the party abbreviation, but
+      all the other fields, all of them numeric, are optional, values only
+      being given if some votes have been polled by the party in question.
+  -->
+  <xs:complexType name="StateOfSingleParty">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+    <xs:attribute name="totalSeats" type="xs:integer" use="optional"/>
+    <xs:attribute name="gains" type="xs:integer" use="optional"/>
+    <xs:attribute name="losses" type="xs:integer" use="optional"/>
+    <xs:attribute name="totalVotes" type="xs:integer" use="optional"/>
+    <xs:attribute name="percentageShare" type="Percentage" use="optional"/>
+    <xs:attribute name="percentageChange" type="Percentage" use="optional"/>
+    <xs:attribute name="forecastSeats" type="xs:integer" use="optional"/>
+  </xs:complexType>
+  <!--
+      State of parties messages only need minimal information about
+      each constituency, just to include its name and PA number in a
+      list of constituencies on which the state of parties has been
+      generated.
+  -->
+  <xs:complexType name="Constituency">
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+  <!--
+      The minimal information about the election itself.
+  -->
+  <xs:complexType name="Election">
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="date" type="xs:date"/>
+    <xs:attribute name="type" type="ElectionType"/>
+  </xs:complexType>
+  <!--
+      This is the root element.  It contains an Election element, and a
+      Parties element which contains the state of each party as a Party
+      element inside it.  There may also be a ConstituenciesIncluded
+      element which, if included, is essentially just for checking purposes,
+      as it lists the PA number and name of each constituency on which the
+      state of parties is based.
+  -->
+  <xs:element name="FirstPastThePostStateOfParties">
+    <xs:annotation>
+      <xs:documentation>State of parties in a general election
+        or in the first-past-the-post portion of an assembly
+        election
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election" type="Election">
+        </xs:element>
+        <xs:element name="Parties">
+          <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="Party" type="StateOfSingleParty"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConstituenciesIncluded" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="numberOfResults" type="xs:integer"/>
+      <xs:attribute name="totalNumberOfConstituencies" type="xs:integer"/>
+      <xs:attribute name="totalVotes" type="xs:integer"/>
+      <!-- The "forecastWinningParty" attribute will be either a party
+           abbreviation (C, Lab, LD etc.) or "No overall majority".
+           In the latter case, the "forecastMajority" attribute is
+           omitted. -->
+      <xs:attribute name="forecastWinningParty" type="xs:string" use="optional"/>
+      <xs:attribute name="forecastMajority" type="xs:string" use="optional"/>
+      <!-- The "winningParty" attribute will be either a party
+           abbreviation (C, Lab, LD etc.) or "No overall majority".
+           In the latter case, the "winningMajority" attribute is
+           omitted. -->
+      <xs:attribute name="winningParty" type="xs:string" use="optional"/>
+      <xs:attribute name="winningMajority" type="xs:string" use="optional"/>
+      <!-- The "note" is an optional piece of text which, in the text
+           version of the state of parties message, appears as a
+           footnote. -->
+      <xs:attribute name="note" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

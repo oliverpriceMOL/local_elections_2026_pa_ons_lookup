@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="43" name="Galloway &amp; Dumfries West" electorate="57419" gainOrHold="hold" winningPartyAbbreviation="C" winningPartyName="Conservative" sittingPartyAbbreviation="C" sittingPartyName="Conservative" change="false" paStyleMessageText="Conservative hold Galloway &amp; Dumfries West">
+      <Candidate elected="*" previousSittingMember="*" paId="299787" firstName="Peter" surname="Campbell Test" ballotName="Campbell Test, Peter">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299788" firstName="Chris" surname="Martin Test" ballotName="Martin Test, Christopher">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299789" firstName="Florence" surname="Fleming Test" ballotName="Fleming Test, Florence Marjorie">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299790" firstName="Sarah" surname="Walker Test" ballotName="Walker Test, Sarah Susan">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299791" firstName="Cian" surname="Mistry Test" ballotName="Mistry Test, Cian Richard">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Specification of results messages for all elections which use Single
+Transferable Vote (STV) or a variation thereof, including elections to
+the Northern Ireland Assembly, mayoral elections in English cities and
+boroughs, and elections of heads of police forces.
+-->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="DataTypes.xsd"/>
+  <!--
+In each round, each candidate still standing appears along with
+his/her numbers of votes, percentage share of the vote, and possibly
+change in the percentage share.  At the very minimum, a candidate must
+have a surname; the title, first name and sex are optional.
+
+Also some rounds may have SurplusDistributed and/or VotesDistributed
+elements, which list the candidates (and their parties) who were either
+eliminated or elected in the previous round and whose votes are
+distributed or surplus distributed in this round.
+
+The 'paId' of a candidate can be used to uniquely identify a candidate
+within any one election. Please note, however, that it can never be used
+to identify the same candidate or member across multiple elections, so
+for example Boris Johnson in the 2008 London mayor election has a different
+paId from Boris Johnson in the 2012 London mayoral election.
+
+Note that the 'rushText' refers to the special piece of text which
+should be used in rush messages if the candidate in question is well
+known, such as 'International Development Secretary Fred Bloggs' or
+'Television presenter Jo Smith'.  For most candidates it is absent.
+    -->
+  <xs:complexType name="Candidate">
+    <xs:sequence>
+      <xs:element name="Party" type="Party" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="previousSittingMember" type="SittingMember" use="optional"/>
+    <xs:attribute name="sex" type="SexOfCandidate" use="optional"/>
+    <xs:attribute name="title" type="xs:string" use="optional"/>
+    <xs:attribute name="firstName" type="xs:string" use="optional"/>
+    <xs:attribute name="surname" type="xs:string" use="required"/>
+    <xs:attribute name="rushText" type="xs:string" use="optional"/>
+    <xs:attribute name="resultStatus" type="STVResultStatus" use="optional"/>
+    <xs:attribute name="votes" type="xs:int" use="optional"/>
+  </xs:complexType>
+  <!--
+A Party element is included inside each Candidate element, and has the
+party name and abbreviation.  In the case of notional previous
+constituencies (where boundary changes are concerned), each party also
+has its number of votes, percentage share of the vote, and possibly
+change in the percentage share, as in notional constituencies votes
+are attached to parties, rather than to candidates.
+
+The 'paId' of a party can be used to uniquely identify a candidate
+within any one election. Please note, however, that it can never be used
+to identify the same party across multiple elections, so
+for example the DUP the 2011 Northern Ireland Assembly election has a
+different paId from the DUP in the 2007 election.
+    -->
+  <xs:complexType name="Party">
+    <xs:attribute name="paId" type="xs:int" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="abbreviation" type="xs:string" use="required"/>
+  </xs:complexType>
+  <!--
+The SurplusDistributed element lists those candidates, along with their
+parties, who were elected in the previous round and whose surplus votes
+are being distributed among the remaining candidates in the current round.
+  -->
+  <xs:complexType name="SurplusDistributed">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+The VotesDistributed element lists those candidates, along with their
+parties, who were eliminated in the previous round and whose votes
+are being distributed among the remaining candidates in the current round.
+  -->
+  <xs:complexType name="VotesDistributed">
+    <xs:sequence>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--
+The Round element lies at the heart of an STV results message. Each round
+has a number (from 1, up to 2 in the case of mayoral elections, or up to
+possibly 10 or even more in the case of Northern Ireland Assembly elections),
+and also has its own revision number and declaration time.
+
+There then follows possibly a SurplusDistributed element and/or a
+VotesDistributed element, depending on whether either or both of these
+two eventualities has taken place. After this, the candidates remaining
+in this round are listed, along with their votes and possibly status values
+(elected or eliminated).
+
+In the first round, the candidates are ordered by descending numbers of
+votes. This order which is established in the first round is then used
+for all subsequent rounds too.
+  -->
+  <xs:complexType name="Round">
+    <xs:sequence>
+      <xs:element name="SurplusDistributed" type="SurplusDistributed" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="VotesDistributed" type="VotesDistributed" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="Candidate" type="Candidate" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="revision" type="xs:integer" use="optional"/>
+    <xs:attribute name="declarationTime" type="xs:dateTime" use="required"/>
+  </xs:complexType>
+  <!--
+The Constituency element, of which there is one per message, occurs just
+inside the Election element. It contains constituency-wide attributes,
+and then includes one or more Round elements listing the results for each
+round in the constituency.
+  -->
+  <xs:complexType name="Constituency">
+    <xs:sequence>
+      <xs:element name="Round" type="Round" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="number" type="xs:integer" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="electorate" type="xs:integer" use="optional"/>
+    <xs:attribute name="boundaryChange" type="xs:boolean" use="required"/>
+    <xs:attribute name="percentageBoundaryChange" type="Percentage" use="optional"/>
+    <xs:attribute name="turnout" type="xs:integer" use="required"/>
+    <xs:attribute name="percentageTurnout" type="Percentage" use="required"/>
+    <xs:attribute name="percentageChangeTurnout" type="Percentage" use="optional"/>
+    <xs:attribute name="validVotes" type="xs:integer" use="required"/>
+    <xs:attribute name="quota" type="xs:integer" use="required"/>
+    <xs:attribute name="paId" type="xs:integer" use="required"/>
+  </xs:complexType>
+  <!--
+ElectionRush is the root element of a rush. Its roundNumber attribute is the highest
+number of the rounds contained within it, so if this is the results message
+for round 6, roundNumber will be 6 and then there will be six Round elements
+inside the Constituency element. The revision and declarationTime elements
+are the same as those for the round with the specified number.
+  -->
+  <xs:element name="ElectionRush">
+    <xs:annotation>
+      <xs:documentation>Rush for a numbered round of a constituency
+        in an STV election
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="roundNumber" type="xs:integer"/>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+      <xs:attribute name="declarationTime" type="xs:dateTime" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <!--
+ElectionResult is the root element of a result. Its roundNumber attribute is the highest
+number of the rounds contained within it, so if this is the results message
+for round 6, roundNumber will be 6 and then there will be six Round elements
+inside the Constituency element. The revision and declarationTime elements
+are the same as those for the round with the specified number.
+  -->
+  <xs:element name="ElectionResult">
+    <xs:annotation>
+      <xs:documentation>Results for a numbered round of a constituency
+        in an STV election
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Election">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Constituency" type="Constituency"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date"/>
+            <xs:attribute name="type" type="ElectionType"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="roundNumber" type="xs:integer"/>
+      <xs:attribute name="revision" type="xs:integer" use="optional"/>
+      <xs:attribute name="declarationTime" type="xs:dateTime" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

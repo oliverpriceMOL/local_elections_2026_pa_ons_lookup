@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:13:33+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="18" name="Clydesdale" electorate="61155" turnout="40897" percentageTurnout="66.87" percentageChangeTurnout="+0.29" winningParty="C" gainOrHold="gain" sittingParty="SNP" majority="6420" percentageMajority="15.70" percentageChangeMajority="+4.45" swing="13.47" swingTo="C" swingFrom="SNP">
+      <Candidate elected="*" paId="299662" firstName="David" surname="Brookes Test" ballotName="Brookes Test, David Robin">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="18501" percentageShare="45.24" percentageShareChange="+13.27" />
+      </Candidate>
+      <Candidate paId="299665" firstName="Wendy" surname="Davies Test" ballotName="Davies Test, Wendy Irene">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="12081" percentageShare="29.54" percentageShareChange="-13.67" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299663" firstName="Thomas" surname="Wright Test" ballotName="Wright Test, Thomas Martin">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="8758" percentageShare="21.41" percentageShareChange="-0.59" />
+      </Candidate>
+      <Candidate paId="299664" firstName="Pete" surname="Peacock Test" ballotName="Peacock Test, Peter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="1557" percentageShare="3.81" percentageShareChange="+1.00" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="17" name="Clydesdale" turnout="40718" percentageTurnout="66.58" winningParty="SNP" majority="4578" percentageMajority="11.24">
+      <Candidate paId="251971" firstName="Mairi" surname="McAllan" ballotName="McAllan, Mairi" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="17596" percentageShare="43.21" />
+      </Candidate>
+      <Candidate paId="253196" firstName="Eric" surname="Holford" ballotName="Holford, Eric" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="13018" percentageShare="31.97" />
+      </Candidate>
+      <Candidate paId="253195" firstName="Claudia" surname="Beamish" ballotName="Beamish, Claudia Hamilton" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="8960" percentageShare="22.01" />
+      </Candidate>
+      <Candidate paId="253197" firstName="Amanda" surname="Kubie" ballotName="Kubie, Amanda Jane" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1144" percentageShare="2.81" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

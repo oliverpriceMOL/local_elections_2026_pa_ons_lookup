@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopUpRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="106" name="Scotland North East" electorate="589705">
+      <Candidate elected="*" previousSittingMember="*" paId="300654" firstName="Grace" surname="Green Test" ballotName="Green Test, Grace Evelyn" partyListRank="1">
+        <Party paId="13786" abbreviation="C" name="Conservative" />
+      </Candidate>
+      <Candidate elected="*" paId="300666" firstName="Anne" surname="Richards Test" ballotName="Richards Test, Anne Lesley" partyListRank="1">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300667" firstName="Abi" surname="Taylor Test" ballotName="Taylor Test, Abigail Nora" partyListRank="2">
+        <Party paId="13787" abbreviation="Lab" name="Labour" />
+      </Candidate>
+      <Candidate elected="*" paId="300675" firstName="Jim" surname="Wilson Test" ballotName="Wilson Test, James Matthew" partyListRank="1">
+        <Party paId="13789" abbreviation="LD" name="Liberal Democrat" />
+      </Candidate>
+      <Candidate elected="*" paId="300683" firstName="Douglas" surname="Evans Test" ballotName="Evans Test, Douglas Mason" partyListRank="1">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" paId="300684" firstName="Rob" surname="Roberts Test" ballotName="Roberts Test, Robert Michael" partyListRank="2">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+      <Candidate elected="*" paId="300685" firstName="Nick" surname="Howard Test" ballotName="Howard Test, Nicholas" partyListRank="3">
+        <Party paId="13790" abbreviation="SNP" name="Scottish National Party" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</TopUpRush>

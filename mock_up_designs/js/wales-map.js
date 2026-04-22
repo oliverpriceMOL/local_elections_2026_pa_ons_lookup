@@ -1,0 +1,230 @@
+/**
+ * Wales Senedd Map — D3 SVG Choropleth
+ * Single layer: 16 Senedd constituencies (proportional/list results).
+ * Requires: d3.js, party-config.js, election-map.js, list-card.js
+ */
+function walesMap(container, results, constGeo, options) {
+  options = options || {};
+  var width = options.width || 450;
+  var height = options.height || 550;
+
+  var m = createMapScaffold(container, width, height, constGeo, "Search constituency or postcode...");
+
+  // Deduplicate results (prefer result over rush, then highest revision)
+  var dedupArr = dedupByRevision(results);
+  var byName = {};
+  for (var i = 0; i < dedupArr.length; i++) byName[dedupArr[i].name] = dedupArr[i];
+
+  // Build ONS code → GeoJSON name reverse index
+  var walesCodeToName = {};
+  for (var i = 0; i < constGeo.features.length; i++) {
+    var p = constGeo.features[i].properties;
+    walesCodeToName[p.SENEDD_CD] = p.SENEDD_NM;
+  }
+
+  // Resolve a Welsh result/nomination to GeoJSON name via PA_ONS_LOOKUP, fallback to exact name
+  function resolveWelsh(item) {
+    if (typeof PA_ONS_LOOKUP !== "undefined" && item.number != null && PA_ONS_LOOKUP.welshConstituencies[item.number]) {
+      var onsCode = PA_ONS_LOOKUP.welshConstituencies[item.number];
+      if (walesCodeToName[onsCode]) return walesCodeToName[onsCode];
+    }
+    // Exact name fallback
+    for (var i = 0; i < constGeo.features.length; i++) {
+      if (constGeo.features[i].properties.SENEDD_NM === item.name) {
+        console.warn("Map: fuzzy fallback for Welsh", item.name);
+        return item.name;
+      }
+    }
+    return null;
+  }
+
+  // Map GeoJSON name → result (via ID lookup)
+  var constMap = {};
+  for (var key in byName) {
+    var geoName = resolveWelsh(byName[key]);
+    if (geoName) constMap[geoName] = byName[key];
+  }
+
+  // Build nomination lookup via ID, fallback to fuzzy
+  var constNomSet = {};
+  var wNoms = options.nominations || [];
+  for (var ni = 0; ni < wNoms.length; ni++) {
+    var gn = resolveWelsh(wNoms[ni]);
+    if (gn) constNomSet[gn] = true;
+  }
+
+  function constWinningParty(result) {
+    if (!result || !result.candidates) return null;
+    var counts = {};
+    for (var i = 0; i < result.candidates.length; i++) {
+      var c = result.candidates[i];
+      if (c.elected === "true" || c.elected === true || c.elected === "*") {
+        var abbr = c.party ? c.party.abbreviation : "Other";
+        counts[abbr] = (counts[abbr] || 0) + 1;
+      }
+    }
+    var best = null, bestCount = 0;
+    for (var abbr in counts) {
+      if (counts[abbr] > bestCount) { bestCount = counts[abbr]; best = abbr; }
+    }
+    return best;
+  }
+
+  // Search index
+  var searchIndex = [];
+  for (var nm in constMap) {
+    searchIndex.push({ label: nm, result: constMap[nm] });
+  }
+  // Add nominated-but-no-result constituencies so they are searchable
+  for (var nm in constNomSet) {
+    if (!constMap[nm]) {
+      searchIndex.push({ label: nm, _awaiting: true });
+    }
+  }
+
+  // ── Search ──
+  setupMapSearch(m.searchInput, m.dropdown, m.searchWrap,
+    function onNameSearch(query) {
+      var q = query.toLowerCase();
+      var matches = searchIndex.filter(function (s) {
+        return s.label.toLowerCase().indexOf(q) >= 0;
+      }).slice(0, 8);
+      showMapSearchResults(m.dropdown, matches.map(function (s) {
+        return {
+          label: s.label,
+          typesText: null,
+          onClick: function () {
+            m.dropdown.style("display", "none");
+            m.searchInput.property("value", s.label);
+            if (s._awaiting) { showAwaitingOverlay(s.label); return; }
+            showWalesOverlay(s.result);
+          }
+        };
+      }));
+    },
+    function onPostcode(postcode) {
+      var clean = postcode.replace(/\s+/g, "");
+      m.dropdown.style("display", "block")
+        .html('<div class="map-search__item map-search__item--empty">Looking up postcode...</div>');
+
+      fetch("https://api.postcodes.io/postcodes/" + encodeURIComponent(clean))
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data.status !== 200 || !data.result) {
+            m.dropdown.html('<div class="map-search__item map-search__item--empty">Postcode not found</div>');
+            return;
+          }
+          var pc = data.result;
+          if (pc.longitude && pc.latitude) {
+            var pt = [pc.longitude, pc.latitude];
+            for (var i = 0; i < constGeo.features.length; i++) {
+              var feat = constGeo.features[i];
+              if (d3.geoContains(feat, pt)) {
+                var nm = feat.properties.SENEDD_NM;
+                if (constMap[nm]) {
+                  m.searchInput.property("value", nm);
+                  m.dropdown.style("display", "none");
+                  showWalesOverlay(constMap[nm]);
+                  return;
+                }
+                if (constNomSet[nm]) {
+                  m.searchInput.property("value", nm);
+                  m.dropdown.style("display", "none");
+                  showAwaitingOverlay(nm);
+                  return;
+                }
+              }
+            }
+          }
+          m.dropdown.html('<div class="map-search__item map-search__item--empty">No Senedd constituency found for this postcode</div>');
+        })
+        .catch(function () {
+          m.dropdown.html('<div class="map-search__item map-search__item--empty">Postcode lookup failed</div>');
+        });
+    }
+  );
+
+  // ── Render ──
+  var mapBounds;
+  function getMapBounds() {
+    var rect = m.svg.node().getBoundingClientRect();
+    return { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom };
+  }
+  m.zoomGroup.append("g")
+    .attr("class", "map-const-layer")
+    .selectAll("path")
+    .data(constGeo.features)
+    .join("path")
+    .attr("d", m.path)
+    .attr("fill", function (d) {
+      var nm = d.properties.SENEDD_NM;
+      var r = constMap[nm];
+      var wp = constWinningParty(r);
+      if (wp) return partyColour(wp);
+      return constNomSet[nm] ? "url(#crosshatch)" : "#f0f0f2";
+    })
+    .attr("stroke", "#fff")
+    .attr("stroke-width", 0.5)
+    .attr("class", function (d) {
+      var nm = d.properties.SENEDD_NM;
+      if (constMap[nm]) return "map-area map-area--has-result";
+      if (constNomSet[nm]) return "map-area map-area--awaiting";
+      return "map-area";
+    })
+    .on("mouseenter", function (event, d) {
+      var nm = d.properties.SENEDD_NM;
+      var r = constMap[nm];
+      if (r) {
+        var html = "<strong>" + r.name + "</strong><br>";
+        var tally = seatTallyHtml(r);
+        if (tally) html += tally;
+        mapBounds = getMapBounds();
+        Tooltip.show("map-tooltip", html, event.clientX, event.clientY, mapBounds);
+      } else if (constNomSet[nm]) {
+        mapBounds = getMapBounds();
+        Tooltip.show("map-tooltip", "<strong>" + nm + "</strong><br><span style=\"color:#888\">Awaiting declaration</span>", event.clientX, event.clientY, mapBounds);
+      } else { return; }
+      d3.select(this).attr("stroke", "#222").attr("stroke-width", 1.5).raise();
+    })
+    .on("mousemove", function (event) {
+      var el = document.getElementById("map-tooltip");
+      if (el) Tooltip.position(el, event.clientX, event.clientY, mapBounds);
+    })
+    .on("mouseleave", function () {
+      d3.select(this).attr("stroke", "#fff").attr("stroke-width", 0.5);
+      Tooltip.hide("map-tooltip");
+    })
+    .on("click", function (event, d) {
+      var nm = d.properties.SENEDD_NM;
+      var r = constMap[nm];
+      if (r) { showWalesOverlay(r); return; }
+      if (constNomSet[nm]) showAwaitingOverlay(nm);
+    });
+
+  // ── Overlay ──
+  function showAwaitingOverlay(label) {
+    createMapOverlay([{
+      tabLabel: label,
+      renderPanel: function (panel) {
+        panel.append("div")
+          .style("padding", "24px 16px")
+          .style("text-align", "center")
+          .style("color", "#888")
+          .text("Awaiting declaration");
+      }
+    }]);
+  }
+
+  function showWalesOverlay(result) {
+    createMapOverlay([{
+      tabLabel: result.name,
+      renderPanel: function (panel) {
+        var cardContainer = panel.append("div");
+        listResultCard(cardContainer.node(), result);
+        cardContainer.select(".council-card__name").remove();
+      }
+    }]);
+  }
+
+  return m.svg.node();
+}

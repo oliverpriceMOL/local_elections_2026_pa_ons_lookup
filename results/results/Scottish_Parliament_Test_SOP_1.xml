@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="1" totalNumberOfConstituencies="73" totalVotes="32146">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="1" totalVotes="12521" percentageShare="38.95" percentageChange="-9.33" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalVotes="8727" percentageShare="27.15" percentageChange="-3.54" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalVotes="5073" percentageShare="15.78" percentageChange="+11.85" />
+    <Party paId="13786" name="Conservative" abbreviation="C" totalVotes="4656" percentageShare="14.48" percentageChange="+0.56" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalVotes="1169" percentageShare="3.64" percentageChange="+0.45" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="20" name="Cowdenbeath" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

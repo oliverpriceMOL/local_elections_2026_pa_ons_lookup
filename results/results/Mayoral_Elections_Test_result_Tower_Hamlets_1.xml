@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T11:37:26+00:00">
+  <Election name="Mayoral Elections Test" date="2026-05-06" type="M">
+    <Constituency number="5" name="Tower Hamlets" electorate="205189" turnout="134393" percentageTurnout="65.50" winningParty="Lab" gainOrHold="gain" sittingParty="Aspire" majority="12693" percentageMajority="9.44">
+      <Candidate elected="*" paId="300936" firstName="Pete" surname="Clarke Test" ballotName="Clarke Test, Peter David">
+        <Party paId="13900" name="Labour" abbreviation="Lab" votes="42485" percentageShare="31.61" />
+      </Candidate>
+      <Candidate paId="300935" firstName="Hugh" surname="Roberts Test" ballotName="Roberts Test, Hugh">
+        <Party paId="13899" name="Conservative" abbreviation="C" votes="29792" percentageShare="22.17" />
+      </Candidate>
+      <Candidate paId="300937" firstName="David" surname="Parsons Test" ballotName="Parsons Test, David John">
+        <Party paId="13894" name="Liberal Democrat" abbreviation="LD" votes="22958" percentageShare="17.08" />
+      </Candidate>
+      <Candidate paId="300938" firstName="Millie" surname="Barrett Test" ballotName="Barrett Test, Millicent Jane">
+        <Party paId="13895" name="Green" abbreviation="Green" votes="20332" percentageShare="15.13" />
+      </Candidate>
+      <Candidate paId="300939" firstName="Matt" surname="Marsh Test" ballotName="Marsh Test, Matthew Timothy">
+        <Party paId="13896" name="Reform UK" abbreviation="Reform" votes="13216" percentageShare="9.83" />
+      </Candidate>
+      <Candidate paId="300941" firstName="Yetunde" surname="Patterson Test" ballotName="Patterson Test, Yetunde">
+        <Party paId="13942" name="Independent Yetunde Patterson Test" abbreviation="Ind" votes="2407" percentageShare="1.79" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="300955" firstName="Douglas" surname="George Test" ballotName="George Test, Douglas">
+        <Party paId="13931" name="Aspire" abbreviation="Aspire" votes="1738" percentageShare="1.29" />
+      </Candidate>
+      <Candidate paId="300940" firstName="Rajan" surname="Fisher Test" ballotName="Fisher Test, Rajan George">
+        <Party paId="13941" name="Independent Rajan Fisher Test" abbreviation="Ind" votes="1465" percentageShare="1.09" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostResult>

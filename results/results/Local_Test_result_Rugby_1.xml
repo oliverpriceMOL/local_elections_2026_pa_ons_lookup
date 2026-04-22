@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionResult revision='1'>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Rugby' paId='4801' type='Non-Met' proportion='third' winningParty='NOC' gainOrHold='no change' sittingParty='NOC'>
+      <ElectedCouncillors>
+        <Party name='LD' paId='667' seats='6'/>
+        <Party name='C' paId='659' seats='4'/>
+        <Party name='Lab' paId='662' seats='4'/>
+      </ElectedCouncillors>
+      <Changes>
+        <Party name='LD' paId='667' change='+2'/>
+        <Party name='C' paId='659' change='-1'/>
+        <Party name='Lab' paId='662' change='-1'/>
+      </Changes>
+      <NewCouncil>
+        <Party name='C' paId='659' seats='16'/>
+        <Party name='Lab' paId='662' seats='14'/>
+        <Party name='LD' paId='667' seats='12'/>
+      </NewCouncil>
+    </Council>
+  </Election>
+</LocalElectionResult>

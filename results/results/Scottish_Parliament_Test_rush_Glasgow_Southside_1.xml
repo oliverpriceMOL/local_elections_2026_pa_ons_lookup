@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostRush revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="50" name="Glasgow Southside" electorate="66414" percentageBoundaryChange="35.00" gainOrHold="hold" winningPartyAbbreviation="SNP" winningPartyName="Scottish National Party" sittingPartyAbbreviation="SNP" sittingPartyName="Scottish National Party" change="false" paStyleMessageText="Scottish National Party win Glasgow Southside - notional Scottish National Party hold">
+      <Candidate paId="299823" firstName="Penelope" surname="Shaw Test" ballotName="Shaw Test, Penelope Kavita">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate previousSittingMember="+" paId="299824" firstName="Judith" surname="Harris Test" ballotName="Harris Test, Judith Joanna">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299825" firstName="Peter" surname="Brown Test" ballotName="Brown Test, Peter Connor">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate elected="*" previousSittingMember="+" paId="299826" firstName="Jane" surname="Fox Test" ballotName="Fox Test, Jane Irene">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299829" firstName="Mark" surname="Kennedy Test" ballotName="Kennedy Test, Mark Graham">
+        <Party paId="13826" name="Freedom Alliance" abbreviation="FA" />
+      </Candidate>
+      <Candidate paId="299830" firstName="Mark" surname="Sinclair Test" ballotName="Sinclair Test, Mark Christopher">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="299827" firstName="Richard" surname="Smith Test" ballotName="Smith Test, Richard">
+        <Party paId="13814" name="Liberal" abbreviation="Lib" />
+      </Candidate>
+      <Candidate paId="299828" firstName="Judith" surname="Baxter Test" ballotName="Baxter Test, Judith Fiona">
+        <Party paId="13825" name="No Description" abbreviation="ND" />
+      </Candidate>
+    </Constituency>
+  </Election>
+</FirstPastThePostRush>

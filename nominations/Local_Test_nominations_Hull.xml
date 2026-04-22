@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LocalElectionNominations>
+  <Election date='2026-05-07' paId='252'>
+    <Council name='Hull' paId='4848' type='Unitary' proportion='third'>
+      <Party name='Labour' abbreviation='Lab' paId='662' seatsHeld='23' seatsOffered='8' unopposedReturns='0' candidates='0'/>
+      <Party name='Liberal Democrat' abbreviation='LD' paId='667' seatsHeld='29' seatsOffered='11' unopposedReturns='0' candidates='0'/>
+      <Party name='Independent/Other' abbreviation='Ind' paId='661' seatsHeld='5' seatsOffered='0' unopposedReturns='0' candidates='0'/>
+    </Council>
+  </Election>
+</LocalElectionNominations>

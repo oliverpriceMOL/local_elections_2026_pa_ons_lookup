@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostResult revision="1" declarationTime="2026-04-01T10:50:40+00:00">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="68" name="Rutherglen &amp; Cambuslang" electorate="63431" turnout="34894" percentageTurnout="55.01" percentageChangeTurnout="-8.22" winningParty="Lab" gainOrHold="gain" sittingParty="SNP" majority="15542" percentageMajority="44.54" percentageChangeMajority="+31.66" swing="28.71" swingTo="Lab" swingFrom="SNP">
+      <Candidate elected="*" previousSittingMember="+" paId="299917" firstName="Jon" surname="Hayward Test" ballotName="Hayward Test, Jonathan Dylan">
+        <Party paId="13787" name="Labour" abbreviation="Lab" votes="23254" percentageShare="66.64" percentageShareChange="+29.03" />
+      </Candidate>
+      <Candidate previousSittingMember="*" paId="299919" firstName="Robert" surname="Fox Test" ballotName="Fox Test, Robert Graham">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" votes="7712" percentageShare="22.10" percentageShareChange="-28.39" />
+      </Candidate>
+      <Candidate paId="299916" firstName="Neil" surname="Mahmood Test" ballotName="Mahmood Test, Neil David">
+        <Party paId="13786" name="Conservative" abbreviation="C" votes="3335" percentageShare="9.56" percentageShareChange="+0.42" />
+      </Candidate>
+      <Candidate paId="299918" firstName="Lauren" surname="Moss Test" ballotName="Moss Test, Lauren Josephine">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" votes="593" percentageShare="1.70" percentageShareChange="-1.07" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="68" name="Rutherglen" turnout="40107" percentageTurnout="63.23" winningParty="SNP" majority="5166" percentageMajority="12.88">
+      <Candidate paId="251905" firstName="Clare" surname="Haughey" ballotName="Haughey, Clare" sex="F">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="20249" percentageShare="50.49" />
+      </Candidate>
+      <Candidate paId="253321" firstName="James" surname="Kelly" ballotName="Kelly, James" sex="M">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="15083" percentageShare="37.61" />
+      </Candidate>
+      <Candidate paId="253322" firstName="Lynne" surname="Nailon" ballotName="Nailon, Lynne" sex="F">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="3663" percentageShare="9.13" />
+      </Candidate>
+      <Candidate paId="253323" firstName="Sheila" surname="Thomson" ballotName="Thomson, Sheila" sex="F">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="1112" percentageShare="2.77" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostResult>

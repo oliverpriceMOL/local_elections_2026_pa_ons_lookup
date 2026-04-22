@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="32" name="Edinburgh Central" electorate="71019" percentageBoundaryChange="29.20">
+      <Candidate paId="299729" firstName="Joanna" surname="Cox Test" ballotName="Cox Test, Joanna Sally">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299730" firstName="Victoria" surname="Harding Test" ballotName="Harding Test, Victoria Rebecca">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299731" firstName="Hugh" surname="Hilton Test" ballotName="Hilton Test, Hugh Peter">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299732" firstName="Chris" surname="Ellis Test" ballotName="Ellis Test, Christopher Donald">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299733" previousSittingMember="+" firstName="Robert" surname="Charlesworth Test" ballotName="Charlesworth Test, Robert Donald">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299736" firstName="Jim" surname="Johnson Test" ballotName="Johnson Test, James Edward">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+      <Candidate paId="299734" firstName="Ian" surname="Griffin Test" ballotName="Griffin Test, Ian">
+        <Party paId="13856" name="Scottish Libertarian Party" abbreviation="SLP" />
+      </Candidate>
+      <Candidate paId="299735" firstName="Agnieszka" surname="Edwards Test" ballotName="Edwards Test, Agnieszka Harper">
+        <Party paId="13880" name="UK Independence Party" abbreviation="UKIP" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="32" name="Edinburgh Central" turnout="42579" percentageTurnout="59.95" winningParty="SNP" majority="3350" percentageMajority="7.87">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="12141" percentageShare="28.51" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="8791" percentageShare="20.65" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="8740" percentageShare="20.53" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="8629" percentageShare="20.27" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="2322" percentageShare="5.45" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1299" percentageShare="3.05" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="568" percentageShare="1.33" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="89" percentageShare="0.21" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostNominations>

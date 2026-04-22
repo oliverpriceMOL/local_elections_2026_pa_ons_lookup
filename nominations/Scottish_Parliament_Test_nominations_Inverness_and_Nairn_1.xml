@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="53" name="Inverness &amp; Nairn" electorate="71092">
+      <Candidate paId="299840" previousSittingMember="+" firstName="Fiona" surname="Wilson Test" ballotName="Wilson Test, Fiona Monica">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299841" previousSittingMember="+" firstName="Matthew" surname="Phillips Test" ballotName="Phillips Test, Matthew Malcolm">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299842" firstName="Steve" surname="Oliver Test" ballotName="Oliver Test, Steven Patrick">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299843" previousSittingMember="+" firstName="Priya" surname="Scott Test" ballotName="Scott Test, Priya Pearl">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299844" firstName="Rhian" surname="Watts Test" ballotName="Watts Test, Rhian Sienna">
+        <Party paId="13791" name="Green" abbreviation="Green" />
+      </Candidate>
+      <Candidate paId="299845" firstName="Richard" surname="Davies Test" ballotName="Davies Test, Richard Simon">
+        <Party paId="13819" name="Restore Scotland" abbreviation="RS" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="53" name="Inverness &amp; Nairn" turnout="45731" percentageTurnout="64.33" winningParty="SNP" majority="9114" percentageMajority="19.93">
+      <Candidate paId="253181" firstName="Fergus" surname="Ewing" ballotName="Ewing, Fergus" sex="M">
+        <Party paId="10349" name="Scottish National Party" abbreviation="SNP" votes="21793" percentageShare="47.65" />
+      </Candidate>
+      <Candidate paId="253183" firstName="Edward" surname="Mountain" ballotName="Mountain, Edward" sex="M">
+        <Party paId="10345" name="Conservative" abbreviation="C" votes="12679" percentageShare="27.73" />
+      </Candidate>
+      <Candidate paId="253180" firstName="Rhoda" surname="Grant" ballotName="Grant, Rhoda" sex="F">
+        <Party paId="10346" name="Labour" abbreviation="Lab" votes="5370" percentageShare="11.74" />
+      </Candidate>
+      <Candidate paId="253182" firstName="David" surname="Gregg" ballotName="Gregg, David" sex="M">
+        <Party paId="10348" name="Liberal Democrat" abbreviation="LD" votes="2892" percentageShare="6.32" />
+      </Candidate>
+      <Candidate paId="253179" firstName="Ariane" surname="Burgess" ballotName="Burgess, Ariane" sex="M">
+        <Party paId="10350" name="Green" abbreviation="Green" votes="2636" percentageShare="5.76" />
+      </Candidate>
+      <Candidate paId="252081" firstName="Andrew" surname="Macdonald" ballotName="Macdonald, Andrew" sex="M">
+        <Party paId="10631" name="Restore Scotland" abbreviation="RS" votes="361" percentageShare="0.79" />
+      </Candidate>
+    </Constituency>
+  </PreviousElection>
+</FirstPastThePostNominations>

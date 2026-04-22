@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostStateOfParties numberOfResults="7" totalNumberOfConstituencies="73" totalVotes="240554">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S" />
+  <Parties>
+    <Party paId="13786" name="Conservative" abbreviation="C" totalSeats="2" gains="2" totalVotes="70121" percentageShare="29.15" percentageChange="+8.73" />
+    <Party paId="13790" name="Scottish National Party" abbreviation="SNP" totalSeats="3" losses="3" totalVotes="70025" percentageShare="29.11" percentageChange="-12.74" />
+    <Party paId="13787" name="Labour" abbreviation="Lab" totalVotes="52127" percentageShare="21.67" percentageChange="+1.43" />
+    <Party paId="13813" name="Reform UK" abbreviation="Reform" totalSeats="1" gains="1" totalVotes="20389" percentageShare="8.48" />
+    <Party paId="13789" name="Liberal Democrat" abbreviation="LD" totalSeats="1" totalVotes="18885" percentageShare="7.85" percentageChange="+0.82" />
+    <Party paId="13791" name="Green" abbreviation="Green" totalVotes="5073" percentageShare="2.11" percentageChange="-4.86" />
+    <Party paId="13825" name="No Description" abbreviation="ND" totalVotes="988" percentageShare="0.41" percentageChange="+0.18" />
+    <Party paId="13886" name="Independent" abbreviation="Ind" totalVotes="727" percentageShare="0.30" />
+    <Party paId="13814" name="Liberal" abbreviation="Lib" totalVotes="610" percentageShare="0.25" />
+    <Party paId="-9999" name="Others" abbreviation="Others" totalVotes="1609" percentageShare="0.67" />
+  </Parties>
+  <ConstituenciesIncluded>
+    <Constituency number="2" name="Aberdeen Deeside &amp; North Kincardine" />
+    <Constituency number="20" name="Cowdenbeath" />
+    <Constituency number="23" name="Cunninghame South" />
+    <Constituency number="35" name="Edinburgh North Western" />
+    <Constituency number="50" name="Glasgow Southside" />
+    <Constituency number="61" name="Na h-Eileanan an Iar" />
+    <Constituency number="67" name="Renfrewshire West &amp; Levern Valley" />
+  </ConstituenciesIncluded>
+</FirstPastThePostStateOfParties>

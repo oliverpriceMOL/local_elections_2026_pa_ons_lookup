@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FirstPastThePostNominations revision="1">
+  <Election name="Scottish Parliament Test" date="2026-05-06" type="S">
+    <Constituency number="40" name="Falkirk East &amp; Linlithgow" electorate="67265" percentageBoundaryChange="22.10">
+      <Candidate paId="299774" firstName="Steven" surname="Wright Test" ballotName="Wright Test, Steven Yusuf">
+        <Party paId="13786" name="Conservative" abbreviation="C" />
+      </Candidate>
+      <Candidate paId="299775" firstName="Harper" surname="Smith Test" ballotName="Smith Test, Harper">
+        <Party paId="13787" name="Labour" abbreviation="Lab" />
+      </Candidate>
+      <Candidate paId="299776" firstName="George" surname="Sullivan Test" ballotName="Sullivan Test, George Alfred">
+        <Party paId="13789" name="Liberal Democrat" abbreviation="LD" />
+      </Candidate>
+      <Candidate paId="299777" firstName="Martin" surname="Smith Test" ballotName="Smith Test, Martin">
+        <Party paId="13790" name="Scottish National Party" abbreviation="SNP" />
+      </Candidate>
+      <Candidate paId="299778" firstName="Agnieszka" surname="Owen Test" ballotName="Owen Test, Agnieszka">
+        <Party paId="13886" name="Independent" abbreviation="Ind" />
+      </Candidate>
+    </Constituency>
+  </Election>
+  <PreviousNotionalElection name="Scottish Parliament" date="2021-05-06" type="S">
+    <Constituency number="40" name="Falkirk East &amp; Linlithgow" turnout="42688" percentageTurnout="63.46" winningParty="SNP" majority="7500" percentageMajority="17.57">
+      <Party paId="13922" name="Scottish National Party" abbreviation="SNP" votes="17410" percentageShare="40.78" />
+      <Party paId="13921" name="Conservative" abbreviation="C" votes="9910" percentageShare="23.21" />
+      <Party paId="13923" name="Labour" abbreviation="Lab" votes="9026" percentageShare="21.14" />
+      <Party paId="13929" name="Green" abbreviation="Green" votes="2936" percentageShare="6.88" />
+      <Party paId="13926" name="Others" abbreviation="Others" votes="1302" percentageShare="3.05" />
+      <Party paId="13927" name="Liberal Democrat" abbreviation="LD" votes="1217" percentageShare="2.85" />
+      <Party paId="13925" name="Alba Party" abbreviation="Alba" votes="783" percentageShare="1.83" />
+      <Party paId="13928" name="Reform UK" abbreviation="Reform" votes="104" percentageShare="0.24" />
+    </Constituency>
+  </PreviousNotionalElection>
+</FirstPastThePostNominations>
