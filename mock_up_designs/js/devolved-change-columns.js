@@ -90,52 +90,8 @@ function devolvedChangeColumns(container, constituencyResults, regionalResults, 
   }
 
   // Toggle state
-  var currentView = "total";
-
-  function fmtChangeHtml(v) {
-    if (v > 0) return '<span style="color:#4caf50">▲' + v + '</span>';
-    if (v < 0) return '<span style="color:#ef5350">▼' + Math.abs(v) + '</span>';
-    return '<span style="color:#aaa">—</span>';
-  }
-
-  function buildTooltip(d) {
-    return "<strong>" + partyName(d.name) + "</strong><br>" +
-      "Constituency: " + fmtChangeHtml(d.constChange) + "<br>" +
-      "Regional: " + fmtChangeHtml(d.regChange) + "<br>" +
-      "Total: " + fmtChangeHtml(d.totalChange);
-  }
-
   function renderChart() {
     el.selectAll("*").remove();
-
-    // Toggle row (recreated each render since el is cleared)
-    if (isScotland) {
-      var toggleRow = el.append("div")
-        .attr("class", "party-strip-toggle")
-        .style("margin-bottom", "8px");
-      function makeBtn(label, value) {
-        toggleRow.append("button")
-          .attr("class", "party-strip-toggle__btn" + (value === currentView ? " party-strip-toggle__btn--active" : ""))
-          .text(label)
-          .on("click", function () {
-            if (currentView === value) return;
-            currentView = value;
-            renderChart();
-          });
-      }
-      makeBtn("Total", "total");
-      var splitBtn = toggleRow.append("button")
-        .attr("class", "party-strip-toggle__btn" + ("split" === currentView ? " party-strip-toggle__btn--active" : ""))
-        .on("click", function () {
-          if (currentView === "split") return;
-          currentView = "split";
-          renderChart();
-        });
-      splitBtn.append("span").attr("class", "toggle-swatch toggle-swatch--solid");
-      splitBtn.append("span").text("Constituency").style("margin-right", "6px");
-      splitBtn.append("span").attr("class", "toggle-swatch toggle-swatch--striped");
-      splitBtn.append("span").text("Region");
-    }
 
     var chartContainer = el.append("div");
 
@@ -161,23 +117,16 @@ function devolvedChangeColumns(container, constituencyResults, regionalResults, 
 
     if (parties.length === 0) return;
 
-    var isSplit = currentView === "split";
-
     // Map to shared format
     var mapped = parties.map(function (p) {
       return {
-        name: p.name, change: p.totalChange,
-        constChange: p.constChange, regChange: p.regChange, totalChange: p.totalChange
+        name: p.name, change: p.totalChange, total: p.total
       };
     });
 
     changeColumnsChart(chartContainer.node(), {
       parties: mapped,
-      tooltipHtml: buildTooltip,
-      split: isSplit ? {
-        getConst: function (d) { return d.constChange; },
-        getReg: function (d) { return d.regChange; }
-      } : null
+      seatsOnly: !isScotland
     });
   }
 

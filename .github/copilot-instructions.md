@@ -62,20 +62,19 @@ Every component is a standalone function: `functionName(container, data, options
 | `progress.js` | `progressCounter(container, {declared, total, label})` | Rectangular progress bar with text inside |
 | `council-card.js` | `councilResultCard(container, council, options)` | Full or mini council result card (hemicycle + change bars + badge) |
 | `change-bar.js` | `changeBarChart(container, changes, options)` | Horizontal diverging bar chart (positive right, negative left) |
-| `pa-ons-lookup.js` | `PA_ONS_LOOKUP` global object | Generated PA ID → ONS code mapping. 5 sub-maps: `localCouncils` (paId→LAD25CD), `mayoralAreas` (paId→LAD25CD), `scottishConstituencies` (number→SPC_CD), `scottishRegions` (number→SPR_CD), `welshConstituencies` (number→SENEDD_CD). Regenerate with `python3 scripts/build_pa_ons_lookup.py` |
-| `council-lookup.js` | `normaliseName(name)`, `buildCouncilLookup(ladNames, countyNames)` | Fuzzy name matching (legacy fallback). Maps still load this for fallback if `PA_ONS_LOOKUP` misses |
+| `council-lookup.js` | `normaliseName(name)`, `buildCouncilLookup(ladNames, countyNames)` | Fuzzy name matching between result names and GeoJSON feature names |
 | `election-map.js` | `createMapScaffold()`, tooltip/search/overlay helpers | Shared map scaffold and interaction helpers used by all three map components. SVG `<defs>` includes crosshatch pattern (`id="crosshatch"`) for awaiting areas |
 | `england-map.js` | `englandMap(container, results, ladGeo, countyGeo, mayoralResults, options)` | Interactive D3 choropleth map with search, postcode lookup, filter tabs, zoom, tabbed overlay, and awaiting-declaration overlays for nominated-but-no-result areas |
 | `party-strip.js` | `partyStrip(container, options)` → wrapped by `partyTotalsStrip()` | Generic horizontal party totals bar with toggle. Core uses `options.toggleLabels` + `options.getData(modeIndex)` callback |
 | `scoreboard.js` | `electionScoreboard(container, options)` → wrapped by `partyScoreboard()` | Generic scoreboard table with configurable columns. Core uses `options.columns`, `options.partyRows`, `options.nocRow`. Optional `options.turnout` renders aggregate turnout bar below table |
 | `fptp-card.js` | `fptpResultCard(container, result, options)` → aliases `mayoralResultCard()`, `constituencyResultCard()` | Unified FPTP card for mayoral (England) and constituency (Scotland) results. Winner highlight, candidate bars with inside/outside labels, turnout bar, declaration time (always last element) |
-| `change-columns.js` | `changeColumnsChart(container, options)` | Shared core for vertical diverging bar charts. Supports single-bar and split (constituency/regional) modes |
+| `change-columns.js` | `changeColumnsChart(container, options)` | Shared core for vertical bar charts. Diverging +/- bars with change labels and total in brackets; `options.seatsOnly` renders simple upward bars with seat count (used by Wales). No tooltips — all data shown inline |
 | `party-change-columns.js` | `partyChangeColumns(container, results, options)` | England wrapper: aggregates local results → calls `changeColumnsChart`. NOC bar appended in councils view (protected from cull) |
 | `list-card.js` | `listResultCard(container, result, options)` | Proportional/regional result card: stacked vote bar, elected member pills, no majority stat |
 | `scottish-scoreboard.js` | `scottishScoreboard(container, constResults, regResults)` | Aggregates FPTP/list data → calls `electionScoreboard` with 3 column groups (constituency/regional/total) + aggregate turnout |
 | `welsh-scoreboard.js` | `welshScoreboard(container, results)` | Aggregates seats/votes → calls `electionScoreboard` with vote share bars + aggregate turnout |
 | `devolved-strip.js` | `devolvedPartyStrip(container, constResults, regResults, options)` | Aggregates Scotland/Wales data → calls `partyStrip` core |
-| `devolved-change-columns.js` | `devolvedChangeColumns(container, constResults, regResults, options)` | Aggregates Scotland/Wales data → calls `changeColumnsChart` core |
+| `devolved-change-columns.js` | `devolvedChangeColumns(container, constResults, regResults, options)` | Aggregates Scotland/Wales data → calls `changeColumnsChart` core. Scotland: change chart with totals in brackets. Wales: `seatsOnly` mode (no previous-election data) |
 | `scotland-map.js` | `scotlandMap(container, constResults, regResults, constGeo, regGeo, options)` | Interactive D3 choropleth for Scotland: constituency/region views, search, postcode lookup, zoom, tabbed overlay |
 | `wales-map.js` | `walesMap(container, results, constGeo, options)` | Interactive D3 choropleth for Wales: 16 Senedd constituencies, search, postcode lookup, zoom, overlay |
 
@@ -107,9 +106,6 @@ PA XML files (nominations/, results/)
 
 Hanretty notional CSVs (data/notionals/consty_notionals.csv, list_notionals.csv)
     → scripts/build_scottish_notionals.py → output/scottish_notionals.json
-
-PA nomination JSONs + GeoJSON + notionals CSVs
-    → scripts/build_pa_ons_lookup.py → mock_up_designs/js/pa-ons-lookup.js + output/pa_ons_lookup.json
 ```
 
 ### Raw PA Wire Format vs Normalized Format
@@ -158,7 +154,7 @@ The raw PA wire JSON uses xmltodict conventions:
 
 `enrichWithNotionals()` computes `percentageShareChange = actual − notional` for each candidate. Always prefers Hanretty notionals over PA-supplied changes for Scottish FPTP results (consistency across all 73 seats).
 
-**GeoJSON properties:** LAD layer uses `LAD25CD`/`LAD25NM`, county layer uses `CTY24CD`/`CTY24NM`, Scottish constituencies use `SPC_CD`/`SPC_NM`, Scottish regions use `SPR_CD`/`SPR_NM`, Welsh constituencies use `SENEDD_CD`/`SENEDD_NM`.
+**GeoJSON properties:** LAD layer uses `LAD25CD`/`LAD25NM`, county layer uses `CTY24NM`.
 
 ### Deduplication Pattern
 
@@ -178,12 +174,9 @@ Results can have multiple revisions and file types (rush vs result). `dedupByRev
 - Three visual states per area: result → party colour fill, nominated but no result → crosshatch pattern (`url(#crosshatch)`), no election → `#f0f0f2` light grey
 - CSS classes: `.map-area--has-result`, `.map-area--awaiting` (pointer cursor), `.map-area` (default)
 - Awaiting areas are clickable and searchable — open empty overlay panels with "Awaiting declaration" message
-- Result/nomination data matched to GeoJSON via `PA_ONS_LOOKUP` (PA ID → ONS code), with fuzzy name matching as logged fallback. Each map has `resolve*()` functions that check the lookup first.
-- Scotland/Wales: all GeoJSON features are backfilled into nomination sets (all constituencies are contested), so areas without test nomination data still show crosshatch and are searchable
+- Nomination data matched to GeoJSON via fuzzy name matching (for mockup; production should use hardcoded paId→ONS code lookup)
 - Three filter modes: District (LAD), County, Mayoral — each recolours the map
-- **England postcode**: `postcodes.io` general endpoint → `d3.geoContains()` geometric lookup against LAD/county GeoJSON (bypasses stale `admin_district` names for reorganised councils)
-- **Scotland postcode**: Scotland-specific `postcodes.io` endpoint first (returns `scottish_parliamentary_constituency` name directly), falls back to general endpoint + `d3.geoContains()` geometric lookup
-- **Wales postcode**: `d3.geoContains()` geometric lookup against Senedd GeoJSON
+- Postcode search calls `postcodes.io` API → resolves to admin_district/admin_county
 - Overlay always uses tabs as headers (even single results). Tab labels use full council type names.
 - `SPECIAL_COUNCIL_NAMES` lookup for official names: Royal Borough of Greenwich, Royal Borough of Kensington and Chelsea, Royal Borough of Kingston upon Thames, City of Westminster
 - `SECTION_TITLES` maps council types: Metro → Metropolitan Borough Council, Non-Met → District Council, London → Borough Council, Unitary → Unitary Authority, England → County Council

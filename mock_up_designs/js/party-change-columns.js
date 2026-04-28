@@ -95,16 +95,7 @@ function partyChangeColumns(container, results) {
     });
 
     changeColumnsChart(chartContainer.node(), {
-      parties: parties,
-      tooltipHtml: function (d) {
-        var ch = d.change;
-        var arrow = ch > 0 ? "▲" : ch < 0 ? "▼" : "";
-        var chStr = ch > 0 ? arrow + ch : ch < 0 ? arrow + Math.abs(ch) : "No change";
-        var chColour = ch > 0 ? "#4caf50" : ch < 0 ? "#ef5350" : "#aaa";
-        return "<strong>" + partyName(d.name) + "</strong><br>" +
-          totalLabel + ": " + d.total + "<br>" +
-          "Change: <span style=\"color:" + chColour + "\">" + chStr + "</span>";
-      }
+      parties: parties
     });
   }
 
